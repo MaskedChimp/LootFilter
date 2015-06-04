@@ -6,7 +6,7 @@
 # Loot Filter (PORTUGUÊS)
 
 ## Instalação
-1. Clicar em **Download ZIP** a esquerda
+1. Clicar em **Download ZIP** a direita
 2. Extrair arquivos
 3. Localizar **CaminhoDoExilio.filter**
 4. Colocar arquivo na pasta **Documentos\My Games\Path of Exile**
