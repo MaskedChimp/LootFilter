@@ -1,5 +1,5 @@
-*[READ IN ENGLISH](https://github.com/MCorrea92/LootFilter#loot-filter-english)
-*[LER EM PORTUGUES](https://github.com/MCorrea92/LootFilter#loot-filter-portuguÊs)
+* [READ IN ENGLISH](https://github.com/MCorrea92/LootFilter#loot-filter-english)
+* [LER EM PORTUGUES](https://github.com/MCorrea92/LootFilter#loot-filter-portuguÊs)
 
 # Loot Filter (ENGLISH)
 
@@ -20,6 +20,9 @@ I suggest that you check if the filter needs some adjustments. Many sections wer
 * Flasks
 * Chance Uniques
 
+## About Filters
+Learn more about filters [here](http://www.pathofexile.com/forum/view-thread/1260664).
+
 # Loot Filter (PORTUGUÊS)
 
 ## Instalação
@@ -35,7 +38,7 @@ I suggest that you check if the filter needs some adjustments. Many sections wer
 ## Ajustes
 Sugiro que verfiquem se o filtro precisa de ajustes. Várias seções do filtro foram ajustadas para o meu gosto. O seu pode ser diferente, então verifique as seções listadas abaixo:
 
-* Crafting
+* Craft
 * Frascos
 * Chance Uniques
 
