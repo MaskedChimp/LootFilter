@@ -1,10 +1,24 @@
-[READ IN ENGLISH](https://github.com/MCorrea92/LootFilter#loot-filter-english)
-[LER EM PORTUGUES](https://github.com/MCorrea92/LootFilter#loot-filter-portuguÊs)
+*[READ IN ENGLISH](https://github.com/MCorrea92/LootFilter#loot-filter-english)
+*[LER EM PORTUGUES](https://github.com/MCorrea92/LootFilter#loot-filter-portuguÊs)
 
 # Loot Filter (ENGLISH)
 
-Soon...
+## Installation
+1. Click on **Download ZIP** on the right
+2. Extract the files
+3. Find **CaminhoDoExilio.filter**
+4. Put the file inside **Documents\My Games\Path of Exile**
+5. Start the game
+6. Open the options menu (shortcut: O)
+7. Open the **UI** tab
+8. Select the **CaminhoDoExilio** filter at the end of the list
 
+## Adjustments
+I suggest that you check if the filter needs some adjustments. Many sections were made to my taste. Yours might be differente, so check the sections listed below:
+
+* Craft
+* Flasks
+* Chance Uniques
 
 # Loot Filter (PORTUGUÊS)
 
