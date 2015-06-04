@@ -1,1 +1,1 @@
-# LootFilter
+# LootFilter (ENGLISH)
