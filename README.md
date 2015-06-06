@@ -9,7 +9,7 @@
 3. Find **CaminhoDoExilio.filter**
 4. Put the file inside **Documents\My Games\Path of Exile**
 5. Start the game
-6. Open the options menu (shortcut: O)
+6. Open the options menu (Shortcut: O)
 7. Open the **UI** tab
 8. Select the **CaminhoDoExilio** filter at the end of the list
 

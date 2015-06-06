@@ -1,0 +1,448 @@
+#=========================================
+#           [?] INFORMAÇÕES [?]          #
+#=========================================
+#                                        #
+# Este filtro foi criado por MaskedChimp #
+# e postado no site                      #
+# www.caminhodoexilio.com                #
+#                                        #
+#=========================================
+
+
+#=========================================
+# [EN] EXCEPTIONS [EN]
+# [PT] EXCEÇÕES [PT]
+#=========================================
+
+# RODS
+Show 
+    Class Rods
+    SetBackgroundColor 240 0 0
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+
+# ALBINO RHOA FEATHERS
+Show
+    BaseType "Albino Rhoa Feather"
+    SetBackgroundColor 255 0 255
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+
+#=========================================
+# [!] JEWELS [!]
+#=========================================
+
+#EN: MAGIC JEWELS
+#PT: JEWELS MÁGICAS
+Show 
+    Class Jewel
+    Rarity = Magic
+    SetBackgroundColor 0 45 90
+    SetBorderColor 0 65 135
+
+#EN: RARE JEWELS
+#PT: JEWELS RARAS
+Show
+    Class Jewel
+    Rarity = Rare
+    SetBackgroundColor 0 45 90
+    SetBorderColor 0 65 135
+
+#EN: UNIQUE JEWELS
+#PT: JEWELS ÚNICAS
+Show
+    Class Jewel
+    Rarity = Unique
+    SetBackgroundColor 0 45 90
+    SetBorderColor 0 65 135
+
+#=========================================
+# [EN] UNIQUE ITENS [EN]
+# [PT] ITENS ÚNICOS [PT]
+#=========================================
+
+#EN: SHOW ALL UNIQUES
+#PT: MOSTRAR TODOS ÚNICOS
+Show
+    Rarity = Unique
+
+#=========================================
+# [!] DIVINATION CARDS [!]
+#=========================================
+
+# DIVINATION CARDS
+#Show 
+#    Class "Divination Cards"
+#    SetBackgroundColor 0 100 0
+#    SetTextColor 230 230 230
+#    SetBorderColor 0 50 0
+
+#=========================================
+# [!] CURRENCY [!]
+#=========================================
+
+# CURRENCY ULTRA RARA
+Show 
+    BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
+    PlayAlertSound 5 100
+    SetBackgroundColor 255 0 128
+    SetBorderColor 100 0 50
+    SetTextColor 255 255 255 235
+    SetFontSize 44
+
+# CURRENCY RARA
+Show
+    BaseType Alchemy Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel
+    Class Currency
+    SetTextColor 160 0 0
+
+# OTHER CURRENCY
+Show
+    Class Currency
+
+#=========================================
+# [EN] MAPS [EN]
+# [PT] MAPAS [PT]
+#=========================================
+
+#EN: Maps and Fragments
+#PT: Mapas e Fragmentos
+Show
+    Class Map
+    SetBorderColor 255 255 255
+
+#=========================================
+# [!] MONEY MAKER [!]
+#=========================================
+
+# 5+ LINKED
+Show 
+    LinkedSockets >= 5
+    SetBorderColor 255 0 250
+
+#=========================================
+# [EN] ORBS RECIPES [EN]
+# [PT] RECEITAS DE ORBS [PT]
+#=========================================
+
+# REGAL
+Show  
+    Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
+    Rarity Rare
+    ItemLevel >= 75
+    SetBackgroundColor 0 128 192 175
+    SetBorderColor 0 128 192
+
+# CHAOS
+Show 
+    Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
+    Rarity Rare
+    ItemLevel >= 60
+    SetBackgroundColor 230 230 0 150
+
+# 7-JEWELLER
+Show 
+    Sockets = 6
+    SetBorderColor 0 255 0
+
+# CHROMATIC
+Show
+    SocketGroup RGB
+    SetBorderColor 240 0 0
+
+# GLASSBLOWER
+Show
+    Class Flask
+    Quality >= 10
+    SetBorderColor 255 128 255
+
+#=========================================
+# [EN] GEMS [EN]
+# [PT] GEMAS [PT]
+#=========================================
+
+#EN: QUALITY GEMS
+#PT: GEMAS COM QUALIDADE
+Show
+    Class Gems
+    Quality > 1
+    SetBorderColor 27 162 155
+
+Show
+    Class Gems
+
+#=========================================
+# [!] CRAFT [!]
+#=========================================
+
+# ITEM LEVEL 79+
+Show
+    Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw
+    Rarity = Normal
+    ItemLevel >= 79
+    SetBorderColor 242 237 40
+    SetBackgroundColor 128 128 0 100
+
+#EN: CHESTS (ARMOUR)
+#PT: PEITORAIS (ARMADURA)
+Show
+    BaseType "Astral Plate"
+    Rarity = Normal
+    ItemLevel >= 74
+    SetBorderColor 128 128 192
+
+#EN: CHESTS (EVASION)
+#PT: PEITORAIS (EVASÃO)
+Hide
+    BaseType "Assassin's Garb"
+    Rarity = Normal
+    ItemLevel >= 74
+    SetBorderColor 128 128 192
+
+#EN: CHESTS (ENERGY SHIELD)
+#PT: PEITORAIS (ESCUDO DE ENERGIA)
+Hide
+    BaseType "Occultist's Vestment" "Vaal Regalia"
+    Rarity = Normal
+    ItemLevel >= 75
+    SetBorderColor 128 128 192
+
+# ITEM LEVEL 75+
+Hide 
+    Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw
+    Rarity = Normal
+    ItemLevel >= 75
+    SetBorderColor 242 237 40
+    SetBackgroundColor 0 0 0 50
+    SetTextColor 200 200 200 200
+    #SetFontSize 15
+
+
+#=========================================
+# [EN] FLASKS [EN]
+# [PT] FRASCOS [PT]
+#=========================================
+
+Show
+    BaseType "Medium Life Flask" "Medium Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 6
+
+Show
+    BaseType "Large Life Flask" "Large Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 12
+
+Show
+    BaseType "Greater Life Flask" "Greater Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 18
+
+Show
+    BaseType "Grand Life Flask" "Grand Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 24
+
+Show
+    BaseType "Giant Life Flask" "Giant Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 30
+    
+Show
+    BaseType "Colossal Life Flask" "Colossal Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 36
+
+Show
+    BaseType "Sacred Life Flask" "Sacred Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 42
+
+Show
+    BaseType "Hallowed Life Flask" "Hallowed Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 50
+
+Show
+    BaseType "Sanctified Life Flask" "Sanctified Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 60
+
+Show
+    BaseType "Divine Life Flask" "Divine Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 70
+
+#EN: RESIST, ARMOUR, EVASION AND CRIT
+#PT: RESIST, ARMADURA, EVASÃO E CRIT
+Show
+    Class "Utility Flasks"
+    Rarity Normal
+    ItemLevel <= 70
+
+#=========================================
+# [!] CHANCE UNIQUES [!]
+#=========================================
+
+# ATZIRI'S DISFAVOUR
+Hide
+    BaseType "Vaal Axe"
+    ItemLevel >= 50
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# HEGEMONY'S ERA
+Hide
+    BaseType "Judgement Staff"
+    ItemLevel >= 50
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# KAOM'S HEART
+Hide
+    BaseType "Glorious Plate"
+    ItemLevel >= 50
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# BELLY OF THE BEAST
+Hide
+    BaseType "Full Wyrmscale"
+    ItemLevel >= 50
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# CARCASS JACK
+Hide
+    BaseType "Varnished Coat"
+    ItemLevel 50
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# MING'S HEART
+Hide
+    BaseType "Amethyst Ring"
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# THE BRINGER OF RAIN
+Hide
+    BaseType "Nightmare Bascinet"
+    ItemLevel >= 28
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# MAROHI ERQI
+Show
+    BaseType "Karui Maul"
+    ItemLevel >= 50
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# DARESSO'S DEFIANCE
+Hide
+    BaseType "Full Dragonscale"
+    ItemLevel >= 50
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# EMPIRE'S GRASP
+Hide
+    BaseType "Goliath Gauntlets"
+    ItemLevel >= 28
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
+# SIRE OF SHARDS
+Hide
+    BaseType "Serpentine Staff"
+    Rarity = Normal
+    ItemLevel >= 50
+    SetBorderColor 175 96 37
+
+#=========================================
+# [EN] OTHERS [EN]
+# [PT] OUTROS [PT]
+#=========================================
+
+#EN: RARE ITEMS AND UP
+#PT: ITENS RAROS E ACIMA
+Show 
+    Rarity = Rare
+
+#EN: QUEST ITEMS
+#PT: ITENS DE MISSÕES
+Show
+    Class Quest
+
+#=========================================
+# [EN] LOW LEVEL [EN]
+# [PT] NÍVEIS BAIXOS [PT]
+#=========================================
+
+#EN: SHOW EVERYTHING UNTIL LV. 40
+#PT: MOSTRAR TUDO ATÉ NV. 40
+Show
+    ItemLevel <= 40
+    Rarity Magic
+
+Show
+    ItemLevel <= 25
+    Rarity Normal
+
+#EN: SHOW 4L ITEMS UNTIL ITEMLEVEL 45
+#PT: MOSTRAR ITENS 4L ATÉ ITEMLEVEL 45
+Show
+    LinkedSockets = 4
+    ItemLevel <= 45
+    SetBorderColor 185 120 185
+
+#=========================================
+# [EN] REMAINING [EN]
+# [PT] RESTO [PT]
+#=========================================
+
+#EN: MAGIC ITEMS
+#PT: ITENS MÁGICOS
+Hide
+    Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands Flasks
+    ItemLevel < 80
+    Rarity = Magic
+    Sockets <= 5
+    LinkedSockets <= 4
+    SetBackgroundColor 0 0 0 100
+    SetTextColor 136 136 255 200
+    #SetFontSize 0
+
+#EN: NORMAL ITEMS
+#PT: ITENS NORMAIS
+Hide
+    Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands Flasks
+    ItemLevel < 80
+    Rarity = Normal
+    Sockets <= 5
+    LinkedSockets <= 4
+    SetBackgroundColor 0 0 0 100
+    SetTextColor 200 200 200 200
+    #SetFontSize 0
+
+
+#=========================================
+#           [?] INFORMAÇÕES [?]          #
+#=========================================
+#                                        #
+# Este filtro foi criado por MaskedChimp #
+# e postado no site                      #
+# www.caminhodoexilio.com                #
+#                                        #
+#=========================================
