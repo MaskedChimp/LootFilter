@@ -28,6 +28,12 @@ Show
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
 
+Show
+    Class Microtransactions
+
+Show
+    Class Hideout
+
 #=========================================
 # [!] JEWELS [!]
 #=========================================
@@ -71,11 +77,11 @@ Show
 #=========================================
 
 # DIVINATION CARDS
-#Show 
-#    Class "Divination Cards"
-#    SetBackgroundColor 0 100 0
-#    SetTextColor 230 230 230
-#    SetBorderColor 0 50 0
+Show 
+    Class "Divination Card"
+    SetBackgroundColor 0 100 0
+    SetTextColor 230 230 230
+    SetBorderColor 0 50 0
 
 #=========================================
 # [!] CURRENCY [!]
@@ -222,6 +228,12 @@ Hide
 # [EN] FLASKS [EN]
 # [PT] FRASCOS [PT]
 #=========================================
+
+Show
+    BaseType "Small Life Flask" "Small Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 3
 
 Show
     BaseType "Medium Life Flask" "Medium Mana Flask"
