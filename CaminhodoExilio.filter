@@ -79,15 +79,13 @@ Show
 # DIVINATION CARDS
 Show 
     Class "Divination Card"
-    SetBackgroundColor 0 100 0
-    SetTextColor 230 230 230
-    SetBorderColor 0 50 0
 
 #=========================================
 # [!] CURRENCY [!]
 #=========================================
 
-# CURRENCY ULTRA RARA
+# [EN] ULTRA RARE CURRENCY [EN]
+# [PT] CURRENCY ULTRA RARA [PT]
 Show 
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
     PlayAlertSound 5 100
@@ -96,9 +94,10 @@ Show
     SetTextColor 255 255 255 235
     SetFontSize 44
 
-# CURRENCY RARA
+# [EN] RARE CURRENCY [EN]
+# [PT] CURRENCY RARA [PT]
 Show
-    BaseType Alchemy Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel
+    BaseType Alchemy Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
     Class Currency
     SetTextColor 160 0 0
 
