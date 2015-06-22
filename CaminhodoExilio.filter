@@ -79,6 +79,8 @@ Show
 # DIVINATION CARDS
 Show 
     Class "Divination Card"
+    SetBorderColor 0 255 255
+    SetTextColor 0 255 255
 
 #=========================================
 # [!] CURRENCY [!]
