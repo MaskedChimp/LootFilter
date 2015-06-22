@@ -63,6 +63,17 @@ Show
     SetBorderColor 0 65 135
 
 #=========================================
+# [EN] MAPS [EN]
+# [PT] MAPAS [PT]
+#=========================================
+
+#EN: Maps and Fragments
+#PT: Mapas e Fragmentos
+Show
+    Class Map
+    SetBorderColor 255 255 255
+
+#=========================================
 # [EN] UNIQUE ITENS [EN]
 # [PT] ITENS ÚNICOS [PT]
 #=========================================
@@ -106,17 +117,6 @@ Show
 # OTHER CURRENCY
 Show
     Class Currency
-
-#=========================================
-# [EN] MAPS [EN]
-# [PT] MAPAS [PT]
-#=========================================
-
-#EN: Maps and Fragments
-#PT: Mapas e Fragmentos
-Show
-    Class Map
-    SetBorderColor 255 255 255
 
 #=========================================
 # [!] MONEY MAKER [!]
