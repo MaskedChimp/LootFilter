@@ -294,6 +294,13 @@ Show
     BaseType "Divine Life Flask" "Divine Mana Flask"
     Rarity <= Magic
     Class Flasks
+    ItemLevel <= 65
+
+
+Show
+    BaseType "Eternal Life Flask" "Eternal Mana Flask"
+    Rarity <= Magic
+    Class Flasks
     ItemLevel <= 70
 
 #EN: RESIST, ARMOUR, EVASION AND CRIT
@@ -356,7 +363,7 @@ Hide
     SetBorderColor 175 96 37
 
 # MAROHI ERQI
-Show
+Hide
     BaseType "Karui Maul"
     ItemLevel >= 50
     Rarity = Normal
