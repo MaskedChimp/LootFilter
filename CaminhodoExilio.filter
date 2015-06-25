@@ -230,75 +230,152 @@ Hide
 # [PT] FRASCOS [PT]
 #=========================================
 
+#EN: LIFE FLASKS
+#PT: FRASCOS DE VIDA
 Show
-    BaseType "Small Life Flask" "Small Mana Flask"
+    BaseType "Small Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 3
 
 Show
-    BaseType "Medium Life Flask" "Medium Mana Flask"
+    BaseType "Medium Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 6
 
 Show
-    BaseType "Large Life Flask" "Large Mana Flask"
+    BaseType "Large Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 12
 
 Show
-    BaseType "Greater Life Flask" "Greater Mana Flask"
+    BaseType "Greater Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 18
 
 Show
-    BaseType "Grand Life Flask" "Grand Mana Flask"
+    BaseType "Grand Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 24
 
 Show
-    BaseType "Giant Life Flask" "Giant Mana Flask"
+    BaseType "Giant Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 30
     
 Show
-    BaseType "Colossal Life Flask" "Colossal Mana Flask"
+    BaseType "Colossal Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 36
 
 Show
-    BaseType "Sacred Life Flask" "Sacred Mana Flask"
+    BaseType "Sacred Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 42
 
 Show
-    BaseType "Hallowed Life Flask" "Hallowed Mana Flask"
+    BaseType "Hallowed Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 50
 
 Show
-    BaseType "Sanctified Life Flask" "Sanctified Mana Flask"
+    BaseType "Sanctified Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 60
 
 Show
-    BaseType "Divine Life Flask" "Divine Mana Flask"
+    BaseType "Divine Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 65
 
 
 Show
-    BaseType "Eternal Life Flask" "Eternal Mana Flask"
+    BaseType "Eternal Life Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 70
+
+#EN: MANA FLASKS
+#PT: FRASCOS DE MANA
+Show
+    BaseType "Small Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 3
+
+Show
+    BaseType "Medium Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 6
+
+Show
+    BaseType "Large Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 12
+
+Show
+    BaseType "Greater Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 18
+
+Show
+    BaseType "Grand Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 24
+
+Show
+    BaseType "Giant Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 30
+    
+Show
+    BaseType "Colossal Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 36
+
+Show
+    BaseType "Sacred Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 42
+
+Show
+    BaseType "Hallowed Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 50
+
+Show
+    BaseType "Sanctified Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 60
+
+Show
+    BaseType "Divine Mana Flask"
+    Rarity <= Magic
+    Class Flasks
+    ItemLevel <= 65
+
+
+Show
+    BaseType "Eternal Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 70
