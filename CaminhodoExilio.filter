@@ -145,7 +145,8 @@ Show
     Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
     Rarity Rare
     ItemLevel >= 60
-    SetBackgroundColor 230 230 0 150
+    SetBackgroundColor 85 85 40
+    SetBorderColor 128 128 64
 
 # 7-JEWELLER
 Show 
