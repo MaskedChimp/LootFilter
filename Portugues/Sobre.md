@@ -19,6 +19,6 @@ O objetivo desse filtro é remover tudo de inútil da tela e ressaltar as coisas
 - Item Level Alto de Equipamentos Específicos - Bordas Azuis/Roxas
 - Itens para Chance - Bordas Laranjas
 - Filtro para Níveis Baixos
-- Remoção de Itens Normais e Mágicos Denecessários
+- Remoção de Itens Normais e Mágicos Desnecessários
 
 Para aprender mais sobre filtros, por favor visite o fansite brasileiro de Path of Exile, [Caminho do Exílio](http://www.caminhodoexilio.com/index.php?/topic/61-tudo-sobre-filtros/).
