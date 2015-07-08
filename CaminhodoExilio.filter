@@ -105,7 +105,7 @@ Show
     SetBackgroundColor 255 0 128
     SetBorderColor 100 0 50
     SetTextColor 255 255 255 235
-    SetFontSize 44
+    SetFontSize 45
 
 # [EN] RARE CURRENCY [EN]
 # [PT] CURRENCY RARA [PT]
@@ -137,8 +137,8 @@ Show
     Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
     Rarity Rare
     ItemLevel >= 75
-    SetBackgroundColor 0 128 192 175
-    SetBorderColor 0 128 192
+    SetBackgroundColor 0 85 130
+    SetBorderColor 0 128 192 200
 
 # CHAOS
 Show 
