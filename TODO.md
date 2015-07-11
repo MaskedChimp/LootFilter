@@ -6,3 +6,4 @@
 - Improve ItemLevel 79+ filter
 - Expand Craft filter
 - Expand Chance Uniques filter
+- Add Hybrid Flasks
