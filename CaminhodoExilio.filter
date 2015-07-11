@@ -97,8 +97,8 @@ Show
 # [!] CURRENCY [!]
 #=========================================
 
-# [EN] ULTRA RARE CURRENCY [EN]
-# [PT] CURRENCY ULTRA RARA [PT]
+#EN: ULTRA RARE CURRENCY
+#PT: CURRENCY ULTRA RARA
 Show 
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
     PlayAlertSound 5 100
@@ -107,12 +107,19 @@ Show
     SetTextColor 255 255 255 235
     SetFontSize 45
 
-# [EN] RARE CURRENCY [EN]
-# [PT] CURRENCY RARA [PT]
+#EN: RARE CURRENCY
+#PT: CURRENCY RARA
 Show
     BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
     Class Currency
     SetTextColor 160 0 0
+
+# SCROLL FRAGMENT
+Hide
+    BaseType "Scroll Fragment"
+    Class Currency
+    SetBackgroundColor 0 0 0 100
+    SetTextColor 170 158 130 200
 
 # OTHER CURRENCY
 Show
@@ -520,7 +527,6 @@ Hide
     LinkedSockets <= 4
     SetBackgroundColor 0 0 0 100
     SetTextColor 136 136 255 200
-    #SetFontSize 0
 
 #EN: NORMAL ITEMS
 #PT: ITENS NORMAIS
@@ -532,7 +538,6 @@ Hide
     LinkedSockets <= 4
     SetBackgroundColor 0 0 0 100
     SetTextColor 200 200 200 200
-    #SetFontSize 0
 
 
 #=========================================
