@@ -110,7 +110,7 @@ Show
 # [EN] RARE CURRENCY [EN]
 # [PT] CURRENCY RARA [PT]
 Show
-    BaseType Alchemy Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
+    BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
     Class Currency
     SetTextColor 160 0 0
 
