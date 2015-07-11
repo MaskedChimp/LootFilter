@@ -475,6 +475,13 @@ Hide
     ItemLevel >= 50
     SetBorderColor 175 96 37
 
+# SHAVRONNE'S WRAPPINGS
+Hide
+    BaseType "Occultist's Vestment"
+    Rarity = Normal
+    ItemLevel >= 50
+    SetBorderColor 175 96 37
+
 #=========================================
 # [EN] OTHERS [EN]
 # [PT] OUTROS [PT]
