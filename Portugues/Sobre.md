@@ -25,3 +25,6 @@ O objetivo desse filtro é remover tudo de inútil da tela e ressaltar as coisas
 - Remoção de Itens Normais e Mágicos Desnecessários
 
 Para aprender mais sobre filtros, por favor visite o fansite brasileiro de Path of Exile, [Caminho do Exílio](http://www.caminhodoexilio.com/index.php?/topic/61-tudo-sobre-filtros/).
+
+#Sugestão de Uso
+A melhor maneira de usar esse filtro, na minha opinião, é usar a opção **Use Bound Key** no Key Pickup na aba UI do menu de opções. E usando outra tecla para mostrar os itens no chão. Eu uso **Alt** como Item pickup key e **F** como Highlight items and objects. Com isso você pega apenas os itens visíveis usando a tecla Alt e se caso quiser ver o que está invisível, você usa a tecla F.

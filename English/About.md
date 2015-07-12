@@ -23,3 +23,6 @@ The goal of this filter is to remove all unnecessary junk from the screen and hi
 - Chance Uniques - Orange Borders
 - Divination Cards - Light Blue Borders and Texts
 - Removal of Useless Normal and Magic Items
+
+#Suggestion on how to use
+The best way to use the filter, in my opinion, is to use the **Use Bound Key** option in the Key Pickup at the UI tab on the Option menu. And using another key to highlight items on the ground. I use **Alt** as Item pickup key and **F** as Highlight items and objects. With that you pick up visible items using the Alt key and if you want to see invisible items, you use the F key.
