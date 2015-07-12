@@ -505,7 +505,7 @@ Show
 #EN: SHOW EVERYTHING UNTIL LV. 40
 #PT: MOSTRAR TUDO ATÉ NV. 40
 Show
-    ItemLevel <= 40
+    ItemLevel <= 35
     Rarity Magic
 
 Show
