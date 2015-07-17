@@ -516,7 +516,7 @@ Show
 #PT: MOSTRAR ITENS 4L ATÉ ITEMLEVEL 45
 Show
     LinkedSockets = 4
-    ItemLevel <= 45
+    ItemLevel <= 40
     SetBorderColor 185 120 185
 
 #=========================================
