@@ -176,6 +176,13 @@ Show
 # [PT] GEMAS [PT]
 #=========================================
 
+#PORTAL GEM
+Show
+    BaseType Portal
+    Class Gems
+    SetBackgroundColor 0 0 90 250
+    SetBorderColor 27 162 155
+
 #EN: QUALITY GEMS
 #PT: GEMAS COM QUALIDADE
 Show
