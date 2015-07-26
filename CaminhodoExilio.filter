@@ -139,6 +139,11 @@ Show
 # [PT] RECEITAS DE ORBS [PT]
 #=========================================
 
+# 7-JEWELLER
+Show 
+    Sockets = 6
+    SetBorderColor 0 255 0
+
 # REGAL
 Show  
     Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
@@ -154,11 +159,6 @@ Show
     ItemLevel >= 60
     SetBackgroundColor 85 85 40
     SetBorderColor 128 128 64
-
-# 7-JEWELLER
-Show 
-    Sockets = 6
-    SetBorderColor 0 255 0
 
 # CHROMATIC
 Show
