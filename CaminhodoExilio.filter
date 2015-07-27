@@ -407,83 +407,83 @@ Show
 #=========================================
 
 # ATZIRI'S DISFAVOUR
-Show
+Hide
     BaseType "Vaal Axe"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # HEGEMONY'S ERA
-Show
+Hide
     BaseType "Judgement Staff"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # KAOM'S HEART
-Show
+Hide
     BaseType "Glorious Plate"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # BELLY OF THE BEAST
-Show
+Hide
     BaseType "Full Wyrmscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # CARCASS JACK
-Show
+Hide
     BaseType "Varnished Coat"
     ItemLevel 50
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # MING'S HEART
-Show
+Hide
     BaseType "Amethyst Ring"
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # THE BRINGER OF RAIN
-Show
+Hide
     BaseType "Nightmare Bascinet"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # MAROHI ERQI
-Show
+Hide
     BaseType "Karui Maul"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # DARESSO'S DEFIANCE
-Show
+Hide
     BaseType "Full Dragonscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # EMPIRE'S GRASP
-Show
+Hide
     BaseType "Goliath Gauntlets"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37
 
 # SIRE OF SHARDS
-Show
+Hide
     BaseType "Serpentine Staff"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37
 
 # SHAVRONNE'S WRAPPINGS
-Show
+Hide
     BaseType "Occultist's Vestment"
     Rarity = Normal
     ItemLevel >= 50
