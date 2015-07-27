@@ -489,6 +489,13 @@ Hide
     ItemLevel >= 50
     SetBorderColor 175 96 37
 
+#VOLTAXIC RIFT
+Hide
+    BaseType "Spine Bow"
+    Rarity = Normal
+    ItemLevel >= 50
+    SetBorderColor 175 96 37
+
 #=========================================
 # [EN] OTHERS [EN]
 # [PT] OUTROS [PT]
