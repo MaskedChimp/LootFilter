@@ -108,6 +108,13 @@ Show
     Class Currency
     SetTextColor 160 0 0
 
+#EN: CHEAP CURRENCY
+#PT: CURRENCY BARATA
+Show
+    BaseType Transmutation Augmentation Alteration Glassblower Blessed Blacksmith Armourer Chromatic
+    Class Currency
+    SetBorderColor 170 158 130
+
 # SCROLL FRAGMENT
 Hide
     BaseType "Scroll Fragment"
@@ -115,7 +122,8 @@ Hide
     SetBackgroundColor 0 0 0 100
     SetTextColor 170 158 130 200
 
-# OTHER CURRENCY
+#EN: OTHER CURRENCY
+#PT: OUTRAS CURRENCY
 Show
     Class Currency
 
