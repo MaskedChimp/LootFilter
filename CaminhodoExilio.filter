@@ -496,6 +496,19 @@ Hide
     ItemLevel >= 50
     SetBorderColor 175 96 37
 
+#WINDRIPPER
+Hide
+    BaseType "Imperial Bow"
+    Rarity = Normal
+    ItemLevel >= 50
+    SetBorderColor 175 96 37
+
+#DRILLNECK
+Hide
+    BaseType "Penetrating Arrow Quiver"
+    Rarity = Normal
+    SetBorderColor 175 96 37
+
 #=========================================
 # [EN] OTHERS [EN]
 # [PT] OUTROS [PT]
