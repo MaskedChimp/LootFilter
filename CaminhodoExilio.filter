@@ -107,6 +107,7 @@ Show
     BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
     Class Currency
     SetTextColor 160 0 0
+    SetBorderColor 170 158 130
 
 #EN: CHEAP CURRENCY
 #PT: CURRENCY BARATA
