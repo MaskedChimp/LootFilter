@@ -210,7 +210,7 @@ Show
 
 #EN: CHESTS (ARMOUR)
 #PT: PEITORAIS (ARMADURA)
-Show
+Hide
     BaseType "Astral Plate"
     Rarity = Normal
     ItemLevel >= 74
