@@ -181,7 +181,7 @@ Show
 
 #PORTAL GEM
 Show
-    BaseType Portal
+    BaseType Portal Enlighten Empower Enhance
     Class Gems
     SetBackgroundColor 0 0 90 250
     SetBorderColor 27 162 155
