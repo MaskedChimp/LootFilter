@@ -83,7 +83,7 @@ Show #Currency - Ultra Rare
     SetBackgroundColor 255 0 128 # Ultra Rare Currency Background
     SetBorderColor 100 0 50 # Ultra Rare Currency Border
     SetTextColor 255 255 255 235 # Ultra Rare Currency Text
-    #SetFontSize 45 # Ultra Rare Currency Font
+    SetFontSize 45
 
 Show #Currency - Rare
     BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
