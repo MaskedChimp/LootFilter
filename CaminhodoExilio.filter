@@ -12,14 +12,14 @@ Show #Easter Eggs - Rods
     SetBackgroundColor 240 0 0 # Easter Egg Background
     SetTextColor 0 0 0 # Easter Egg Text
     SetBorderColor 0 0 0 # Easter Egg Border
-    PlayAlertSound 1 100 # Easter Egg Alert Sound
+    PlayAlertSound 1 300 # Easter Egg Alert Sound
 
 Show #Easter Eggs - Feathers
     BaseType "Albino Rhoa Feather"
     SetBackgroundColor 240 0 0 # Easter Egg Background
     SetTextColor 0 0 0 # Easter Egg Text
     SetBorderColor 0 0 0 # Easter Egg Border
-    PlayAlertSound 1 100 # Easter Egg Alert Sound
+    PlayAlertSound 1 300 # Easter Egg Alert Sound
 
 Show #~Microtransactions
     Class Microtransactions
@@ -79,11 +79,11 @@ Show #Divination Cards
 
 Show #Currency - Ultra Rare
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
-    PlayAlertSound 5 100
+    PlayAlertSound 5 300 # Ultra Rare Currency Alert Sound
     SetBackgroundColor 255 0 128 # Ultra Rare Currency Background
     SetBorderColor 100 0 50 # Ultra Rare Currency Border
     SetTextColor 255 255 255 235 # Ultra Rare Currency Text
-    SetFontSize 45 # Ultra Rare Currency Alert Sound
+    #SetFontSize 45 # Ultra Rare Currency Font
 
 Show #Currency - Rare
     BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
