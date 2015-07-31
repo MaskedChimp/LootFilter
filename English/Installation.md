@@ -7,3 +7,6 @@
 6. Open the options menu (Shortcut: O)
 7. Open the **UI** tab
 8. Select the **CaminhoDoExilio** filter at the end of the list
+
+# Editing
+If you plan to edit the filter, I recomend downloading [Filtration](https://www.pathofexile.com/forum/view-thread/1287447/) to make it easier.

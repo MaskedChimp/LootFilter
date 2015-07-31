@@ -4,577 +4,517 @@
 
 
 #=========================================
-# [EN] EXCEPTIONS [EN]
-# [PT] EXCEÇÕES [PT]
+# Section: Exceptions
 #=========================================
 
-# RODS
-Show 
+Show #Easter Eggs - Rods
     Class Rods
-    SetBackgroundColor 240 0 0
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
+    SetBackgroundColor 240 0 0 # Easter Egg Background
+    SetTextColor 0 0 0 # Easter Egg Text
+    SetBorderColor 0 0 0 # Easter Egg Border
+    PlayAlertSound 1 100 # Easter Egg Alert Sound
 
-# ALBINO RHOA FEATHERS
-Show
+Show #Easter Eggs - Feathers
     BaseType "Albino Rhoa Feather"
-    SetBackgroundColor 255 0 255
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
+    SetBackgroundColor 240 0 0 # Easter Egg Background
+    SetTextColor 0 0 0 # Easter Egg Text
+    SetBorderColor 0 0 0 # Easter Egg Border
+    PlayAlertSound 1 100 # Easter Egg Alert Sound
 
-Show
+Show #~Microtransactions
     Class Microtransactions
 
-Show
+Show #~Microtransactions - Hideout
     Class Hideout
 
 #=========================================
-# [!] JEWELS [!]
+# Section: Jewels
 #=========================================
 
-#EN: MAGIC JEWELS
-#PT: JEWELS MÁGICAS
-Show 
+Show #Jewels - Magic
     Class Jewel
     Rarity = Magic
-    SetBackgroundColor 0 45 90
-    SetBorderColor 0 65 135
+    SetBackgroundColor 0 45 90 # Jewels Background
+    SetBorderColor 0 65 135 # Jewels Border
 
-#EN: RARE JEWELS
-#PT: JEWELS RARAS
-Show
+Show #Jewels - Rare
     Class Jewel
     Rarity = Rare
-    SetBackgroundColor 0 45 90
-    SetBorderColor 0 65 135
+    SetBackgroundColor 0 45 90 # Jewels Background
+    SetBorderColor 0 65 135 # Jewels Border
 
-#EN: UNIQUE JEWELS
-#PT: JEWELS ÚNICAS
-Show
+Show #Jewels - Uniques
     Class Jewel
     Rarity = Unique
-    SetBackgroundColor 0 45 90
-    SetBorderColor 0 65 135
+    SetBackgroundColor 0 45 90 # Jewels Background
+    SetBorderColor 0 65 135 # Jewels Border
 
 #=========================================
-# [EN] MAPS [EN]
-# [PT] MAPAS [PT]
+# Section: Maps
 #=========================================
 
-#EN: Maps and Fragments
-#PT: Mapas e Fragmentos
-Show
+Show #Maps
     Class Map
-    SetBorderColor 255 255 255
+    SetBorderColor 255 255 255 # Maps Border
 
 #=========================================
-# [EN] UNIQUE ITENS [EN]
-# [PT] ITENS ÚNICOS [PT]
+# Section: Uniques
 #=========================================
 
-#EN: SHOW ALL UNIQUES
-#PT: MOSTRAR TODOS ÚNICOS
-Show
+Show #Uniques
     Rarity = Unique
 
 #=========================================
-# [!] DIVINATION CARDS [!]
+# Section: Divination Cards
 #=========================================
 
-# DIVINATION CARDS
-Show 
+Show #Divination Cards
     Class "Divination Card"
-    SetBorderColor 0 255 255
-    SetTextColor 0 255 255
+    SetBorderColor 0 255 255 # Divination Cards Border
+    SetTextColor 0 255 255 # Divination Cards Text
 
 #=========================================
-# [!] CURRENCY [!]
+# Section: Currency
 #=========================================
 
-#EN: ULTRA RARE CURRENCY
-#PT: CURRENCY ULTRA RARA
-Show 
+Show #Currency - Ultra Rare
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
     PlayAlertSound 5 100
-    SetBackgroundColor 255 0 128
-    SetBorderColor 100 0 50
-    SetTextColor 255 255 255 235
-    SetFontSize 45
+    SetBackgroundColor 255 0 128 # Ultra Rare Currency Background
+    SetBorderColor 100 0 50 # Ultra Rare Currency Border
+    SetTextColor 255 255 255 235 # Ultra Rare Currency Text
+    SetFontSize 45 # Ultra Rare Currency Alert Sound
 
-#EN: RARE CURRENCY
-#PT: CURRENCY RARA
-Show
+Show #Currency - Rare
     BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
     Class Currency
-    SetTextColor 160 0 0
-    SetBorderColor 170 158 130
+    SetTextColor 160 0 0 # Rare Currency Text
+    SetBorderColor 170 158 130 # Currency Border
 
-#EN: CHEAP CURRENCY
-#PT: CURRENCY BARATA
-Show
+Show #Currency - Cheap
     BaseType Transmutation Augmentation Alteration Glassblower Blessed Blacksmith Armourer Chromatic
     Class Currency
-    SetBorderColor 170 158 130
+    SetBorderColor 170 158 130 # Currency Border
 
-# SCROLL FRAGMENT
-Hide
+Hide #Currency - Fragments
     BaseType "Scroll Fragment"
     Class Currency
     SetBackgroundColor 0 0 0 100
     SetTextColor 170 158 130 200
 
-#EN: OTHER CURRENCY
-#PT: OUTRAS CURRENCY
-Show
+Show #Currency - Others
     Class Currency
 
 #=========================================
-# [!] MONEY MAKER [!]
+# Secion: Money Maker
 #=========================================
 
-# 5+ LINKED
-Show 
+Show #Money Maker - 5L+
     LinkedSockets >= 5
-    SetBorderColor 255 0 250
+    SetBorderColor 255 0 250 # 5+: Border
 
 #=========================================
-# [EN] ORBS RECIPES [EN]
-# [PT] RECEITAS DE ORBS [PT]
+# Section: Orb Recipes
 #=========================================
 
-# 7-JEWELLER
-Show 
+Show #Recipes - Currency - Jeweller
     Sockets = 6
-    SetBorderColor 0 255 0
+    SetBorderColor 0 255 0 # Jeweller Recipe Border
 
-# REGAL
-Show  
+Show #Recipes - Currency - Regal
     Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
     Rarity Rare
     ItemLevel >= 75
-    SetBackgroundColor 0 85 130
-    SetBorderColor 0 128 192 200
+    SetBackgroundColor 0 85 130 # Regal Recipe Background
+    SetBorderColor 0 128 192 200 # Regal Recipe Border
 
-# CHAOS
-Show 
+Show #Recipes - Currency - Chaos
     Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
     Rarity Rare
     ItemLevel >= 60
-    SetBackgroundColor 85 85 40
-    SetBorderColor 128 128 64
+    SetBackgroundColor 85 85 40 # Chaos Recipe Background
+    SetBorderColor 128 128 64 # Chaos Recipe Color
 
-# CHROMATIC
-Show
+Show #Recipes - Currency - Chromatic
     SocketGroup RGB
-    SetBorderColor 240 0 0
+    SetBorderColor 240 0 0 # Chromatic Recipe Border
 
-# GLASSBLOWER
-Show
+Show #Recipes - Currency - Glassblower
     Class Flask
     Quality >= 10
-    SetBorderColor 255 128 255
+    SetBorderColor 255 128 255 # Glassblower Recipe Border
 
 #=========================================
-# [EN] GEMS [EN]
-# [PT] GEMAS [PT]
+# Section: Gems
 #=========================================
 
-#PORTAL GEM
-Show
+Show #Gems - Drop-Only
     BaseType Portal Enlighten Empower Enhance
     Class Gems
-    SetBackgroundColor 0 0 90 250
-    SetBorderColor 27 162 155
+    SetBackgroundColor 0 0 90 250 # Gems Background
+    SetBorderColor 27 162 155 # Gems Border
 
-#EN: QUALITY GEMS
-#PT: GEMAS COM QUALIDADE
-Show
+Show #Gems - Quality
     Class Gems
     Quality > 1
-    SetBorderColor 27 162 155
+    SetBorderColor 27 162 155 # Gems Border
 
-Show
+Show #Gems - No-Quality
     Class Gems
 
 #=========================================
-# [!] CRAFT [!]
+# Section: Craft
 #=========================================
 
-# ITEM LEVEL 79+
-Show
+Show #Craft - Gear - ilvl 79+
     Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw
     Rarity = Normal
     ItemLevel >= 79
-    SetBorderColor 242 237 40
-    SetBackgroundColor 128 128 0 100
+    SetBorderColor 242 237 40 # High ilvl Border
+    SetBackgroundColor 128 128 0 100 # ilvl 79+ Background
 
-#EN: CHESTS (ARMOUR)
-#PT: PEITORAIS (ARMADURA)
-Hide
+Hide #Craft - Gear - Chests - Armour
     BaseType "Astral Plate"
     Rarity = Normal
     ItemLevel >= 74
-    SetBorderColor 128 128 192
+    SetBorderColor 128 128 192 # Highest Mod Accessible Border
 
-#EN: CHESTS (EVASION)
-#PT: PEITORAIS (EVASÃO)
-Hide
+Hide $Craft - Gear - Chests - Evasion
     BaseType "Assassin's Garb"
     Rarity = Normal
     ItemLevel >= 74
-    SetBorderColor 128 128 192
+    SetBorderColor 128 128 192 # Highest Mod Accessible Border
 
-#EN: CHESTS (ENERGY SHIELD)
-#PT: PEITORAIS (ESCUDO DE ENERGIA)
-Hide
+Hide #Craft - Gear - Chests - Energy Shield
     BaseType "Occultist's Vestment" "Vaal Regalia"
     Rarity = Normal
     ItemLevel >= 75
-    SetBorderColor 128 128 192
+    SetBorderColor 128 128 192 # Highest Mod Accessible Border
 
-# ITEM LEVEL 75+
-Hide 
+Hide #Craft - Gear - ilvl 75+
     Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw
     Rarity = Normal
     ItemLevel >= 75
-    SetBorderColor 242 237 40
-    SetBackgroundColor 0 0 0 50
-    SetTextColor 200 200 200 200
-    #SetFontSize 15
-
+    SetBorderColor 242 237 40 # High ilvl Border
+    SetBackgroundColor 0 0 0 50 # Normal Item Fade Background
+    SetTextColor 200 200 200 200 # Normal Item Fade Text
 
 #=========================================
-# [EN] FLASKS [EN]
-# [PT] FRASCOS [PT]
+# Section: Life Flasks
 #=========================================
 
-#EN: LIFE FLASKS
-#PT: FRASCOS DE VIDA
-Show
+Show #Flasks - Life
     BaseType "Small Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 3
 
-Show
+Show #Flasks - Life
     BaseType "Medium Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 6
 
-Show
+Show #Flasks - Life
     BaseType "Large Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 12
 
-Show
+Show #Flasks - Life
     BaseType "Greater Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 18
 
-Show
+Show #Flasks - Life
     BaseType "Grand Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 24
 
-Show
+Show #Flasks - Life
     BaseType "Giant Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 30
     
-Show
+Show #Flasks - Life
     BaseType "Colossal Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 36
 
-Show
+Show #Flasks - Life
     BaseType "Sacred Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 42
 
-Show
+Show #Flasks - Life
     BaseType "Hallowed Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 50
 
-Show
+Show #Flasks - Life
     BaseType "Sanctified Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 60
 
-Show
+Show #Flasks - Life
     BaseType "Divine Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 65
 
-
-Show
+Show #Flasks - Life
     BaseType "Eternal Life Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 70
 
-#EN: MANA FLASKS
-#PT: FRASCOS DE MANA
-Show
+#=========================================
+# Section: Mana Flasks
+#=========================================
+
+Show #Flasks - Mana
     BaseType "Small Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 3
 
-Show
+Show #Flasks - Mana
     BaseType "Medium Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 6
 
-Show
+Show #Flasks - Mana
     BaseType "Large Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 12
 
-Show
+Show #Flasks - Mana
     BaseType "Greater Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 18
 
-Show
+Show #Flasks - Mana
     BaseType "Grand Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 24
 
-Show
+Show #Flasks - Mana
     BaseType "Giant Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 30
     
-Show
+Show #Flasks - Mana
     BaseType "Colossal Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 36
 
-Show
+Show #Flasks - Mana
     BaseType "Sacred Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 42
 
-Show
+Show #Flasks - Mana
     BaseType "Hallowed Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 50
 
-Show
+Show #Flasks - Mana
     BaseType "Sanctified Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 60
 
-Show
+Show #Flasks - Mana
     BaseType "Divine Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 65
 
-
-Show
+Show #Flasks - Mana
     BaseType "Eternal Mana Flask"
     Rarity <= Magic
     Class Flasks
     ItemLevel <= 70
 
-#EN: RESIST, ARMOUR, EVASION AND CRIT
-#PT: RESIST, ARMADURA, EVASÃO E CRIT
-Show
+#=========================================
+# Section: Utility Flasks
+#=========================================
+
+Show #Flasks - Utility
     Class "Utility Flasks"
     Rarity Normal
     ItemLevel <= 70
 
 #=========================================
-# [!] CHANCE UNIQUES [!]
+# Section: Chance Uniques
 #=========================================
 
 # ATZIRI'S DISFAVOUR
-Hide
+Hide #Chance Uniques - Gear - Weapons - Two-Hand Axes
     BaseType "Vaal Axe"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # HEGEMONY'S ERA
-Hide
+Hide #Chance Uniques - Gear - Weapons - Staves
     BaseType "Judgement Staff"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # KAOM'S HEART
-Hide
+Hide #Chance Uniques - Gear - Chests - Armour
     BaseType "Glorious Plate"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # BELLY OF THE BEAST
-Hide
+Hide #Chance Uniques - Gear - Chests - Armour
     BaseType "Full Wyrmscale"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # CARCASS JACK
-Hide
+Hide #Chance Uniques - Gear - Chests - Armour
     BaseType "Varnished Coat"
     ItemLevel 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # MING'S HEART
-Hide
+Hide #Chance Uniques - Gear - Rings
     BaseType "Amethyst Ring"
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # THE BRINGER OF RAIN
-Hide
+Hide #Chance Uniques - Gear - Helmets - Armour
     BaseType "Nightmare Bascinet"
     ItemLevel >= 28
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # MAROHI ERQI
-Hide
+Hide #Chance Uniques - Gear - Weapons - Two-Hand Maces
     BaseType "Karui Maul"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # DARESSO'S DEFIANCE
-Hide
+Hide #Chance Uniques - Gear - Chests - Armour/Evasion
     BaseType "Full Dragonscale"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # EMPIRE'S GRASP
-Hide
+Hide #Chance Uniques - Gear - Gloves - Armour
     BaseType "Goliath Gauntlets"
     ItemLevel >= 28
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # SIRE OF SHARDS
-Hide
+Hide #Chance Uniques - Gear - Weapons Staves
     BaseType "Serpentine Staff"
     Rarity = Normal
     ItemLevel >= 50
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 # SHAVRONNE'S WRAPPINGS
-Hide
+Hide #Chance Uniques - Gear - Chests - Energy Shield
     BaseType "Occultist's Vestment"
     Rarity = Normal
     ItemLevel >= 50
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 #VOLTAXIC RIFT
-Hide
+Show #Chance Uniques - Gear - Weapons - Bows
     BaseType "Spine Bow"
     Rarity = Normal
     ItemLevel >= 50
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 #WINDRIPPER
-Hide
+Show #Chance Uniques - Gear - Weapons - Bows
     BaseType "Imperial Bow"
     Rarity = Normal
     ItemLevel >= 50
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 #DRILLNECK
-Hide
+Show #Chance Uniques - Gear - Accessories - Quivers
     BaseType "Penetrating Arrow Quiver"
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Unique Border
 
 #=========================================
-# [EN] OTHERS [EN]
-# [PT] OUTROS [PT]
+# Section: Others
 #=========================================
 
-#EN: RARE ITEMS AND UP
-#PT: ITENS RAROS E ACIMA
-Show 
+Show #General - Rares
     Rarity = Rare
 
-#EN: QUEST ITEMS
-#PT: ITENS DE MISSÕES
-Show
+Show #~Quests
     Class Quest
 
 #=========================================
-# [EN] LOW LEVEL [EN]
-# [PT] NÍVEIS BAIXOS [PT]
+# Section: Low Level
 #=========================================
 
-#EN: SHOW EVERYTHING UNTIL LV. 40
-#PT: MOSTRAR TUDO ATÉ NV. 40
-Show
+Show #Low Level - Magic Items
     ItemLevel <= 35
     Rarity Magic
 
-Show
+Show #Low Level - Normal Items
     ItemLevel <= 25
     Rarity Normal
 
-#EN: SHOW 4L ITEMS UNTIL ITEMLEVEL 45
-#PT: MOSTRAR ITENS 4L ATÉ ITEMLEVEL 45
-Show
+Show #Low Level - Gear - 4L
     LinkedSockets = 4
     ItemLevel <= 40
-    SetBorderColor 185 120 185
+    SetBorderColor 185 120 185 # 4L Border
 
 #=========================================
-# [EN] REMAINING [EN]
-# [PT] RESTO [PT]
+# Section: Useless
 #=========================================
 
-#EN: MAGIC ITEMS
-#PT: ITENS MÁGICOS
-Hide
+Hide #Useless - Magic Items
     Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands Flasks
     ItemLevel < 80
     Rarity = Magic
     Sockets <= 5
     LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100
-    SetTextColor 136 136 255 200
+    SetBackgroundColor 0 0 0 100 # Fade Background
+    SetTextColor 136 136 255 200 # Magic Item Fade Text
 
-#EN: NORMAL ITEMS
-#PT: ITENS NORMAIS
-Hide
+Hide #Useless - Normal Items
     Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands Flasks
     ItemLevel < 80
     Rarity = Normal
     Sockets <= 5
     LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100
-    SetTextColor 200 200 200 200
+    SetBackgroundColor 0 0 0 100 # Fade Background
+    SetTextColor 200 200 200 200 # Normal Item Fade Text
 
 ### Author: MaskedChimp
 ### Website: www.caminhodoexilio.com

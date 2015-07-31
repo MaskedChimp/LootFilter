@@ -7,3 +7,6 @@
 6. Abrir menu de opções (Tecla: O)
 7. Ir para a aba **UI**
 8. Selecionar o filtro **CaminhoDoExilio** no fim da lista
+
+# Edição
+Se você pretende editar o filtro, recomendo baixar o [Filtration](https://www.pathofexile.com/forum/view-thread/1287447/) para tornar a edição mais fácil.

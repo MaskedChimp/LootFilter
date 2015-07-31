@@ -24,6 +24,9 @@ O objetivo desse filtro é remover tudo de inútil da tela e ressaltar as coisas
 - Divination Cards - Bordas e Texto Azuis Claros
 - Remoção de Itens Normais e Mágicos Desnecessários
 
+#Filtration
+Este filtro possui suporte para o [Filtration](https://www.pathofexile.com/forum/view-thread/1287447/).
+
 Para aprender mais sobre filtros, por favor visite o fansite brasileiro de Path of Exile, [Caminho do Exílio](http://www.caminhodoexilio.com/index.php?/topic/61-tudo-sobre-filtros/).
 
 #Sugestão de Uso
