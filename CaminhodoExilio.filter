@@ -486,7 +486,7 @@ Show #Low Level - Magic Items
     Rarity Magic
 
 Show #Low Level - Normal Items
-    ItemLevel <= 25
+    ItemLevel <= 20
     Rarity Normal
 
 Show #Low Level - Gear - 4L
