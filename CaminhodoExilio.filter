@@ -482,7 +482,7 @@ Show #~Quests
 #=========================================
 
 Show #Low Level - Magic Items
-    ItemLevel <= 35
+    ItemLevel <= 25
     Rarity Magic
 
 Show #Low Level - Normal Items
