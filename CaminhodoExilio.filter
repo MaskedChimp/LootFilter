@@ -99,8 +99,8 @@ Show #Currency - Cheap
 Hide #Currency - Fragments
     BaseType "Scroll Fragment"
     Class Currency
-    SetBackgroundColor 0 0 0 100
-    SetTextColor 170 158 130 200
+    SetBackgroundColor 0 0 0 100 # Fade Background
+    SetTextColor 170 158 130 200 # Currency Fade Text
 
 Show #Currency - Others
     Class Currency
