@@ -414,6 +414,46 @@ Show #Flasks - Mana
     ItemLevel <= 67
 
 #=========================================
+# Section: Hybrid Flasks
+#=========================================
+
+Show #Flasks - Hybrid
+    BaseType "Small Hybrid Flask"
+    Class Flasks
+    Rarity <= Magic
+    ItemLevel <= 20
+
+Show #Flasks - Hybrid
+    BaseType "Medium Hybrid Flask"
+    Class Flasks
+    Rarity <= Magic
+    ItemLevel <= 30
+
+Show #Flasks - Hybrid
+    BaseType "Large Hybrid Flask"
+    Class Flasks
+    Rarity <= Magic
+    ItemLevel <= 40
+
+Show #Flasks - Hybrid
+    BaseType "Colossal Hybrid Flask"
+    Class Flasks
+    Rarity <= Magic
+    ItemLevel <= 50
+
+Show #Flasks - Hybrid
+    BaseType "Sacred Hybrid Flask"
+    Class Flasks
+    Rarity <= Magic
+    ItemLevel <= 60
+
+Show #Flasks - Hybrid
+    BaseType "Hallowed Hybrid Flask"
+    Class Flasks
+    Rarity <= Magic
+    ItemLevel <= 67
+
+#=========================================
 # Section: Utility Flasks
 #=========================================
 
