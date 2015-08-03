@@ -267,73 +267,73 @@ Show #Craft - ilvl 80+
 
 Show #Flasks - Life
     BaseType "Small Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 3
 
 Show #Flasks - Life
     BaseType "Medium Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 6
 
 Show #Flasks - Life
     BaseType "Large Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 12
 
 Show #Flasks - Life
     BaseType "Greater Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 18
 
 Show #Flasks - Life
     BaseType "Grand Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 24
 
 Show #Flasks - Life
     BaseType "Giant Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 30
     
 Show #Flasks - Life
     BaseType "Colossal Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 36
 
 Show #Flasks - Life
     BaseType "Sacred Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 42
 
 Show #Flasks - Life
     BaseType "Hallowed Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 50
 
 Show #Flasks - Life
     BaseType "Sanctified Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 60
 
 Show #Flasks - Life
     BaseType "Divine Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 65
 
 Show #Flasks - Life
     BaseType "Eternal Life Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 67
 
@@ -343,73 +343,73 @@ Show #Flasks - Life
 
 Show #Flasks - Mana
     BaseType "Small Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 3
 
 Show #Flasks - Mana
     BaseType "Medium Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 6
 
 Show #Flasks - Mana
     BaseType "Large Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 12
 
 Show #Flasks - Mana
     BaseType "Greater Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 18
 
 Show #Flasks - Mana
     BaseType "Grand Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 24
 
 Show #Flasks - Mana
     BaseType "Giant Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 30
     
 Show #Flasks - Mana
     BaseType "Colossal Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 36
 
 Show #Flasks - Mana
     BaseType "Sacred Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 42
 
 Show #Flasks - Mana
     BaseType "Hallowed Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 50
 
 Show #Flasks - Mana
     BaseType "Sanctified Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 60
 
 Show #Flasks - Mana
     BaseType "Divine Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 65
 
 Show #Flasks - Mana
     BaseType "Eternal Mana Flask"
-    Rarity <= Magic
+    Rarity <= Normal
     Class Flasks
     ItemLevel <= 67
 
@@ -420,37 +420,37 @@ Show #Flasks - Mana
 Show #Flasks - Hybrid
     BaseType "Small Hybrid Flask"
     Class Flasks
-    Rarity <= Magic
+    Rarity <= Normal
     ItemLevel <= 20
 
 Show #Flasks - Hybrid
     BaseType "Medium Hybrid Flask"
     Class Flasks
-    Rarity <= Magic
+    Rarity <= Normal
     ItemLevel <= 30
 
 Show #Flasks - Hybrid
     BaseType "Large Hybrid Flask"
     Class Flasks
-    Rarity <= Magic
+    Rarity <= Normal
     ItemLevel <= 40
 
 Show #Flasks - Hybrid
     BaseType "Colossal Hybrid Flask"
     Class Flasks
-    Rarity <= Magic
+    Rarity <= Normal
     ItemLevel <= 50
 
 Show #Flasks - Hybrid
     BaseType "Sacred Hybrid Flask"
     Class Flasks
-    Rarity <= Magic
+    Rarity <= Normal
     ItemLevel <= 60
 
 Show #Flasks - Hybrid
     BaseType "Hallowed Hybrid Flask"
     Class Flasks
-    Rarity <= Magic
+    Rarity <= Normal
     ItemLevel <= 67
 
 #=========================================
@@ -459,7 +459,7 @@ Show #Flasks - Hybrid
 
 Show #Flasks - Utility
     Class "Utility Flasks"
-    Rarity Normal
+    Rarity = Normal
     ItemLevel <= 70
 
 #=========================================
