@@ -166,38 +166,100 @@ Show #Gems - No-Quality
 # Section: Craft
 #=========================================
 
-Show #Craft - Gear - ilvl 79+
+Show #Craft - Gloves
+    Class Gloves
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show $Craft - Helmets
+    Class Helmets
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show #Craft - Body Armours
+    Class "Body Armours"
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show #Craft - Boots
+    Class Boots
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show #Craft - Shield
+    Class Shields
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show #Craft - Rings
+    Class Rings
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show #Craft - Belts
+    Class Belts
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show #Craft - Amulets
+    Class Amulets
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show #Craft - Quivers
+    Class Quivers
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+    
+Show #Craft - Two-Handed Weapons
+    Class "Two Hand"
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+
+Show #Craft - One-Handed Weapons
+    Class "One Hand"
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 166 110 0 # Highest Mod Border
+    SetBackgroundColor 255 165 0 191 # Highest Mod Background
+    SetTextColor 0 0 0 215 # Highest Mod Text
+
+Show #Craft - ilvl 80+
     Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw
     Rarity = Normal
-    ItemLevel >= 79
-    SetBorderColor 242 237 40 # High ilvl Border
-    SetBackgroundColor 128 128 0 100 # ilvl 79+ Background
-
-Hide #Craft - Gear - Chests - Armour
-    BaseType "Astral Plate"
-    Rarity = Normal
-    ItemLevel >= 74
-    SetBorderColor 128 128 192 # Highest Mod Accessible Border
-
-Hide $Craft - Gear - Chests - Evasion
-    BaseType "Assassin's Garb"
-    Rarity = Normal
-    ItemLevel >= 74
-    SetBorderColor 128 128 192 # Highest Mod Accessible Border
-
-Hide #Craft - Gear - Chests - Energy Shield
-    BaseType "Occultist's Vestment" "Vaal Regalia"
-    Rarity = Normal
-    ItemLevel >= 75
-    SetBorderColor 128 128 192 # Highest Mod Accessible Border
-
-Hide #Craft - Gear - ilvl 75+
-    Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw
-    Rarity = Normal
-    ItemLevel >= 75
-    SetBorderColor 242 237 40 # High ilvl Border
-    SetBackgroundColor 0 0 0 50 # Normal Item Fade Background
-    SetTextColor 200 200 200 200 # Normal Item Fade Text
+    ItemLevel >= 80
+    SetBorderColor 5 77 5 # High ilvl Border
+    SetBackgroundColor 0 50 0 200 # High ilvl Background
 
 #=========================================
 # Section: Life Flasks
