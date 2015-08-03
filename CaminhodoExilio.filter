@@ -335,7 +335,7 @@ Show #Flasks - Life
     BaseType "Eternal Life Flask"
     Rarity <= Magic
     Class Flasks
-    ItemLevel <= 70
+    ItemLevel <= 67
 
 #=========================================
 # Section: Mana Flasks
@@ -411,7 +411,7 @@ Show #Flasks - Mana
     BaseType "Eternal Mana Flask"
     Rarity <= Magic
     Class Flasks
-    ItemLevel <= 70
+    ItemLevel <= 67
 
 #=========================================
 # Section: Utility Flasks
