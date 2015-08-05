@@ -133,7 +133,7 @@ Show #Recipes - Currency - Chaos
     Rarity Rare
     ItemLevel >= 60
     SetBackgroundColor 85 85 40 # Chaos Recipe Background
-    SetBorderColor 128 128 64 # Chaos Recipe Color
+    SetBorderColor 128 128 64 # Chaos Recipe Border
 
 Show #Recipes - Currency - Chromatic
     SocketGroup RGB
