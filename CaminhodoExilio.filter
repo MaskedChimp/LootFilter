@@ -68,7 +68,15 @@ Show #Uniques
 # Section: Divination Cards
 #=========================================
 
-Show #Divination Cards
+Show #Divination Cards - Rares
+    BaseType "Abandoned Wealth" "The Artist" "The Avenger" "The Betrayal" "The Brittle Emperor" "The Cataclysm" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Drunken Aristocrat" "Gemcutter's Promise" "The Gladiator" "The Hoarder" Humility "The Incantation" "The King's Heart" "The Last One Standing" "The Pack Leader" "The Pact" "The Poet" "The Queen" "The Siren" "Time-Lost Relic" "The Watcher" "The Wind"
+    Class "Divination Card"
+    SetBorderColor 0 0 0 # Divination Cards Border
+    SetTextColor 0 0 0 # Divination Cards Text
+    SetBackgroundColor 0 255 255 200 # Divination Cards Background
+    PlayAlertSound 6 300 # Divination Cards Alert Sound
+
+Show #Divination Cards - Others
     Class "Divination Card"
     SetBorderColor 0 255 255 # Divination Cards Border
     SetTextColor 0 255 255 # Divination Cards Text
