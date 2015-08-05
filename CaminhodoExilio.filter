@@ -53,7 +53,15 @@ Show #Jewels - Uniques
 # Section: Maps
 #=========================================
 
-Show #Maps
+Show #Maps - High Level
+    Class Map
+    DropLevel >= 76
+    SetBorderColor 0 0 0 # High Level Maps Border
+    SetTextColor 0 0 0 # High Level Maps Text
+    SetBackgroundColor 255 255 255 200 # High Level Maps Background
+    PlayAlertSound 2 300 # High Level Maps Alert Sound
+
+Show #Maps - Others
     Class Map
     SetBorderColor 255 255 255 # Maps Border
 
