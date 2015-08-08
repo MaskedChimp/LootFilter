@@ -3,29 +3,32 @@ The goal of this filter is to remove all unnecessary junk from the screen and hi
 
 #Specifications
 - RGB - Red Borders
-- Show everything until itemlevel 25
-- Show magic items and up until itemlevel 45
-- 4L (itemlevel 45-) - Light Pink Borders
+- Show everything until itemlevel 20
+- Show magic items and up until itemlevel 35
+- 4L (itemlevel 40-) - Light Pink Borders
 - 6S - Green Borders
 - 5L+ - Pink Borders
-- Rare Orbs - Red Text
-- Ultra Rare Orbs - Pink Background and Font 40
+- Rare Orbs - Red Text and Light Yellow Border
+- Ultra Rare Orbs - Pink Background, Alert Sound and Font 40
 - Maps - White Borders
+- Maps 76+ - White Background
 - Jewels - Extra Highlight
-- Flasks Progression
-- Flasks Q10+ - Violet Borders
+- Flasks Progression (Life, Mana, Hybrid)
+- Glassblower Recipe - Violet Borders
 - Chaos Recipe - Dark Yellow Background
 - Regal Recipe - Light Blue Background
 - Quality Gems - Blue/Green Borders
-- Item Level 79+ (Normal) - Yellow Background and Borders
-- Item Level 75+ (Normal) - Yellow Borders (Hidden)
-- High Item Level of Specific Equips - Blue/Purple Borders
+- Drop-Only Gems - Blue/Green Borders and Navy Backgruond
+- Item Level 84+ (Normal) - Yellow Background and Borders
+- Item Level 80+ (Normal) - Dark Green Background
 - Chance Uniques - Orange Borders
 - Divination Cards - Light Blue Borders and Texts
+- Expensive Divination Cards - Light Blue Background
 - Removal of Useless Normal and Magic Items
+- Rods and Feathers - Red Background and Alert Sound
 
 #Filtration
 This filter supports [Filtration](https://www.pathofexile.com/forum/view-thread/1287447/).
 
-#Suggestion on how to use
+#Usage Suggestion
 The best way to use the filter, in my opinion, is to use the **Use Bound Key** option in the Key Pickup at the UI tab on the Option menu. And using another key to highlight items on the ground. I use **Alt** as Item pickup key and **F** as Highlight items and objects. With that you pick up visible items using the Alt key and if you want to see invisible items, you use the F key.

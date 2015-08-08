@@ -3,26 +3,30 @@ O objetivo desse filtro é remover tudo de inútil da tela e ressaltar as coisas
 
 #Especifiçações
 - RGB - Bordas Vermelhas
-- Mostra tudo até itemlevel 25
-- Mostra itens mágicos e acima até itemlevel 45
+- Mostra tudo até itemlevel 20
+- Mostra itens mágicos e acima até itemlevel 30
 - 4L (itemlevel 45-) - Bordas Roxas Claras
 - 6S - Bordas Verdes
 - 5L+ - Bordas Rosas
-- Orbes Raros - Texto Vermelho
-- Orbes Ultra Raros - Fundo Rosa e Fonte 40
+- Orbes Raros - Texto Vermelho e Bordas Amarelas Claras
+- Orbes Ultra Raros - Fundo Rosa, Alerta e Fonte 40
 - Mapas - Bordas Brancas
+- Mapas 76+ - Fundo Branco
 - Jewels - Destaque Extra
 - Progressão de Frascos
-- Frascos Q10+ - Bordas Violetas
+- Receita de Glassblower - Bordas Violetas
 - Receita de Chaos - Fundo Amarelo Escuro
 - Receita de Regals - Fundo Azul
 - Gemas com Qualidade - Bordas Azuis/Verdes
-- Item Level 79+ (Normal) - Fundo e Bordas Amarelas
-- Item Level 75+ (Normal) - Bordas Amarelas (Escondidas)
+- Gemas de Drop - Bordas Azuis/Verdes e Fundo Azul
+- Item Level 84+ (Normal) - Fundo e Bordas Amarelas
+- Item Level 80+ (Normal) - Fundo Verde
 - Item Level Alto de Equipamentos Específicos - Bordas Azuis/Roxas
 - Itens para Chance - Bordas Laranjas
 - Divination Cards - Bordas e Texto Azuis Claros
+- Divination Cards Caras - Fundo Azul Claro
 - Remoção de Itens Normais e Mágicos Desnecessários
+- Rods and Feathers - Fundo Vermelho e Alerta
 
 #Filtration
 Este filtro possui suporte para o [Filtration](https://www.pathofexile.com/forum/view-thread/1287447/).
