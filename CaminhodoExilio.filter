@@ -53,8 +53,27 @@ Show #Jewels - Uniques
 # Section: Maps
 #=========================================
 
-Show #Maps - High Level
+Show #Maps - High Level - Rare
     Class Map
+    Rarity = Rare
+    DropLevel >= 76
+    SetBorderColor 0 0 0 # High Level Maps Border
+    SetTextColor 255 255 0 # High Level Maps Text
+    SetBackgroundColor 255 255 255 200 # High Level Maps Background
+    PlayAlertSound 2 300 # High Level Maps Alert Sound
+
+Show #Maps - High Level - Magic
+    Class Map
+    Rarity = Magic
+    DropLevel >= 76
+    SetBorderColor 0 0 0 # High Level Maps Border
+    SetTextColor 37 105 212 # High Level Maps Text
+    SetBackgroundColor 255 255 255 200 # High Level Maps Background
+    PlayAlertSound 2 300 # High Level Maps Alert Sound
+
+Show #Maps - High Level - Normal
+    Class Map
+    Rarity = Normal
     DropLevel >= 76
     SetBorderColor 0 0 0 # High Level Maps Border
     SetTextColor 0 0 0 # High Level Maps Text
