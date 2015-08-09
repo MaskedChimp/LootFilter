@@ -20,7 +20,7 @@ O objetivo desse filtro é remover tudo de inútil da tela e ressaltar as coisas
 - Gemas com Qualidade - Bordas Azuis/Verdes
 - Gemas de Drop - Bordas Azuis/Verdes e Fundo Azul
 - Item Level 84+ (Normal) - Fundo e Bordas Amarelas
-- Item Level 80+ (Normal) - Fundo Verde
+- Item Level 80+ (Normal) - Bordas Amarelas
 - Item Level Alto de Equipamentos Específicos - Bordas Azuis/Roxas
 - Itens para Chance - Bordas Laranjas
 - Divination Cards - Bordas e Texto Azuis Claros

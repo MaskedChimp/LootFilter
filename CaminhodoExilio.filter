@@ -293,8 +293,7 @@ Show #Craft - ilvl 80+
     Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw
     Rarity = Normal
     ItemLevel >= 80
-    SetBorderColor 5 77 5 # High ilvl Border
-    SetBackgroundColor 0 50 0 200 # High ilvl Background
+    SetBorderColor 255 255 0 # High ilvl Border
 
 #=========================================
 # Section: Life Flasks

@@ -20,7 +20,7 @@ The goal of this filter is to remove all unnecessary junk from the screen and hi
 - Quality Gems - Blue/Green Borders
 - Drop-Only Gems - Blue/Green Borders and Navy Backgruond
 - Item Level 84+ (Normal) - Yellow Background and Borders
-- Item Level 80+ (Normal) - Dark Green Background
+- Item Level 80+ (Normal) - Yellow Borders
 - Chance Uniques - Orange Borders
 - Divination Cards - Light Blue Borders and Texts
 - Expensive Divination Cards - Light Blue Background
