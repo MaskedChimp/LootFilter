@@ -1,12 +1,14 @@
 #Path of Exile Loot Filter (EN/PT)
 
 ##English
-- [Installation](English/Installation.md)
+To download the latest version of the filter, [click here](https://github.com/MCorrea92/LootFilter/releases).
+
 - [About](English/About.md)
 - [Adjustments](English/Adjustments.md)
 
 ##Português
-- [Instalação](Portugues/Instalacao.md)
+Para baixar a versão mais recente do filtro, [clique aqui](https://github.com/MCorrea92/LootFilter/releases).
+
 - [Sobre](Portugues/Sobre.md)
 - [Ajustes](Portugues/Ajustes.md)
 
