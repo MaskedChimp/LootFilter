@@ -96,7 +96,7 @@ Show #Uniques
 #=========================================
 
 Show #Divination Cards - Rares
-    BaseType "Abandoned Wealth" "The Artist" "The Avenger" "The Betrayal" "The Brittle Emperor" "The Cataclysm" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Drunken Aristocrat" "Gemcutter's Promise" "The Gladiator" "The Hoarder" Humility "The Incantation" "The King's Heart" "The Last One Standing" "The Pack Leader" "The Pact" "The Poet" "The Queen" "The Siren" "Time-Lost Relic" "The Watcher" "The Wind"
+    BaseType "Abandoned Wealth" "The Artist" "The Avenger" "The Betrayal" "The Brittle Emperor" "The Cataclysm" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Drunken Aristocrat" "Gemcutter's Promise" "The Hoarder" Humility "The Incantation" "The King's Heart" "The Last One Standing" "The Pack Leader" "The Pact" "The Poet" "The Queen" "The Siren" "Time-Lost Relic" "The Watcher" "The Wind"
     Class "Divination Card"
     SetBorderColor 0 0 0 # Divination Cards Border
     SetTextColor 0 0 0 # Divination Cards Text
