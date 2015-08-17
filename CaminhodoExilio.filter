@@ -157,14 +157,14 @@ Show #Recipes - Currency - Jeweller
     SetBorderColor 0 255 0 # Jeweller Recipe Border
 
 Show #Recipes - Currency - Regal
-    Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
+    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers
     Rarity Rare
     ItemLevel >= 75
     SetBackgroundColor 0 85 130 # Regal Recipe Background
     SetBorderColor 0 128 192 200 # Regal Recipe Border
 
 Show #Recipes - Currency - Chaos
-    Class Body Helmet Glove Boot Belt Ring Amulet Bow "Two Hand" Staves
+    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers
     Rarity Rare
     ItemLevel >= 60
     SetBackgroundColor 85 85 40 # Chaos Recipe Background
@@ -608,7 +608,7 @@ Hide #Chance Uniques - Gear - Accessories - Quivers
 #=========================================
 
 Show #General - Rares ilvl 59-
-    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts
+    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers
     Rarity = Rare
     ItemLevel <= 59
 
