@@ -295,6 +295,12 @@ Show #Craft - ilvl 80+
     ItemLevel >= 80
     SetBorderColor 255 255 0 # High ilvl Border
 
+# Rarity Accessories (Identify)
+Show
+    BaseType "Gold Ring" "Gold Amulet"
+    Rarity = Magic
+    ItemLevel >= 62
+
 #=========================================
 # Section: Life Flasks
 #=========================================
