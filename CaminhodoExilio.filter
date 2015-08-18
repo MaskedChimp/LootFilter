@@ -500,108 +500,159 @@ Show #Flasks - Utility
 # Section: Chance Uniques
 #=========================================
 
-# ATZIRI'S DISFAVOUR
-Hide #Chance Uniques - Gear - Weapons - Two-Hand Axes
-    BaseType "Vaal Axe"
-    ItemLevel >= 50
-    Rarity = Normal
-    SetBorderColor 175 96 37 # Chance Unique Border
-
-# HEGEMONY'S ERA
-Hide #Chance Uniques - Gear - Weapons - Staves
+# Hegemony's Era
+Hide #Chance Uniques - Weapons - Staves
     BaseType "Judgement Staff"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# KAOM'S HEART
-Hide #Chance Uniques - Gear - Chests - Armour
+# Kaom's Heart
+Hide #Chance Uniques - Chests - Armour
     BaseType "Glorious Plate"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# BELLY OF THE BEAST
-Hide #Chance Uniques - Gear - Chests - Armour
+# Belly of the Beast
+Hide #Chance Uniques - Chests - Armour
     BaseType "Full Wyrmscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# CARCASS JACK
-Hide #Chance Uniques - Gear - Chests - Armour
+# Carcass Jack
+Hide #Chance Uniques - Chests - Armour
     BaseType "Varnished Coat"
     ItemLevel 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# MING'S HEART
-Hide #Chance Uniques - Gear - Rings
+# Ming's Heart
+Hide #Chance Uniques - Rings
     BaseType "Amethyst Ring"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# THE BRINGER OF RAIN
-Hide #Chance Uniques - Gear - Helmets - Armour
+# The Bringer of Rain
+Hide #Chance Uniques - Helmets - Armour
     BaseType "Nightmare Bascinet"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
 # MAROHI ERQI
-Hide #Chance Uniques - Gear - Weapons - Two-Hand Maces
+Hide #Chance Uniques - Weapons - Two-Hand Maces
     BaseType "Karui Maul"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# DARESSO'S DEFIANCE
-Hide #Chance Uniques - Gear - Chests - Armour/Evasion
+# Daresso's Defiance
+Hide #Chance Uniques - Chests - Armour/Evasion
     BaseType "Full Dragonscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# EMPIRE'S GRASP
-Hide #Chance Uniques - Gear - Gloves - Armour
+# Empire's Grasp
+Hide #Chance Uniques - Gloves - Armour
     BaseType "Goliath Gauntlets"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# SIRE OF SHARDS
-Hide #Chance Uniques - Gear - Weapons Staves
+# Sire of Shards
+Hide #Chance Uniques - Weapons Staves
     BaseType "Serpentine Staff"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# SHAVRONNE'S WRAPPINGS
-Hide #Chance Uniques - Gear - Chests - Energy Shield
+# Shavronne's Wrappings
+Hide #Chance Uniques - Chests - Energy Shield
     BaseType "Occultist's Vestment"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-#VOLTAXIC RIFT
-Hide #Chance Uniques - Gear - Weapons - Bows
+# Voltaxic Rift
+Hide #Chance Uniques - Weapons - Bows
     BaseType "Spine Bow"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-#WINDRIPPER
-Hide #Chance Uniques - Gear - Weapons - Bows
+# Winripper
+Hide #Chance Uniques -  Weapons - Bows
     BaseType "Imperial Bow"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-#DRILLNECK
-Hide #Chance Uniques - Gear - Accessories - Quivers
+# Drillneck
+Hide #Chance Uniques - Accessories - Quivers
     BaseType "Penetrating Arrow Quiver"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
+
+# Gifts from Above
+Hide #Chance Uniques - Accessories - Rings
+    BaseType "Diamond Ring"
+    Rarity = Normal
+    SetBorderColor 175 96 37 # Chance Unique Border
+
+# Andvarius, Ventor's Gamble
+Hide #Chance Uniques - Accessories - Rings
+    BaseType "Gold Ring"
+    Rarity = Normal
+    SetBorderColor 175 96 37 # Chance Unique Border
+
+# Astramentis
+Hide #Chance Uniques - Accessories - Amulets
+    BaseType "Onyx Amulet"
+    Rarity = Normal
+    SetBorderColor 175 96 37 # Chance Unique Border
+
+#=========================================
+# Section: Chance Uniques (League-exclusive)
+#=========================================
+
+# Valako's Sign (Bloodlines)
+Hide #Chance League Uniques - Accessories - Rings
+    BaseType "Topaz Ring"
+    Rarity = Normal
+    SetBorderColor 255 65 0 # Chance League Unique Border
+
+# Shavronne's Revelation (Anarchy/Onslaught)
+Hide #Chance League Uniques - Accessories - Rings
+    BaseType "Moonstone Ring"
+    Rarity = Normal
+    SetBorderColor 255 65 0 # Chance League Unique Border
+
+# The Pariah (Warbands)
+Hide #Chance League Uniques - Accessories - Rings
+    BaseType "Unset Ring"
+    Rarity = Normal
+    SetBorderColor 255 65 0 # Chance League Unique Border
+
+# Daresso's Salute (Anarchy)
+Hide #Chance League Uniques - Accessories - Amulets
+    BaseType "Citrine Amulet"
+    Rarity = Normal
+    SetBorderColor 255 65 0 # Chance League Unique Border
+
+# Victario's Acuity (Onslaught)
+Hide #Chance League Uniques - Accessories - Amulets
+    BaseType "Turquoise Amulet"
+    Rarity = Normal
+    SetBorderColor 255 65 0 # Chance League Unique Border
+
+# Voll's Devotion (Anarchy, Onslaught)
+    Hide #Chance League Uniques - Accessories - Amulets
+    BaseType "Agate Amulet"
+    Rarity = Normal
+    SetBorderColor 255 65 0 # Chance League Unique Border
 
 #=========================================
 # Section: General
