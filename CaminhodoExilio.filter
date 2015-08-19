@@ -141,7 +141,7 @@ Show #Currency - Others
     Class Currency
 
 #=========================================
-# Secion: Money Maker
+# Section: Money Maker
 #=========================================
 
 Show #Money Maker - 5L+
@@ -569,7 +569,7 @@ Hide #Chance Uniques - Gloves - Armour
     SetBorderColor 175 96 37 # Chance Unique Border
 
 # Sire of Shards
-Hide #Chance Uniques - Weapons Staves
+Hide #Chance Uniques - Weapons - Staves
     BaseType "Serpentine Staff"
     Rarity = Normal
     ItemLevel >= 50
@@ -621,7 +621,7 @@ Hide #Chance Uniques - Accessories - Amulets
     SetBorderColor 175 96 37 # Chance Unique Border
 
 #=========================================
-# Section: Chance Uniques (League-exclusive)
+# Section: Chance League Uniques
 #=========================================
 
 # Valako's Sign (Bloodlines)
