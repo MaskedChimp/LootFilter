@@ -628,37 +628,37 @@ Hide #Chance Uniques - Accessories - Amulets
 Hide #Chance League Uniques - Accessories - Rings
     BaseType "Topaz Ring"
     Rarity = Normal
-    SetBorderColor 255 65 0 # Chance League Unique Border
+    SetBorderColor 255 100 0 # Chance League Unique Border
 
 # Shavronne's Revelation (Anarchy/Onslaught)
 Hide #Chance League Uniques - Accessories - Rings
     BaseType "Moonstone Ring"
     Rarity = Normal
-    SetBorderColor 255 65 0 # Chance League Unique Border
+    SetBorderColor 255 100 0 # Chance League Unique Border
 
 # The Pariah (Warbands)
 Hide #Chance League Uniques - Accessories - Rings
     BaseType "Unset Ring"
     Rarity = Normal
-    SetBorderColor 255 65 0 # Chance League Unique Border
+    SetBorderColor 255 100 0 # Chance League Unique Border
 
 # Daresso's Salute (Anarchy)
 Hide #Chance League Uniques - Accessories - Amulets
     BaseType "Citrine Amulet"
     Rarity = Normal
-    SetBorderColor 255 65 0 # Chance League Unique Border
+    SetBorderColor 255 100 0 # Chance League Unique Border
 
 # Victario's Acuity (Onslaught)
 Hide #Chance League Uniques - Accessories - Amulets
     BaseType "Turquoise Amulet"
     Rarity = Normal
-    SetBorderColor 255 65 0 # Chance League Unique Border
+    SetBorderColor 255 100 0 # Chance League Unique Border
 
 # Voll's Devotion (Anarchy, Onslaught)
-    Hide #Chance League Uniques - Accessories - Amulets
+Show #Chance League Uniques - Accessories - Amulets
     BaseType "Agate Amulet"
     Rarity = Normal
-    SetBorderColor 255 65 0 # Chance League Unique Border
+    SetBorderColor 255 100 0 # Chance League Unique Border
 
 #=========================================
 # Section: General
