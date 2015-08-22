@@ -2,24 +2,25 @@
 ### Website: www.caminhodoexilio.com
 ### Github page: https://github.com/MCorrea92/LootFilter
 
-
 #=========================================
 # Section: Exceptions
 #=========================================
 
 Show #Easter Eggs - Rods
     Class Rods
-    SetBackgroundColor 240 0 0 # Easter Egg Background
-    SetTextColor 0 0 0 # Easter Egg Text
-    SetBorderColor 0 0 0 # Easter Egg Border
+    SetBackgroundColor 25 210 0 # Easter Egg Background
+    SetBorderColor 6 100 0 # Easter Egg Border
+    SetTextColor 255 255 255 235 # Easter Egg Text
     PlayAlertSound 1 300 # Easter Egg Alert Sound
+    SetFontSize 45
 
 Show #Easter Eggs - Feathers
     BaseType "Albino Rhoa Feather"
-    SetBackgroundColor 240 0 0 # Easter Egg Background
-    SetTextColor 0 0 0 # Easter Egg Text
-    SetBorderColor 0 0 0 # Easter Egg Border
+    SetBackgroundColor 25 210 0 # Easter Egg Background
+    SetBorderColor 6 100 0 # Easter Egg Border
+    SetTextColor 255 255 255 235 # Easter Egg Text
     PlayAlertSound 1 300 # Easter Egg Alert Sound
+    SetFontSize 45
 
 Show #~Microtransactions
     Class Microtransactions
@@ -115,9 +116,9 @@ Show #Divination Cards - Others
 Show #Currency - Ultra Rare
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
     PlayAlertSound 5 300 # Ultra Rare Currency Alert Sound
-    SetBackgroundColor 255 0 128 # Ultra Rare Currency Background
-    SetBorderColor 100 0 50 # Ultra Rare Currency Border
-    SetTextColor 255 255 255 235 # Ultra Rare Currency Text
+    SetBackgroundColor 240 0 0 # Ultra Rare Currency Background
+    SetTextColor 0 0 0 # Ultra Rare Currency Text
+    SetBorderColor 0 0 0 # Ultra Rare Currency Border
     SetFontSize 45
 
 Show #Currency - Rare
@@ -144,9 +145,16 @@ Show #Currency - Others
 # Section: Money Maker
 #=========================================
 
-Show #Money Maker - 5L+
-    LinkedSockets >= 5
-    SetBorderColor 255 0 250 # 5+: Border
+Show #Money Maker - 6L
+    LinkedSockets = 6
+    SetBorderColor 255 0 250 # Money Maker Border
+    SetBackgroundColor 255 0 250 190 # Money Maker Background
+    SetTextColor 240 240 240 # Money Maker Text Color
+    PlayAlertSound 5 300 # Money Maker Alert Sound
+
+Show #Money Maker - 5L
+    LinkedSockets = 5
+    SetBorderColor 255 0 250 # Money Maker Border
 
 #=========================================
 # Section: Orb Recipes
@@ -157,14 +165,14 @@ Show #Recipes - Currency - Jeweller
     SetBorderColor 0 255 0 # Jeweller Recipe Border
 
 Show #Recipes - Currency - Regal
-    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers
+    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers Sceptres
     Rarity Rare
     ItemLevel >= 75
     SetBackgroundColor 0 85 130 # Regal Recipe Background
     SetBorderColor 0 128 192 200 # Regal Recipe Border
 
 Show #Recipes - Currency - Chaos
-    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers
+    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers Sceptres
     Rarity Rare
     ItemLevel >= 60
     SetBackgroundColor 85 85 40 # Chaos Recipe Background
@@ -178,6 +186,11 @@ Show #Recipes - Currency - Glassblower
     Class Flask
     Quality >= 10
     SetBorderColor 255 128 255 # Glassblower Recipe Border
+
+Show #Recipes - Currency - Chisel
+    BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+    Rarity = Normal
+    SetBorderColor 84 41 33 # Chisel Recipe Border
 
 #=========================================
 # Section: Gems
