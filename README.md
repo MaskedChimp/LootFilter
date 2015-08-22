@@ -3,15 +3,22 @@
 ##English
 To download the latest version of the filter, [click here](https://github.com/MCorrea92/LootFilter/releases).
 
-- [About](English/About.md)
-- [Adjustments](English/Adjustments.md)
+### About this Filter
+The goal of this filter is to remove all unnecessary junk from the screen and highlight the important things you must pickup. The filter uses all filter features to improve your Path of Exile experience, but it uses border coloring the most. The reason for that is to keep it simple and not to turn PoE into a rainbow party.
+
+* [Installation](https://github.com/MCorrea92/LootFilter/wiki/Installation)
+* [Editing](https://github.com/MCorrea92/LootFilter/wiki/Editing)
+* [How to Read](https://github.com/MCorrea92/LootFilter/wiki/How-to-Read) (Screenshots)
+* [To-do List](https://github.com/MCorrea92/LootFilter/wiki/To-do-List)
+* [Usage Suggestion](https://github.com/MCorrea92/LootFilter/wiki/Usage-Suggestion)
 
 ##Português
 Para baixar a versão mais recente do filtro, [clique aqui](https://github.com/MCorrea92/LootFilter/releases).
 
-- [Sobre](Portugues/Sobre.md)
-- [Ajustes](Portugues/Ajustes.md)
+###Sobre esse Filtro
+O objetivo desse filtro é remover tudo de inútil da tela e ressaltar as coisas importantes que você deve pegar. O filtro usa todas funcionalidades dos filtros para melhorar sua experiência no Path of Exile, mas ele mais usa a coloração de bordas. A razão disso é para manter tudo simples e não transformar o PoE em uma festa do arco-íris.
 
-#Screenshots
-![Quality Gems](http://i.imgur.com/HP1S8cD.png) ![Chaos Recipe](http://i.imgur.com/c7yItVq.png) ![Chance Unique](http://i.imgur.com/rAV7LNU.png) ![Quality Flask](http://i.imgur.com/tvdESle.png) ![6S](http://i.imgur.com/RjuU5o4.png) ![5L+](http://i.imgur.com/H4ZHQZq.png) ![Regal Recipe](http://i.imgur.com/8OKNjbZ.png) ![Rare Currency](http://i.imgur.com/MrGthKv.png) ![Divination Cards](http://i.imgur.com/npmkCkS.png) ![Cheap Currency](http://i.imgur.com/wBqMrKx.png) ![Low Level 4L](http://i.imgur.com/vXO3b5v.png)
-![Useless Items](http://i.imgur.com/RdkockC.png)
+* [Instalação](https://github.com/MCorrea92/LootFilter/wiki/Instala%C3%A7%C3%A3o)
+* [Edição](https://github.com/MCorrea92/LootFilter/wiki/Edi%C3%A7%C3%A3o)
+* [Sugestão de Uso](https://github.com/MCorrea92/LootFilter/wiki/Sugest%C3%A3o-de-Uso)
+* [Como Ler](https://github.com/MCorrea92/LootFilter/wiki/How-to-Read) (Screenshots) - Versão em Português Em Breve
