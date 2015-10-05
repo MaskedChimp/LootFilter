@@ -602,7 +602,7 @@ Hide #Chance Uniques - Weapons - Bows
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Winripper
+# Windripper
 Hide #Chance Uniques -  Weapons - Bows
     BaseType "Imperial Bow"
     Rarity = Normal
@@ -631,6 +631,24 @@ Hide #Chance Uniques - Accessories - Rings
 Hide #Chance Uniques - Accessories - Amulets
     BaseType "Onyx Amulet"
     Rarity = Normal
+    SetBorderColor 175 96 37 # Chance Unique Border
+
+# Void Battery
+Hide # Chance Uniques - Weapons - Wands
+    Rarity = Normal
+    BaseType "Prophecy Wand"
+    SetBorderColor 175 96 37 # Chance Unique Border
+
+# Bino's Kitchen Knife
+Hide # Chance Uniques - Weapons - Daggers
+    Rarity = Normal
+    BaseType "Slaughter Knife"
+    SetBorderColor 175 96 37 # Chance Unique Border
+
+# Divinarius
+Hide # Chance Uniques - Weapons - Daggers
+    Rarity = Normal
+    BaseType "Imperial Skean"
     SetBorderColor 175 96 37 # Chance Unique Border
 
 #=========================================
