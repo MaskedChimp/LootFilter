@@ -686,10 +686,24 @@ Hide #Chance League Uniques - Accessories - Amulets
     SetBorderColor 255 100 0 # Chance League Unique Border
 
 # Voll's Devotion (Anarchy, Onslaught)
-Show #Chance League Uniques - Accessories - Amulets
+Hide #Chance League Uniques - Accessories - Amulets
     BaseType "Agate Amulet"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Unique Border
+
+#=========================================
+# Section: Talismans
+#=========================================
+
+Show #Talismans
+    Class Amulets
+    BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman"
+    SetTextColor 180 105 180 # Tier 3 Talisman Text Color
+    PlayAlertSound 4 300 # Talisman Alert Sound
+
+Show #Talismans
+    Class Amulets
+    BaseType Talisman
 
 #=========================================
 # Section: General
