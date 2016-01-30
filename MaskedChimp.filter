@@ -1,5 +1,5 @@
 ### Author: MaskedChimp
-### Website: www.caminhodoexilio.com
+### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MCorrea92/LootFilter
 
 #=========================================
@@ -27,6 +27,109 @@ Show #~Microtransactions
 
 Show #~Microtransactions - Hideout
     Class Hideout
+
+#=========================================
+# Section: Expensive Uniques
+#=========================================
+
+# Shavronne's Wrappings
+Show #Expensive Uniques
+    Class "Body Armours"
+    BaseType "Occultist's Vestment"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+
+# Bino's Kitchen Knife
+Show #Expensive Uniques
+    Class "Daggers"
+    BaseType "Slaughter Knife"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+
+# Vessel of Vinktar
+Show #Expensive Uniques
+    Class Flasks
+    BaseType "Topaz Flask"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+
+# Void Battery
+Show #Expensive Uniques
+    Class Wands
+    BaseType "Prophecy Wand"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+
+# Rat's Nest
+Show #Expensive Uniques
+    Class Helmets
+    BaseType "Ursine Pelt"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+
+# Maligaro's Virtuosity
+Show #Expensive Uniques
+    Class Gloves
+    BaseType "Deerskin Gloves"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+
+# Voltaxic Rift
+Show #Expensive Uniques
+    Class Bows
+    BaseType "Spine Bow"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+
+# Crown of the Pale King
+Show #Expensive Uniques
+    Class Helmets
+    BaseType "Regicide Mask"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+
+# Taste of Hate
+Show #Expensive Uniques
+    Class Flasks
+    BaseType "Sapphire Flask"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
 
 #=========================================
 # Section: Jewels
@@ -86,18 +189,11 @@ Show #Maps - Others
     SetBorderColor 255 255 255 # Maps Border
 
 #=========================================
-# Section: Uniques
-#=========================================
-
-Show #Uniques
-    Rarity = Unique
-
-#=========================================
 # Section: Divination Cards
 #=========================================
 
 Show #Divination Cards - Rares
-    BaseType "Abandoned Wealth" "The Artist" "The Avenger" "The Betrayal" "The Brittle Emperor" "The Cataclysm" "The Celestial Justicar" "The Chains that Bind" "The Dark Mage" "The Drunken Aristocrat" "Gemcutter's Promise" "The Hoarder" Humility "The Incantation" "The King's Heart" "The Last One Standing" "The Pack Leader" "The Pact" "The Poet" "The Queen" "The Siren" "Time-Lost Relic" "The Watcher" "The Wind"
+    BaseType "Abandoned Wealth" "The Aesthete" "The Artist" "The Avenger" "The Betrayal" "Bowyer's Dream" "The Brittle Emperor" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Doctor" "The Dragon's Heart" "The Drunken Aristocrat" "The Enlightened" "The Ethereal" "The Fiend" "The Hoarder" "House of Mirrors" "The Hunger" "The King's Heart" "Last Hope" "The Last One Standing" "The Offering" "Pride Before the Fall" "The Queen" "The Risk" "The Thaumaturgist" "Time-Lost Relic" "Tranquillity" "The Vast" "The Warlord" "The Watcher" "Wealth and Power" "The Wind"
     Class "Divination Card"
     SetBorderColor 0 0 0 # Divination Cards Border
     SetTextColor 0 0 0 # Divination Cards Text
@@ -150,7 +246,7 @@ Show #Money Maker - 6L
     SetBorderColor 255 0 250 # Money Maker Border
     SetBackgroundColor 255 0 250 190 # Money Maker Background
     SetTextColor 240 240 240 # Money Maker Text Color
-    PlayAlertSound 5 300 # Money Maker Alert Sound
+    PlayAlertSound 9 300 # Money Maker Alert Sound
 
 Show #Money Maker - 5L
     LinkedSockets = 5
@@ -209,6 +305,21 @@ Show #Gems - Quality
 
 Show #Gems - No-Quality
     Class Gems
+
+#=========================================
+# Section: Talismans
+#=========================================
+
+Show #Talismans
+    Class Amulets
+    BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman" "Monkey Paw Talisman" "Greatwolf Talisman"
+    Rarity <= Rare
+    SetTextColor 180 105 180 # Tier 3 Talisman Text Color
+    PlayAlertSound 4 300 # Talisman Alert Sound
+
+Show #Talismans
+    Class Amulets
+    BaseType Talisman
 
 #=========================================
 # Section: Craft
@@ -302,14 +413,15 @@ Show #Craft - One-Handed Weapons
     SetBackgroundColor 255 165 0 191 # Highest Mod Background
     SetTextColor 0 0 0 215 # Highest Mod Text
 
-Show #Craft - ilvl 80+
-    Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw
-    Rarity = Normal
+Hide #Craft - ilvl 80+
+    Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw Sceptres Quivers Shields
+    Rarity <= Magic
     ItemLevel >= 80
     SetBorderColor 255 255 0 # High ilvl Border
+    SetFontSize 25
 
 # Rarity Accessories (Identify)
-Show
+Hide
     BaseType "Gold Ring" "Gold Amulet"
     Rarity = Magic
     ItemLevel >= 62
@@ -560,7 +672,7 @@ Hide #Chance Uniques - Helmets - Armour
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# MAROHI ERQI
+# Marohi Erqi
 Hide #Chance Uniques - Weapons - Two-Hand Maces
     BaseType "Karui Maul"
     ItemLevel >= 50
@@ -692,20 +804,6 @@ Hide #Chance League Uniques - Accessories - Amulets
     SetBorderColor 255 100 0 # Chance League Unique Border
 
 #=========================================
-# Section: Talismans
-#=========================================
-
-Show #Talismans
-    Class Amulets
-    BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman"
-    SetTextColor 180 105 180 # Tier 3 Talisman Text Color
-    PlayAlertSound 4 300 # Talisman Alert Sound
-
-Show #Talismans
-    Class Amulets
-    BaseType Talisman
-
-#=========================================
 # Section: General
 #=========================================
 
@@ -713,6 +811,9 @@ Show #General - Rares ilvl 59-
     Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers
     Rarity = Rare
     ItemLevel <= 59
+
+Show #General - Uniques
+    Rarity = Unique
 
 Show #General - Rares
     Rarity = Rare
@@ -742,8 +843,17 @@ Show #Low Level - Gear - 4L
 #=========================================
 
 Hide #Useless - Magic Items
-    Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands Flasks
+    Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands
     ItemLevel < 80
+    Rarity = Magic
+    Sockets <= 5
+    LinkedSockets <= 4
+    SetBackgroundColor 0 0 0 100 # Fade Background
+    SetTextColor 136 136 255 200 # Magic Item Fade Text
+
+Hide #Useless - Magic Items - Flasks
+    Class Flasks
+    ItemLevel < 90
     Rarity = Magic
     Sockets <= 5
     LinkedSockets <= 4
@@ -759,6 +869,15 @@ Hide #Useless - Normal Items
     SetBackgroundColor 0 0 0 100 # Fade Background
     SetTextColor 200 200 200 200 # Normal Item Fade Text
 
+Hide #Useless - Normal Items - Flasks
+    Class Flasks
+    ItemLevel < 90
+    Rarity = Normal
+    Sockets <= 5
+    LinkedSockets <= 4
+    SetBackgroundColor 0 0 0 100 # Fade Background
+    SetTextColor 136 136 255 200 # Magic Item Fade Text
+
 ### Author: MaskedChimp
-### Website: www.caminhodoexilio.com
+### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MCorrea92/LootFilter
