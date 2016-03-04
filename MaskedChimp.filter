@@ -240,6 +240,11 @@ Show #Divination Cards - Others
 # Section: Currency
 #=========================================
 
+Show #Currency - Leagues
+    BaseType "Perandus Coin"
+    SetBorderColor 170 158 130 # Currency Border
+    SetTextColor 180 40 180 # Perandus' Coin Border
+
 Show #Currency - Ultra Rare
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
     PlayAlertSound 5 300 # Ultra Rare Currency Alert Sound
