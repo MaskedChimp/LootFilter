@@ -1,4 +1,4 @@
-### Version: v2.1
+### Version: v2.3
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MCorrea92/LootFilter
@@ -241,9 +241,9 @@ Show #Divination Cards - Others
 #=========================================
 
 Show #Currency - Leagues
-    BaseType "Perandus Coin"
+    BaseType "Perandus Coin" "Silver Coin"
     SetBorderColor 170 158 130 # Currency Border
-    SetTextColor 180 40 180 # Perandus' Coin Border
+    SetTextColor 180 40 180 # Leagues' Coin Border
 
 Show #Currency - Ultra Rare
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
@@ -737,7 +737,7 @@ Hide #Chance Uniques - Weapons - Staves
     SetBorderColor 175 96 37 # Chance Unique Border
 
 # Shavronne's Wrappings
-Hide #Chance Uniques - Chests - Energy Shield
+Show #Chance Uniques - Chests - Energy Shield
     BaseType "Occultist's Vestment"
     Rarity = Normal
     ItemLevel >= 50
@@ -862,11 +862,11 @@ Show #~Quests
 #=========================================
 
 Show #Low Level - Magic Items
-    ItemLevel <= 25
+    ItemLevel <= 20
     Rarity Magic
 
 Show #Low Level - Normal Items
-    ItemLevel <= 20
+    ItemLevel <= 15
     Rarity Normal
 
 Show #Low Level - Gear - 4L
