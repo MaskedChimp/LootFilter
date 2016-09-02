@@ -158,6 +158,14 @@ Show #Jewels - Uniques
 # Section: Maps
 #=========================================
 
+Show #Maps - Fragments
+    Class "Map Fragments"
+    BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
+    PlayAlertSound 7 300 # Map Fragments Alert Sound
+    SetBorderColor 255 255 255 # Maps Border
+    SetTextColor 0 0 0 # Map Fragments Text
+    SetBackgroundColor 130 130 130 206 # Map Fragments Background
+
 Show #Maps - T13~T15 - Rare
     Class Map
     Rarity = Rare
