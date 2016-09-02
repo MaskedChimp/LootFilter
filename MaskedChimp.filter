@@ -849,6 +849,19 @@ Hide #Chance League Uniques - Accessories - Amulets
     SetBorderColor 255 100 0 # Chance League Unique Border
 
 #=========================================
+# Section: Quest Items
+#=========================================
+
+Show #Quests - Shaper's Orb
+    BaseType "Shaper's Orb"
+    SetBorderColor 255 177 0 # Shaper's Orb Border
+    SetTextColor 255 177 0 # Shaper's Orb Text
+    PlayAlertSound 3 300 # Leagues Item Border
+
+Show #~Quests
+    Class Quest
+
+#=========================================
 # Section: General
 #=========================================
 
@@ -862,9 +875,6 @@ Show #General - Uniques
 
 Show #General - Rares
     Rarity = Rare
-
-Show #~Quests
-    Class Quest
 
 #=========================================
 # Section: Low Level
