@@ -852,6 +852,10 @@ Hide #Chance League Uniques - Accessories - Amulets
 # Section: Quest Items
 #=========================================
 
+Show #Quests - Labyrinth
+    BaseType "Treasure Key" "Silver Key" "Golden Key"
+    SetTextColor 74 230 58 # Quest Items Text
+
 Show #Quests - Shaper's Orb
     BaseType "Shaper's Orb"
     SetBorderColor 255 177 0 # Shaper's Orb Border
