@@ -249,7 +249,7 @@ Show #Divination Cards - Others
 #=========================================
 
 Show #Currency - Leagues
-    BaseType "Perandus Coin" "Silver Coin" "Essence of"
+    BaseType "Perandus Coin" "Silver Coin" "Essence of" "Remnant of Corruption"
     PlayAlertSound 3 300 # Leagues Item Border
     SetBorderColor 170 158 130 # Currency Border
     SetTextColor 180 40 180 # Leagues Item Border
