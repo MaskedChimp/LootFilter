@@ -263,7 +263,7 @@ Show #Currency - Ultra Rare
     SetFontSize 45
 
 Show #Currency - Rare
-    BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring
+    BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring Sextant
     Class Currency
     SetTextColor 160 0 0 # Rare Currency Text
     SetBorderColor 170 158 130 # Currency Border
@@ -869,7 +869,7 @@ Show #~Quests
 # Section: General
 #=========================================
 
-Show #General - Rares ilvl 59-
+Show #General - Rares ilvl 59 and lower
     Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers
     Rarity = Rare
     ItemLevel <= 59
