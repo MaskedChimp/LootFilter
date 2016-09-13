@@ -1,4 +1,5 @@
-### Version: v2.3
+### Filter Version: v2.4
+### Game Version: 2.4
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MCorrea92/LootFilter
@@ -691,14 +692,14 @@ Hide #Chance Uniques - Chests - Armour
     SetBorderColor 175 96 37 # Chance Unique Border
 
 # Belly of the Beast
-Hide #Chance Uniques - Chests - Armour
+Hide #Chance Uniques - Chests - Armour/Evasion
     BaseType "Full Wyrmscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
 # Carcass Jack
-Hide #Chance Uniques - Chests - Armour
+Hide #Chance Uniques - Chests - Evasion/Energy Shield
     BaseType "Varnished Coat"
     ItemLevel 50
     Rarity = Normal
@@ -711,8 +712,15 @@ Hide #Chance Uniques - Rings
     SetBorderColor 175 96 37 # Chance Unique Border
 
 # The Bringer of Rain
-Hide #Chance Uniques - Helmets - Armour
+Hide #Chance Uniques - Helmets - Armour/Evasion
     BaseType "Nightmare Bascinet"
+    ItemLevel >= 28
+    Rarity = Normal
+    SetBorderColor 175 96 37 # Chance Unique Border
+
+# Cospri's Will
+Show #Chance Uniques - Chests - Evasion
+    BaseType "Assassin's Garb"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
