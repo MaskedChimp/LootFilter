@@ -1,5 +1,5 @@
-### Filter Version: v2.4
-### Game Version: 2.4
+### Filter Version: v2.5
+### Game Version: 2.5.0
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MCorrea92/LootFilter
@@ -33,6 +33,17 @@ Show #~Microtransactions - Hideout
 #=========================================
 # Section: Expensive Uniques
 #=========================================
+
+# Cospri's Will
+Show #Expensive Uniques
+    Class "Body Armours"
+    BaseType "Assassin's Garb"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
 
 # Shavronne's Wrappings
 Show #Expensive Uniques
@@ -167,30 +178,30 @@ Show #Maps - Fragments
     SetTextColor 0 0 0 # Map Fragments Text
     SetBackgroundColor 130 130 130 206 # Map Fragments Background
 
-Show #Maps - T13~T15 - Rare
+Show #Maps - T11~T15 - Rare
     Class Map
     Rarity = Rare
-    DropLevel >= 79
+    DropLevel >= 78
     SetBorderColor 255 0 0 # High Level Maps Border
     SetTextColor 255 255 0 # High Level Maps Text
     SetBackgroundColor 255 255 255 200 # High Level Maps Background
     PlayAlertSound 2 300 # High Level Maps Alert Sound
     SetFontSize 40
 
-Show #Maps - T13~T15 - Magic
+Show #Maps - T11~T15 - Magic
     Class Map
     Rarity = Magic
-    DropLevel >= 79
+    DropLevel >= 78
     SetBorderColor 255 0 0 # High Level Maps Border
     SetTextColor 37 105 212 # High Level Maps Text
     SetBackgroundColor 255 255 255 200 # High Level Maps Background
     PlayAlertSound 2 300 # High Level Maps Alert Sound
     SetFontSize 40
 
-Show #Maps - T13~T15 - Normal
+Show #Maps - T11~T15 - Normal
     Class Map
     Rarity = Normal
-    DropLevel >= 79
+    DropLevel >= 78
     SetBorderColor 255 0 0 # High Level Maps Border
     SetTextColor 0 0 0 # High Level Maps Text
     SetBackgroundColor 255 255 255 200 # High Level Maps Background
@@ -251,7 +262,7 @@ Show #Divination Cards - Others
 
 Show #Currency - Leagues
     BaseType "Perandus Coin" "Silver Coin" "Essence of" "Remnant of Corruption"
-    PlayAlertSound 3 300 # Leagues Item Border
+    PlayAlertSound 3 200 # Leagues Currency Alert Sound
     SetBorderColor 170 158 130 # Currency Border
     SetTextColor 180 40 180 # Leagues Item Border
 
@@ -868,7 +879,7 @@ Show #Quests - Shaper's Orb
     BaseType "Shaper's Orb"
     SetBorderColor 255 177 0 # Shaper's Orb Border
     SetTextColor 255 177 0 # Shaper's Orb Text
-    PlayAlertSound 3 300 # Leagues Item Border
+    PlayAlertSound 3 300 #
 
 Show #~Quests
     Class Quest
