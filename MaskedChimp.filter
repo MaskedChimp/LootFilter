@@ -257,14 +257,30 @@ Show #Divination Cards - Others
     SetTextColor 0 255 255 # Divination Cards Text
 
 #=========================================
-# Section: Currency
+# Section: League Items
 #=========================================
 
-Show #Currency - Leagues
+#Show #League Items - Currency
+#    BaseType "Splinter of" "Breachstone" "Blessing of"
+#    PlayAlertSound 4 200 # Leagues Currency Alert Sound
+#    SetBorderColor 170 158 130 # Currency Border
+#    SetTextColor 180 40 180 # Leagues Item Border
+
+Show #League Items - Currency
     BaseType "Perandus Coin" "Silver Coin" "Essence of" "Remnant of Corruption"
-    PlayAlertSound 3 200 # Leagues Currency Alert Sound
+    PlayAlertSound 4 25 # Rare Currency Alert Sound
     SetBorderColor 170 158 130 # Currency Border
     SetTextColor 180 40 180 # Leagues Item Border
+
+Show #League Items - Talismans
+    Class Amulets
+    BaseType Talisman
+    SetTextColor 180 105 180 # Talisman Text Color
+    PlayAlertSound 4 200 # Talisman Alert Sound
+
+#=========================================
+# Section: Currency
+#=========================================
 
 Show #Currency - Ultra Rare
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb"
@@ -276,7 +292,7 @@ Show #Currency - Ultra Rare
 
 Show #Currency - Rare
     BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring Sextant
-    PlayAlertSound 3 25 # Rare Currency Alert Sound
+    PlayAlertSound 3 15 # Rare Currency Alert Sound
     Class Currency
     SetTextColor 160 0 0 # Rare Currency Text
     SetBorderColor 170 158 130 # Currency Border
@@ -363,21 +379,6 @@ Show #Gems - Quality
 
 Show #Gems - No-Quality
     Class Gems
-
-#=========================================
-# Section: Talismans
-#=========================================
-
-Show #Talismans
-    Class Amulets
-    BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman" "Monkey Paw Talisman" "Greatwolf Talisman"
-    Rarity <= Rare
-    SetTextColor 180 105 180 # Tier 3 Talisman Text Color
-    PlayAlertSound 4 300 # Talisman Alert Sound
-
-Show #Talismans
-    Class Amulets
-    BaseType Talisman
 
 #=========================================
 # Section: Craft
