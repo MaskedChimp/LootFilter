@@ -145,6 +145,23 @@ Show #Expensive Uniques
     SetFontSize 45
 
 #=========================================
+# Section: Quest Items
+#=========================================
+
+Show #Quests - Labyrinth
+    BaseType "Treasure Key" "Silver Key" "Golden Key"
+    SetTextColor 74 230 58 # Quest Items Text
+
+Show #Quests - Shaper's Orb
+    BaseType "Shaper's Orb"
+    SetBorderColor 255 177 0 # Shaper's Orb Border
+    SetTextColor 255 177 0 # Shaper's Orb Text
+    PlayAlertSound 3 300 #
+
+Show #~Quests
+    Class Quest
+
+#=========================================
 # Section: Jewels
 #=========================================
 
@@ -384,106 +401,13 @@ Show #Gems - No-Quality
 # Section: Craft
 #=========================================
 
-Show #Craft - Gloves
-    Class Gloves
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show $Craft - Helmets
-    Class Helmets
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show #Craft - Body Armours
-    Class "Body Armours"
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show #Craft - Boots
-    Class Boots
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show #Craft - Shield
-    Class Shields
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show #Craft - Rings
-    Class Rings
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show #Craft - Belts
-    Class Belts
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show #Craft - Amulets
-    Class Amulets
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show #Craft - Quivers
-    Class Quivers
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-    
-Show #Craft - Two-Handed Weapons
-    Class "Two Hand"
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-
-Show #Craft - One-Handed Weapons
-    Class "One Hand"
-    Rarity = Normal
-    ItemLevel >= 84
-    SetBorderColor 166 110 0 # Highest Mod Border
-    SetBackgroundColor 255 165 0 191 # Highest Mod Background
-    SetTextColor 0 0 0 215 # Highest Mod Text
-
-Hide #Craft - ilvl 80+
+Show #Craft - ilvl 84+
     Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw Sceptres Quivers Shields
-    Rarity <= Magic
-    ItemLevel >= 80
-    SetBorderColor 255 255 0 # High ilvl Border
+    Rarity = Normal
+    ItemLevel >= 84
+    SetBorderColor 255 255 0 # ilvl 84+ Border
     SetFontSize 25
-
-# Rarity Accessories (Identify)
-Hide
-    BaseType "Gold Ring" "Gold Amulet"
-    Rarity = Magic
-    ItemLevel >= 62
+    SetBackgroundColor 0 0 0 150 # Craft BG Color
 
 #=========================================
 # Section: Life Flasks
@@ -868,23 +792,6 @@ Hide #Chance League Uniques - Accessories - Amulets
     BaseType "Agate Amulet"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Unique Border
-
-#=========================================
-# Section: Quest Items
-#=========================================
-
-Show #Quests - Labyrinth
-    BaseType "Treasure Key" "Silver Key" "Golden Key"
-    SetTextColor 74 230 58 # Quest Items Text
-
-Show #Quests - Shaper's Orb
-    BaseType "Shaper's Orb"
-    SetBorderColor 255 177 0 # Shaper's Orb Border
-    SetTextColor 255 177 0 # Shaper's Orb Text
-    PlayAlertSound 3 300 #
-
-Show #~Quests
-    Class Quest
 
 #=========================================
 # Section: General
