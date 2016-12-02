@@ -277,7 +277,7 @@ Show #Divination Cards - Others
 # Section: League Items
 #=========================================
 
-#Show #League Items - Currency
+Show #League Items - Currency
     BaseType "Splinter of" "Breachstone" "Blessing of"
     PlayAlertSound 4 200 # Leagues Currency Alert Sound
     SetBorderColor 170 158 130 # Currency Border
