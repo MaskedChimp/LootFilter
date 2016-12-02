@@ -278,10 +278,10 @@ Show #Divination Cards - Others
 #=========================================
 
 #Show #League Items - Currency
-#    BaseType "Splinter of" "Breachstone" "Blessing of"
-#    PlayAlertSound 4 200 # Leagues Currency Alert Sound
-#    SetBorderColor 170 158 130 # Currency Border
-#    SetTextColor 180 40 180 # Leagues Item Border
+    BaseType "Splinter of" "Breachstone" "Blessing of"
+    PlayAlertSound 4 200 # Leagues Currency Alert Sound
+    SetBorderColor 170 158 130 # Currency Border
+    SetTextColor 180 40 180 # Leagues Item Border
 
 Show #League Items - Currency
     BaseType "Perandus Coin" "Silver Coin" "Essence of" "Remnant of Corruption"
