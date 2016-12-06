@@ -261,7 +261,7 @@ Show #Maps - Others
 #=========================================
 
 Show #Divination Cards - Rares
-    BaseType "Abandoned Wealth" "The Aesthete" "The Artist" "The Avenger" "The Betrayal" "Bowyer's Dream" "The Brittle Emperor" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Doctor" "The Dragon's Heart" "The Drunken Aristocrat" "The Enlightened" "The Ethereal" "The Fiend" "The Hoarder" "House of Mirrors" "The Hunger" "The King's Heart" "Last Hope" "The Last One Standing" "The Offering" "Pride Before the Fall" "The Queen" "The Risk" "The Thaumaturgist" "Time-Lost Relic" "Tranquillity" "The Vast" "The Warlord" "The Watcher" "Wealth and Power" "The Wind"
+    BaseType "Abandoned Wealth" "The Aesthete" "The Artist" "The Avenger" "The Betrayal" "Bowyer's Dream" "The Brittle Emperor" "The Celestial Justicar" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Doctor" "The Dragon's Heart" "The Drunken Aristocrat" "The Enlightened" "The Ethereal" "The Fiend" "The Hoarder" "House of Mirrors" "The Hunger" "The King's Heart" "Last Hope" "The Last One Standing" "The Offering" "Pride Before the Fall" "The Queen" "The Thaumaturgist" "Time-Lost Relic" "Tranquillity" "The Vast" "The Warlord" "The Watcher" "Wealth and Power" "The Wind"
     Class "Divination Card"
     SetBorderColor 0 0 0 # Divination Cards Border
     SetTextColor 0 0 0 # Divination Cards Text
