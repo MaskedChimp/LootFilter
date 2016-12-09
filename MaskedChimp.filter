@@ -100,17 +100,6 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Maligaro's Virtuosity
-Show #Expensive Uniques
-    Class Gloves
-    BaseType "Deerskin Gloves"
-    Rarity = Unique
-    SetBackgroundColor 175 96 37 # Expensive Uniques Background
-    SetBorderColor 186 118 38 # Expensive Uniques Border
-    SetTextColor 0 0 0 # Expensive Uniques Text
-    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
-    SetFontSize 45
-
 # Voltaxic Rift
 Show #Expensive Uniques
     Class Bows
