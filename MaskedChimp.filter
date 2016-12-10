@@ -354,7 +354,33 @@ Show #Recipes - Currency - Chaos
     SetBackgroundColor 85 85 40 # Chaos Recipe Background
     SetBorderColor 128 128 64 # Chaos Recipe Border
 
-Show #Recipes - Currency - Chromatic
+Show #Recipes - Currency - Chromatic - 3H1W
+    Height = 3
+    Width = 1
+    SocketGroup RGB
+    SetBorderColor 240 0 0 # Chromatic Recipe Border
+
+Show #Recipes - Currency - Chromatic - 3H2W
+    Height = 3
+    Width = 2
+    SocketGroup RGB
+    SetBorderColor 240 0 0 # Chromatic Recipe Border
+
+Show #Recipes - Currency - Chromatic - 4H1W
+    Height = 4
+    Width = 1
+    SocketGroup RGB
+    SetBorderColor 240 0 0 # Chromatic Recipe Border
+
+Show #Recipes - Currency - Chromatic - 4H2W
+    Height = 4
+    Width = 2
+    SocketGroup RGB
+    SetBorderColor 240 0 0 # Chromatic Recipe Border
+
+Show #Recipes - Currency - Chromatic - 2H2W
+    Height = 2
+    Width = 2
     SocketGroup RGB
     SetBorderColor 240 0 0 # Chromatic Recipe Border
 
