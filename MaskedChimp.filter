@@ -2,7 +2,7 @@
 ### Game Version: 2.5.0
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
-### Github page: https://github.com/MCorrea92/LootFilter
+### Github page: https://github.com/MaskedChimp/LootFilter
 
 #=========================================
 # Section: Exceptions
@@ -858,7 +858,7 @@ Show #Low Level - Gear - 4L
 
 Hide #Useless - Magic Items
     Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands
-    ItemLevel < 80
+    ItemLevel < 83
     Rarity = Magic
     Sockets <= 5
     LinkedSockets <= 4
@@ -876,7 +876,7 @@ Hide #Useless - Magic Items - Flasks
 
 Hide #Useless - Normal Items
     Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands Flasks
-    ItemLevel < 80
+    ItemLevel < 83
     Rarity = Normal
     Sockets <= 5
     LinkedSockets <= 4
@@ -894,4 +894,4 @@ Hide #Useless - Normal Items - Flasks
 
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
-### Github page: https://github.com/MCorrea92/LootFilter
+### Github page: https://github.com/MaskedChimp/LootFilter
