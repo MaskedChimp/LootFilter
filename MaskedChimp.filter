@@ -34,6 +34,18 @@ Show #~Microtransactions - Hideout
 # Section: Expensive Uniques
 #=========================================
 
+# Heretic's Veil
+Show #Expensive Uniques
+    Class "Helmets"
+    BaseType "Deicide Mask"
+    DropLevel = 67
+    Rarity = Unique
+    SetBackgroundColor 175 96 37 # Expensive Uniques Background
+    SetBorderColor 186 118 38 # Expensive Uniques Border
+    SetTextColor 0 0 0 # Expensive Uniques Text
+    PlayAlertSound 8 300 # Expensive Uniques Alert Sound
+    SetFontSize 45
+    
 # Dying Sun
 Show #Expensive Uniques
     Class "Flasks"
