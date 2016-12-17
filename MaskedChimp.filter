@@ -435,6 +435,7 @@ Show #Gems - Quality
 
 Show #Gems - No-Quality
     Class Gems
+    SetFontSize 25
 
 #=========================================
 # Section: Craft
