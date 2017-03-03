@@ -1,5 +1,5 @@
-### Filter Version: v2.5
-### Game Version: 2.5.0
+### Filter Version: v2.6
+### Game Version: 2.6.0
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MaskedChimp/LootFilter
@@ -289,6 +289,12 @@ Show #Divination Cards - Others
 #=========================================
 # Section: League Items
 #=========================================
+
+Show #League Items - Leaguestones
+    Class Leaguestones
+    PlayAlertSound 4 200 # Leagues Currency Alert Sound
+    SetBorderColor 170 158 130 # Currency Border
+    SetTextColor 180 40 180 # Leagues Item Border
 
 Show #League Items - Currency
     BaseType "Splinter of" "Breachstone" "Blessing of"
