@@ -290,8 +290,8 @@ Show #Divination Cards - Others
 # Section: League Items
 #=========================================
 
-Show #League Items - Leaguestones
-    Class Leaguestones
+Show #League Items - Legacy
+    BaseType Leaguestone "Ancient Reliquary Key"
     PlayAlertSound 4 200 # Leagues Currency Alert Sound
     SetBorderColor 170 158 130 # Currency Border
     SetTextColor 180 40 180 # Leagues Item Border
