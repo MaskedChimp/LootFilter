@@ -1,5 +1,5 @@
-### Filter Version: v2.6
-### Game Version: 2.6.0
+### Filter Version: v3.0
+### Game Version: 2.6.x
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MaskedChimp/LootFilter
@@ -444,7 +444,7 @@ Show #Recipes - Currency - Chisel
 #=========================================
 
 Show #Gems - Drop-Only
-    BaseType Portal Enlighten Empower Enhance
+    BaseType Portal Enlighten Empower Enhance "Vaal Breach"
     Class Gems
     SetBackgroundColor 0 0 90 250 # Gems Background
     SetBorderColor 27 162 155 # Gems Border
