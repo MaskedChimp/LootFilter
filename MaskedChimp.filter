@@ -343,7 +343,7 @@ Show #Currency - Ultra Rare
 
 Show #Currency - Rare
     BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring Sextant
-    PlayAlertSound 3 15 # Rare Currency Alert Sound
+    PlayAlertSound 3 120 # Rare Currency Alert Sound
     Class Currency
     SetTextColor 160 0 0 # Rare Currency Text
     SetBorderColor 170 158 130 # Currency Border
