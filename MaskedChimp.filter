@@ -273,8 +273,8 @@ Show #Maps - Others
 # Section: Divination Cards
 #=========================================
 
-Show #Divination Cards - Ultra Rare
-    BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Dragon's Heart" "The Ethereal" "The Last One Standing" "The Offering" "Hunter's Reward" "Pride Before the Fall"
+Show #Divination Cards - Super Rare
+    BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Dragon's Heart" "The Ethereal" "The Last One Standing" "The Offering" "Hunter's Reward" "Pride Before the Fall" "Mawr Blaidd" "The Immortal"
     Class "Divination Card"
     SetBorderColor 0 0 0 # Divination Cards Border
     SetTextColor 0 0 0 # Divination Cards Text
