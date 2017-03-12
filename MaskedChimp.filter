@@ -158,11 +158,11 @@ Show #Expensive Uniques
     SetFontSize 45
 
 #=========================================
-# Section: Quest Items
+# Section: Bound Items
 #=========================================
 
 Show #Quests - Labyrinth
-    BaseType "Treasure Key" "Silver Key" "Golden Key"
+    Class "Labyrinth Item" "Labyrinth Trinket"
     SetTextColor 74 230 58 # Quest Items Text
 
 Show #Quests - Shaper's Orb
