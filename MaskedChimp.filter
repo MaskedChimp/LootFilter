@@ -348,8 +348,8 @@ Show #Currency - Rare
     SetTextColor 160 0 0 # Rare Currency Text
     SetBorderColor 170 158 130 # Currency Border
 
-Show #Currency - Cheap
-    BaseType Transmutation Augmentation Alteration Glassblower Blessed Blacksmith Armourer Chromatic
+Show #Currency - Common
+    BaseType "Orb of Transmutation" Augmentation "Orb of Alteration" Glassblower Blacksmith Armourer Chromatic "Stacked Deck"
     Class Currency
     SetBorderColor 170 158 130 # Currency Border
 
