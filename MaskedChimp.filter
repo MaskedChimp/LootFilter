@@ -342,7 +342,7 @@ Show #Currency - Ultra Rare
     SetFontSize 45
 
 Show #Currency - Rare
-    BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring Sextant
+    BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring Sextant "Unshaping Orb" "Cartographer's Seal" Blessed
     PlayAlertSound 3 120 # Rare Currency Alert Sound
     Class Currency
     SetTextColor 160 0 0 # Rare Currency Text
