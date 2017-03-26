@@ -664,141 +664,120 @@ Show #Flasks - Utility
 # Section: Chance Uniques
 #=========================================
 
-# Hegemony's Era
-Hide #Chance Uniques - Weapons - Staves
+Hide #Chance Uniques - Weapons - Staves - Hegemony's Era
     BaseType "Judgement Staff"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Kaom's Heart
-Hide #Chance Uniques - Chests - Armour
+Hide #Chance Uniques - Chests - Armour - Kaom's Heart
     BaseType "Glorious Plate"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Belly of the Beast
-Hide #Chance Uniques - Chests - Armour/Evasion
+Hide #Chance Uniques - Chests - Armour/Evasion - Belly of the Beast
     BaseType "Full Wyrmscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Carcass Jack
-Hide #Chance Uniques - Chests - Evasion/Energy Shield
+Hide #Chance Uniques - Chests - Evasion/Energy Shield - Carcass Jack
     BaseType "Varnished Coat"
     ItemLevel 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Ming's Heart
-Hide #Chance Uniques - Rings
+Hide #Chance Uniques - Rings - Ming's Heart
     BaseType "Amethyst Ring"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# The Bringer of Rain
-Hide #Chance Uniques - Helmets - Armour/Evasion
+Hide #Chance Uniques - Helmets - Armour/Evasion - The Bringer of Rain
     BaseType "Nightmare Bascinet"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Cospri's Will
-Show #Chance Uniques - Chests - Evasion
+Hide #Chance Uniques - Chests - Evasion - Cospri's Will
     BaseType "Assassin's Garb"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Marohi Erqi
-Hide #Chance Uniques - Weapons - Two-Hand Maces
+Hide #Chance Uniques - Weapons - Two-Hand Maces - Marohi Erqi
     BaseType "Karui Maul"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Daresso's Defiance
-Hide #Chance Uniques - Chests - Armour/Evasion
+Hide #Chance Uniques - Chests - Armour/Evasion - Daresso's Defiance
     BaseType "Full Dragonscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Empire's Grasp
-Hide #Chance Uniques - Gloves - Armour
+Hide #Chance Uniques - Gloves - Armour - Empire's Grasp
     BaseType "Goliath Gauntlets"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Sire of Shards
-Hide #Chance Uniques - Weapons - Staves
+Hide #Chance Uniques - Weapons - Staves - Sire of Shards
     BaseType "Serpentine Staff"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Shavronne's Wrappings
-Show #Chance Uniques - Chests - Energy Shield
+Hide #Chance Uniques - Chests - Energy Shield - Shavronne's Wrappings
     BaseType "Occultist's Vestment"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Voltaxic Rift
-Hide #Chance Uniques - Weapons - Bows
+Hide #Chance Uniques - Weapons - Bows - Voltaxic Rift
     BaseType "Spine Bow"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Windripper
-Hide #Chance Uniques -  Weapons - Bows
+Hide #Chance Uniques -  Weapons - Bows - Windripper
     BaseType "Imperial Bow"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Drillneck
-Hide #Chance Uniques - Accessories - Quivers
+Hide #Chance Uniques - Accessories - Quivers - Drillneck
     BaseType "Penetrating Arrow Quiver"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Gifts from Above
-Hide #Chance Uniques - Accessories - Rings
+Hide #Chance Uniques - Accessories - Rings - Gifts from Above
     BaseType "Diamond Ring"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Andvarius, Ventor's Gamble
-Hide #Chance Uniques - Accessories - Rings
+Hide #Chance Uniques - Accessories - Rings - Andvarius & Ventor's Gamble
     BaseType "Gold Ring"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Astramentis
-Hide #Chance Uniques - Accessories - Amulets
+Hide #Chance Uniques - Accessories - Amulets - Astramentis
     BaseType "Onyx Amulet"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Void Battery
-Hide # Chance Uniques - Weapons - Wands
+Hide # Chance Uniques - Weapons - Wands - Void Battery
     Rarity = Normal
     BaseType "Prophecy Wand"
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Bino's Kitchen Knife
-Hide # Chance Uniques - Weapons - Daggers
+Hide # Chance Uniques - Weapons - Daggers - Bino's Kitchen Knife
     Rarity = Normal
     BaseType "Slaughter Knife"
     SetBorderColor 175 96 37 # Chance Unique Border
 
-# Divinarius
-Hide # Chance Uniques - Weapons - Daggers
+Hide # Chance Uniques - Weapons - Daggers - Divinarius
     Rarity = Normal
     BaseType "Imperial Skean"
     SetBorderColor 175 96 37 # Chance Unique Border
