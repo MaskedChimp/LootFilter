@@ -786,39 +786,33 @@ Hide # Chance Uniques - Weapons - Daggers - Divinarius
 # Section: Chance League Uniques
 #=========================================
 
-# Valako's Sign (Bloodlines)
-Hide #Chance League Uniques - Accessories - Rings
-    BaseType "Topaz Ring"
-    Rarity = Normal
-    SetBorderColor 255 100 0 # Chance League Unique Border
-
-# Shavronne's Revelation (Anarchy/Onslaught)
-Hide #Chance League Uniques - Accessories - Rings
+Hide #Chance League Uniques - Anarchy/Onslaught - Shavronne's Revelation
     BaseType "Moonstone Ring"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Unique Border
 
-# The Pariah (Warbands)
-Hide #Chance League Uniques - Accessories - Rings
-    BaseType "Unset Ring"
+Hide #Chance League Uniques - Anarchy/Onslaught - Voll's Devotion
+    BaseType "Agate Amulet"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Unique Border
 
-# Daresso's Salute (Anarchy)
-Hide #Chance League Uniques - Accessories - Amulets
+Hide #Chance League Uniques - Anarchy - Daresso's Salute
     BaseType "Citrine Amulet"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Unique Border
 
-# Victario's Acuity (Onslaught)
-Hide #Chance League Uniques - Accessories - Amulets
+Hide #Chance League Uniques - Onslaught - Victario's Acuity
     BaseType "Turquoise Amulet"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Unique Border
 
-# Voll's Devotion (Anarchy, Onslaught)
-Hide #Chance League Uniques - Accessories - Amulets
-    BaseType "Agate Amulet"
+Hide #Chance League Uniques - Bloodlines - Valako's Sign
+    BaseType "Topaz Ring"
+    Rarity = Normal
+    SetBorderColor 255 100 0 # Chance League Unique Border
+
+Hide #Chance League Uniques - Warbands - The Pariah
+    BaseType "Unset Ring"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Unique Border
 
