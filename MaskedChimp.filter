@@ -870,7 +870,7 @@ Show #Low Level - Normal Items
     ItemLevel <= 15
     Rarity Normal
 
-Show #Low Level - Gear - 4L
+Show #Low Level - 4L
     LinkedSockets = 4
     ItemLevel <= 40
     SetBorderColor 185 120 185 # 4L Border
