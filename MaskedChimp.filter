@@ -352,17 +352,17 @@ Show #Currency - Others
     Class Currency
 
 #=========================================
-# Section: Money Maker
+# Section: Valuables
 #=========================================
 
-Show #Money Maker - 6L
+Show #Valuables - 6L
     LinkedSockets = 6
     SetBorderColor 255 0 250 # Money Maker Border
     SetBackgroundColor 255 0 250 190 # Money Maker Background
     SetTextColor 240 240 240 # Money Maker Text Color
     PlayAlertSound 9 300 # Money Maker Alert Sound
 
-Show #Money Maker - 5L
+Show #Valuables - 5L
     LinkedSockets = 5
     SetBorderColor 255 0 250 # Money Maker Border
 
