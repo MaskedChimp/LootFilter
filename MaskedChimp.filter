@@ -34,8 +34,7 @@ Show #Exceptions - ~Microtransactions - Hideout
 # Section: Expensive Uniques
 #=========================================
 
-# Heretic's Veil
-Show #Expensive Uniques
+Show #Expensive Uniques - Heretic's Veil
     Class "Helmets"
     BaseType "Deicide Mask"
     DropLevel = 67
@@ -46,8 +45,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Dying Sun
-Show #Expensive Uniques
+Show #Expensive Uniques - Dying Sun
     Class "Flasks"
     BaseType "Ruby Flask"
     DropLevel = 68
@@ -58,8 +56,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Cospri's Will
-Show #Expensive Uniques
+Show #Expensive Uniques - Cospri's Will
     Class "Body Armours"
     BaseType "Assassin's Garb"
     Rarity = Unique
@@ -69,8 +66,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Shavronne's Wrappings
-Show #Expensive Uniques
+Show #Expensive Uniques -  Shavronne's Wrappings
     Class "Body Armours"
     BaseType "Occultist's Vestment"
     Rarity = Unique
@@ -80,8 +76,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Bino's Kitchen Knife
-Show #Expensive Uniques
+Show #Expensive Uniques - Bino's Kitchen Knife
     Class "Daggers"
     BaseType "Slaughter Knife"
     Rarity = Unique
@@ -91,8 +86,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Vessel of Vinktar
-Show #Expensive Uniques
+Show #Expensive Uniques - Vessel of Vinktar
     Class Flasks
     BaseType "Topaz Flask"
     Rarity = Unique
@@ -102,8 +96,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Void Battery
-Show #Expensive Uniques
+Show #Expensive Uniques - Void Battery
     Class Wands
     BaseType "Prophecy Wand"
     Rarity = Unique
@@ -113,8 +106,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Rat's Nest
-Show #Expensive Uniques
+Show #Expensive Uniques - Rat's Nest
     Class Helmets
     BaseType "Ursine Pelt"
     Rarity = Unique
@@ -124,8 +116,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Voltaxic Rift
-Show #Expensive Uniques
+Show #Expensive Uniques - Voltaxic Rift
     Class Bows
     BaseType "Spine Bow"
     Rarity = Unique
@@ -135,8 +126,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Crown of the Pale King
-Show #Expensive Uniques
+Show #Expensive Uniques - Crown of the Pale King
     Class Helmets
     BaseType "Regicide Mask"
     Rarity = Unique
@@ -146,8 +136,7 @@ Show #Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques Alert Sound
     SetFontSize 45
 
-# Taste of Hate
-Show #Expensive Uniques
+Show #Expensive Uniques - Taste of Hate
     Class Flasks
     BaseType "Sapphire Flask"
     Rarity = Unique
