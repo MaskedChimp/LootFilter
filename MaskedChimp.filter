@@ -1,4 +1,4 @@
-### Filter Version: v3.0
+### Filter Version: v3.1
 ### Game Version: 2.6.x
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
@@ -161,17 +161,17 @@ Show #Expensive Uniques
 # Section: Bound Items
 #=========================================
 
-Show #Quests - Labyrinth
+Show #Bound - Labyrinth
     Class "Labyrinth Item" "Labyrinth Trinket"
     SetTextColor 74 230 58 # Quest Items Text
 
-Show #Quests - Shaper's Orb
+Show #Bound - Shaper's Orb
     BaseType "Shaper's Orb"
     SetBorderColor 255 177 0 # Shaper's Orb Border
     SetTextColor 255 177 0 # Shaper's Orb Text
     PlayAlertSound 3 300 #
 
-Show #~Quests
+Show #Bound - ~Quests
     Class Quest
 
 #=========================================
