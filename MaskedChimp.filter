@@ -8,7 +8,7 @@
 # Section: Exceptions
 #=========================================
 
-Show #Easter Eggs - Rods
+Show #Exceptions - Rods
     Class Rods
     SetBackgroundColor 25 210 0 # Easter Egg Background
     SetBorderColor 6 100 0 # Easter Egg Border
@@ -16,7 +16,7 @@ Show #Easter Eggs - Rods
     PlayAlertSound 1 300 # Easter Egg Alert Sound
     SetFontSize 45
 
-Show #Easter Eggs - Feathers
+Show #Exceptions - Feathers
     BaseType "Albino Rhoa Feather"
     SetBackgroundColor 25 210 0 # Easter Egg Background
     SetBorderColor 6 100 0 # Easter Egg Border
@@ -24,10 +24,10 @@ Show #Easter Eggs - Feathers
     PlayAlertSound 1 300 # Easter Egg Alert Sound
     SetFontSize 45
 
-Show #~Microtransactions
+Show #Exceptions - ~Microtransactions
     Class Microtransactions
 
-Show #~Microtransactions - Hideout
+Show #Exceptions - ~Microtransactions - Hideout
     Class Hideout
 
 #=========================================
