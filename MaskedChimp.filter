@@ -655,10 +655,75 @@ Show #Flasks - Hybrid
 # Section: Utility Flasks
 #=========================================
 
-Show #Flasks - Utility
-    Class "Utility Flasks"
+Show #Flasks - Utility - Amethyst Flask
+    BaseType "Amethyst Flask"
+    Class Flasks    
     Rarity = Normal
-    ItemLevel <= 70
+
+Show #Flasks - Utility - Aquamarine Flask
+    BaseType "Aquamarine Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Basalt Flask
+    BaseType "Basalt Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Bismuth Flask
+    BaseType "Bismuth Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Granite Flask
+    BaseType "Granite Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Jade Flask
+    BaseType "Jade Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Quartz Flask
+    BaseType "Quartz Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Quicksilver Flask
+    BaseType "Quicksilver Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Ruby Flask
+    BaseType "Ruby Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Sapphire Flask
+    BaseType "Sapphire Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Silver Flask
+    BaseType "Silver Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Stibnite Flask
+    BaseType "Stibnite Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Sulphur Flask
+    BaseType "Sulphur Flask"
+    Class Flasks    
+    Rarity = Normal
+
+Show #Flasks - Utility - Topaz Flask
+    BaseType "Topaz Flask"
+    Class Flasks    
+    Rarity = Normal
 
 #=========================================
 # Section: Chance Uniques
