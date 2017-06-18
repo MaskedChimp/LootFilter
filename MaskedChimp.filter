@@ -451,6 +451,12 @@ Show #Gems - No-Quality
 # Section: Craft
 #=========================================
 
+Show #Craft - Atlas Type Bases
+    BaseType "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring"
+    SetBorderColor 255 255 0 # ilvl 84+ Border
+    SetFontSize 25
+    SetBackgroundColor 0 0 0 150 # Craft BG Color
+
 Show #Craft - ilvl 84+
     Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw Sceptres Quivers Shields
     Rarity = Normal
@@ -908,7 +914,7 @@ Show #Low Level - Normal Items
     ItemLevel <= 15
     Rarity Normal
     SetFontSize 25
-    
+
 Show #Low Level - 4L
     LinkedSockets = 4
     ItemLevel <= 40
