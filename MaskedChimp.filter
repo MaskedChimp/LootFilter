@@ -10,7 +10,7 @@
 
 Show #Exceptions - Rods
     Class Rods
-    SetBackgroundColor 25 210 0 # Easter Egg Background
+    SetBackgroundColor 25 210 0 # Easter Egg SetBackgroundColor
     SetBorderColor 6 100 0 # Easter Egg Border
     SetTextColor 255 255 255 235 # Easter Egg Text
     PlayAlertSound 1 300 # Easter Egg Alert Sound
@@ -907,7 +907,8 @@ Show #Low Level - Magic Items
 Show #Low Level - Normal Items
     ItemLevel <= 15
     Rarity Normal
-
+    SetFontSize 25
+    
 Show #Low Level - 4L
     LinkedSockets = 4
     ItemLevel <= 40
