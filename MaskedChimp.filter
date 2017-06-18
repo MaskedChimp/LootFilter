@@ -10,7 +10,7 @@
 
 Show #Exceptions - Rods
     Class Rods
-    SetBackgroundColor 25 210 0 # Easter Egg SetBackgroundColor
+    SetBackgroundColor 25 210 0 # Easter Egg Background
     SetBorderColor 6 100 0 # Easter Egg Border
     SetTextColor 255 255 255 235 # Easter Egg Text
     PlayAlertSound 1 300 # Easter Egg Alert Sound
@@ -374,17 +374,49 @@ Show #Recipes - Currency - Jeweller
     Sockets = 6
     SetBorderColor 0 255 0 # Jeweller Recipe Border
 
-Show #Recipes - Currency - Regal
-    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers Sceptres
+Show #Recipes - Currency - Regal - Best Base Types
+    BaseType "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Astral Plate" "Glorious Plate" "Titan Greaves" "Titan Gauntlets" "Spiked Gloves" "Royal Burgonet" "Eternal Burgonet" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield" "Fossilised Spirit Shield"
+    Rarity Rare
+    ItemLevel >= 75
+    SetFontSize 37
+    SetBackgroundColor 0 85 130 # Regal Recipe Background
+    SetBorderColor 255 255 255 # Regal Recipe Border
+
+Show #Recipes - Currency - Regal - Normal Base Types
+    Class Rings Belts Amulets
     Rarity Rare
     ItemLevel >= 75
     SetBackgroundColor 0 85 130 # Regal Recipe Background
     SetBorderColor 0 128 192 200 # Regal Recipe Border
 
-Show #Recipes - Currency - Chaos
+Show #Recipes - Currency - Regal - Low Base Types
+    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers Sceptres
+    Rarity Rare
+    ItemLevel >= 75
+    SetFontSize 25
+    SetBackgroundColor 0 85 130 # Regal Recipe Background
+    SetBorderColor 0 128 192 200 # Regal Recipe Border
+
+Show #Recipes - Currency - Chaos - Best Base Types
+    BaseType "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Astral Plate" "Glorious Plate" "Titan Greaves" "Titan Gauntlets" "Spiked Gloves" "Royal Burgonet" "Eternal Burgonet" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield" "Fossilised Spirit Shield"
+    Rarity Rare
+    ItemLevel >= 60
+    SetFontSize 37
+    SetBackgroundColor 85 85 40 # Chaos Recipe Background
+    SetBorderColor 255 255 255 # Chaos Recipe Border
+
+Show #Recipes - Currency - Chaos - Normal Base Types
+    Class Rings Belts Amulets
+    Rarity Rare
+    ItemLevel >= 60
+    SetBackgroundColor 85 85 40 # Chaos Recipe Background
+    SetBorderColor 128 128 64 # Chaos Recipe Border
+
+Show #Recipes - Currency - Chaos - Low Base Types
     Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers Sceptres
     Rarity Rare
     ItemLevel >= 60
+    SetFontSize 25
     SetBackgroundColor 85 85 40 # Chaos Recipe Background
     SetBorderColor 128 128 64 # Chaos Recipe Border
 
