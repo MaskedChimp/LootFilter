@@ -301,7 +301,7 @@ Show #League Items - Breach
     SetTextColor 180 40 180 # Leagues Item Border
 
 Show #League Items - Coins
-    BaseType "Perandus Coin" "Silver Coin"
+    BaseType "Silver Coin"
     PlayAlertSound 4 25 # Rare Currency Alert Sound
     SetBorderColor 170 158 130 # Currency Border
     SetTextColor 180 40 180 # Leagues Item Border
@@ -338,7 +338,7 @@ Show #Currency - Rare
     SetBorderColor 170 158 130 # Currency Border
 
 Show #Currency - Common
-    BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Glassblower's Bauble" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Stacked Deck"
+    BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Glassblower's Bauble" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Stacked Deck" "Perandus Coin"
     Class Currency
     SetBorderColor 170 158 130 # Currency Border
 
@@ -356,7 +356,7 @@ Hide #Currency - Scroll Fragments
     SetBackgroundColor 0 0 0 100 # Fade Background
     SetTextColor 170 158 130 200 # Currency Fade Text
 
-Show #Currency - Safety Net (If something activates this, let me know)
+Show #Currency - Safety Net
     Class Currency
     SetTextColor 230 255 0
     SetBorderColor 230 255 0
