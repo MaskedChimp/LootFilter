@@ -197,7 +197,31 @@ Show #Maps - Breachstones
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
 
-Show #Maps - Fragments
+Show #Maps - Fragments - Atziri Set
+    Class "Map Fragments"
+    BaseType "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Noon"
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 0 0 0
+    SetBackgroundColor 130 130 130 206
+
+Show #Maps - Fragments - Uber Atziri Set
+    Class "Map Fragments"
+    BaseType "Mortal Grief" "Mortal Rage" "Mortal Hope" "Mortal Ignorance"
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 0 0 0
+    SetBackgroundColor 130 130 130 206
+
+Show #Maps - Fragments - Pale Court Set
+    Class "Map Fragments"
+    BaseType "Volkuur's Key" "Eber's Key" "Yriel's Key" "Inya's Key"
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 0 0 0
+    SetBackgroundColor 130 130 130 206
+
+Show #Maps - Fragments - Shaper Set
     Class "Map Fragments"
     BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
     PlayAlertSound 7 300
