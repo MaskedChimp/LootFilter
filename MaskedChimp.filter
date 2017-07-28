@@ -331,18 +331,18 @@ Show #Currency - Ultra Rare
     SetFontSize 45
 
 Show #Currency - Rare
-    BaseType "Orb of Alchemy" Regal Chaos Gemcutter Chance Divine Vaal Regret Jeweller Fusing Chisel Scouring Sextant "Unshaping Orb" "Cartographer's Seal" Blessed
+    BaseType "Orb of Alchemy" "Regal Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Chance" "Divine Orb" "Vaal Orb" "Orb of Regret" "Jeweller's Orb" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" "Cartographer's Sextant" "Unshaping Orb" "Cartographer's Seal" "Blessed Orb"
     PlayAlertSound 3 120 # Rare Currency Alert Sound
     Class Currency
     SetTextColor 160 0 0 # Rare Currency Text
     SetBorderColor 170 158 130 # Currency Border
 
 Show #Currency - Common
-    BaseType "Orb of Transmutation" Augmentation "Orb of Alteration" Glassblower Blacksmith Armourer Chromatic "Stacked Deck"
+    BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Glassblower's Bauble" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Stacked Deck"
     Class Currency
     SetBorderColor 170 158 130 # Currency Border
 
-Hide #Currency - Fragments
+Hide #Currency - Scroll Fragments
     BaseType "Scroll Fragment"
     Class Currency
     SetBackgroundColor 0 0 0 100 # Fade Background
