@@ -342,6 +342,10 @@ Show #Currency - Common
     Class Currency
     SetBorderColor 170 158 130 # Currency Border
 
+Show #Currency - Scrolls
+    BaseType "Scroll of Wisdom" "Portal Scroll"
+    Class Currency
+
 Hide #Currency - Scroll Fragments
     BaseType "Scroll Fragment"
     Class Currency
