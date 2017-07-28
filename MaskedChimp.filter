@@ -300,17 +300,39 @@ Show #League Items - Breach
     SetBorderColor 170 158 130 # Currency Border
     SetTextColor 180 40 180 # Leagues Item Border
 
-Show #League Items - Essence
-    BaseType "Essence of" "Remnant of Corruption"
-    PlayAlertSound 4 25 # Rare Currency Alert Sound
-    SetBorderColor 170 158 130 # Currency Border
-    SetTextColor 180 40 180 # Leagues Item Border
-
 Show #League Items - Talisman
     Class Amulets
     BaseType Talisman
     SetTextColor 180 105 180 # Talisman Text Color
     PlayAlertSound 4 200 # Talisman Alert Sound
+
+#=========================================
+# Section: Essences
+#=========================================
+
+Show #Essences - Corruption Tier
+    BaseType "Essence of Delirium" "Essence of Hysteria" "Essence of Horror" "Essence of Insanity"
+    PlayAlertSound 4 75
+    SetBackgroundColor 180 40 180
+    SetBorderColor 90 20 90
+    SetTextColor 0 0 0
+    SetFontSize 40
+
+Show #Essences - Level 6/7
+    BaseType "Shrieking Essence of" "Deafening Essence of"
+    PlayAlertSound 4 25
+    SetBorderColor 180 40 180
+    SetTextColor 180 40 180
+
+Show #Essences - Level 5-
+    BaseType "Essence of"
+    SetBorderColor 180 40 180
+
+Show #Essences - Remnant of Corruption
+    BaseType "Remnant of Corruption"
+    PlayAlertSound 4 25
+    SetBorderColor 180 40 180
+    SetTextColor 180 40 180
 
 #=========================================
 # Section: Currency
