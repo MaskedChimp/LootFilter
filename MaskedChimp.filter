@@ -192,74 +192,74 @@ Show #Jewels - Uniques
 Show #Maps - Fragments
     Class "Map Fragments"
     BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
-    PlayAlertSound 7 300 # Map Fragments Alert Sound
-    SetBorderColor 255 255 255 # Maps Border
-    SetTextColor 0 0 0 # Map Fragments Text
-    SetBackgroundColor 130 130 130 206 # Map Fragments Background
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 0 0 0
+    SetBackgroundColor 130 130 130 206
 
-Show #Maps - T11~T15 - Rare
+Show #Maps - Endgame Maps - T11~T15 - Rare
     Class Map
     Rarity = Rare
     DropLevel >= 78
-    SetBorderColor 255 0 0 # High Level Maps Border
-    SetTextColor 255 255 0 # High Level Maps Text
-    SetBackgroundColor 255 255 255 200 # High Level Maps Background
-    PlayAlertSound 2 300 # High Level Maps Alert Sound
+    SetBorderColor 255 0 0
+    SetTextColor 255 255 0
+    SetBackgroundColor 255 255 255 200
+    PlayAlertSound 2 300
     SetFontSize 40
 
-Show #Maps - T11~T15 - Magic
+Show #Maps - Endgame Maps - T11~T15 - Magic
     Class Map
     Rarity = Magic
     DropLevel >= 78
-    SetBorderColor 255 0 0 # High Level Maps Border
-    SetTextColor 37 105 212 # High Level Maps Text
-    SetBackgroundColor 255 255 255 200 # High Level Maps Background
-    PlayAlertSound 2 300 # High Level Maps Alert Sound
+    SetBorderColor 255 0 0
+    SetTextColor 37 105 212
+    SetBackgroundColor 255 255 255 200
+    PlayAlertSound 2 300
     SetFontSize 40
 
-Show #Maps - T11~T15 - Normal
+Show #Maps - Endgame Maps - T11~T15 - Normal
     Class Map
     Rarity = Normal
     DropLevel >= 78
-    SetBorderColor 255 0 0 # High Level Maps Border
-    SetTextColor 0 0 0 # High Level Maps Text
-    SetBackgroundColor 255 255 255 200 # High Level Maps Background
-    PlayAlertSound 2 300 # High Level Maps Alert Sound
+    SetBorderColor 255 0 0
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255 200
+    PlayAlertSound 2 300
     SetFontSize 40
 
-Show #Maps - T6~T10 - Rare
+Show #Maps - Endgame Maps - T6~T10 - Rare
     Class Map
     Rarity = Rare
     DropLevel >= 73
-    SetBorderColor 255 255 0 # High Level Maps Border
-    SetTextColor 255 255 0 # High Level Maps Text
-    SetBackgroundColor 255 255 255 200 # High Level Maps Background
-    PlayAlertSound 2 200 # High Level Maps Alert Sound
+    SetBorderColor 255 255 0
+    SetTextColor 255 255 0
+    SetBackgroundColor 255 255 255 200
+    PlayAlertSound 2 200
 
-Show #Maps - T6~T10 - Magic
+Show #Maps - Endgame Maps - T6~T10 - Magic
     Class Map
     Rarity = Magic
     DropLevel >= 73
-    SetBorderColor 255 255 0 # High Level Maps Border
-    SetTextColor 37 105 212 # High Level Maps Text
-    SetBackgroundColor 255 255 255 200 # High Level Maps Background
-    PlayAlertSound 2 200 # High Level Maps Alert Sound
+    SetBorderColor 255 255 0
+    SetTextColor 37 105 212
+    SetBackgroundColor 255 255 255 200
+    PlayAlertSound 2 200
 
-Show #Maps - T6~T10 - Normal
+Show #Maps - Endgame Maps - T6~T10 - Normal
     Class Map
     Rarity = Normal
     DropLevel >= 73
-    SetBorderColor 255 255 0 # High Level Maps Border
-    SetTextColor 0 0 0 # High Level Maps Text
-    SetBackgroundColor 255 255 255 200 # High Level Maps Background
-    PlayAlertSound 2 200 # High Level Maps Alert Sound
+    SetBorderColor 255 255 0
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 255 200
+    PlayAlertSound 2 200
 
-Show #Maps - Others
+Show #Maps - Endgame Maps - T5-
     Class Map
-    SetBorderColor 255 255 255 # Maps Border
+    SetBorderColor 255 255 255
 
 Show #Maps - ~Safety Net
-    Class Map
+    Class Maps
     SetTextColor 230 255 0
     SetBorderColor 230 255 0
     SetBackgroundColor 255 0 102
