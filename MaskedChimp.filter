@@ -300,12 +300,6 @@ Show #League Items - Breach
     SetBorderColor 170 158 130 # Currency Border
     SetTextColor 180 40 180 # Leagues Item Border
 
-Show #League Items - Coins
-    BaseType "Silver Coin"
-    PlayAlertSound 4 25 # Rare Currency Alert Sound
-    SetBorderColor 170 158 130 # Currency Border
-    SetTextColor 180 40 180 # Leagues Item Border
-
 Show #League Items - Essence
     BaseType "Essence of" "Remnant of Corruption"
     PlayAlertSound 4 25 # Rare Currency Alert Sound
@@ -338,7 +332,7 @@ Show #Currency - Rare
     SetBorderColor 170 158 130 # Currency Border
 
 Show #Currency - Common
-    BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Glassblower's Bauble" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Stacked Deck" "Perandus Coin"
+    BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Glassblower's Bauble" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Stacked Deck" "Perandus Coin" "Silver Coin"
     Class Currency
     SetBorderColor 170 158 130 # Currency Border
 
