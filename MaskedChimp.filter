@@ -350,7 +350,7 @@ Hide #Currency - Scroll Fragments
     SetBackgroundColor 0 0 0 100 # Fade Background
     SetTextColor 170 158 130 200 # Currency Fade Text
 
-Show #Currency - Safety Net
+Show #Currency - ~Safety Net
     Class Currency
     SetTextColor 230 255 0
     SetBorderColor 230 255 0
