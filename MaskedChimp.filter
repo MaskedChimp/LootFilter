@@ -342,6 +342,10 @@ Show #Currency - Common
     Class Currency
     SetBorderColor 170 158 130 # Currency Border
 
+Show #Currency - Shards
+    BaseType "Alchemy Shard" "Alteration Shard" "Transmutation Shard"
+    Class Currency
+
 Show #Currency - Scrolls
     BaseType "Scroll of Wisdom" "Portal Scroll"
     Class Currency
