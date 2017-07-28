@@ -197,6 +197,15 @@ Show #Maps - Breachstones
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
 
+Show #Maps - Fragments - Expensive Fragments
+    Class "Map Fragments"
+    BaseType "Mortal Hope" "Mortal Ignorance" "Fragment of the Chimera" "Inya's Key" "Fragment of the Hydra"
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 255 255 255
+    SetBackgroundColor 130 130 130
+    SetFontSize 40
+
 Show #Maps - Fragments - Atziri Set
     Class "Map Fragments"
     BaseType "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Noon"
