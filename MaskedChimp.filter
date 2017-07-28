@@ -258,6 +258,13 @@ Show #Maps - Others
     Class Map
     SetBorderColor 255 255 255 # Maps Border
 
+Show #Maps - ~Safety Net
+    Class Map
+    SetTextColor 230 255 0
+    SetBorderColor 230 255 0
+    SetBackgroundColor 255 0 102
+    SetFontSize 45
+
 #=========================================
 # Section: Divination Cards
 #=========================================
