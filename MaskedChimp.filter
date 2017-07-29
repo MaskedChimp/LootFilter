@@ -156,9 +156,9 @@ Show #Bound - Labyrinth
 
 Show #Bound - Shaper's Orb
     BaseType "Shaper's Orb"
-    SetBorderColor 255 177 0 # Shaper's Orb Border
-    SetTextColor 255 177 0 # Shaper's Orb Text
-    PlayAlertSound 3 300 #
+    SetBorderColor 74 230 58
+    SetBackgroundColor 0 0 0
+    PlayAlertSound 3 300
 
 Show #Bound - ~Quests
     Class Quest
