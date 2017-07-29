@@ -197,6 +197,15 @@ Show #Maps - Breachstones
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
 
+Show #Maps - Ancient Reliquary Key
+    Class "Misc Map Items"
+    BaseType "Ancient Reliquary Key"
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 255 255 255
+    SetBackgroundColor 130 130 130
+    SetFontSize 45
+
 Show #Maps - Fragments - Expensive Fragments
     Class "Map Fragments"
     BaseType "Mortal Hope" "Mortal Ignorance" "Fragment of the Chimera" "Inya's Key" "Fragment of the Hydra"
@@ -335,12 +344,6 @@ Show #Divination Cards - Others
 #=========================================
 # Section: League Items
 #=========================================
-
-Show #League Items - Legacy
-    BaseType Leaguestone "Ancient Reliquary Key"
-    PlayAlertSound 4 200 # Leagues Currency Alert Sound
-    SetBorderColor 170 158 130 # Currency Border
-    SetTextColor 180 40 180 # Leagues Item Border
 
 Show #League Items - Talisman
     Class Amulets
