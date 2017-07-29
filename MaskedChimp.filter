@@ -189,14 +189,6 @@ Show #Jewels - Uniques
 # Section: Maps
 #=========================================
 
-Show #Maps - Breachstones
-    Class "Misc Map Items"
-    BaseType "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone"
-    PlayAlertSound 7 300
-    SetBorderColor 255 255 255
-    SetTextColor 0 0 0
-    SetBackgroundColor 130 130 130 206
-
 Show #Maps - Ancient Reliquary Key
     Class "Misc Map Items"
     BaseType "Ancient Reliquary Key"
@@ -205,6 +197,23 @@ Show #Maps - Ancient Reliquary Key
     SetTextColor 255 255 255
     SetBackgroundColor 130 130 130
     SetFontSize 45
+
+Show #Maps - Breachstones - Expensive
+    Class "Misc Map Items"
+    BaseType "Chayula's Breachstone"
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 255 255 255
+    SetBackgroundColor 130 130 130
+    SetFontSize 45
+
+Show #Maps - Breachstones - All
+    Class "Misc Map Items"
+    BaseType "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone"
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 0 0 0
+    SetBackgroundColor 130 130 130 206
 
 Show #Maps - Fragments - Expensive Fragments
     Class "Map Fragments"
