@@ -198,6 +198,13 @@ Show #Maps - Ancient Reliquary Key
     SetBackgroundColor 130 130 130
     SetFontSize 45
 
+Show #Maps - Offering to the Goddess
+    Class "Labyrinth Map Item"
+    BaseType "Offering to the Goddess"
+    SetBorderColor 255 255 255
+    SetTextColor 0 0 0
+    SetBackgroundColor 130 130 130 206
+
 Show #Maps - Breachstones - Expensive
     Class "Misc Map Items"
     BaseType "Chayula's Breachstone"
