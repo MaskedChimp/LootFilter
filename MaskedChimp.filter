@@ -8,14 +8,6 @@
 # Section: Exceptions
 #=========================================
 
-Show #Exceptions - Rods
-    Class Rods
-    SetBackgroundColor 25 210 0 # Easter Egg Background
-    SetBorderColor 6 100 0 # Easter Egg Border
-    SetTextColor 255 255 255 235 # Easter Egg Text
-    PlayAlertSound 1 300 # Easter Egg Alert Sound
-    SetFontSize 45
-
 Show #Exceptions - Feathers
     BaseType "Albino Rhoa Feather"
     SetBackgroundColor 25 210 0 # Easter Egg Background
@@ -443,6 +435,14 @@ Show #Currency - ~Safety Net
 #=========================================
 # Section: Valuables
 #=========================================
+
+Show #Valuables - Rods
+    Class Rods
+    SetBackgroundColor 25 210 0 # Easter Egg Background
+    SetBorderColor 6 100 0 # Easter Egg Border
+    SetTextColor 255 255 255 235 # Easter Egg Text
+    PlayAlertSound 1 300 # Easter Egg Alert Sound
+    SetFontSize 45
 
 Show #Valuables - 6L
     LinkedSockets = 6
