@@ -368,16 +368,6 @@ Show #Divination Cards - Others
     SetTextColor 0 255 255 # Divination Cards Text
 
 #=========================================
-# Section: League Items
-#=========================================
-
-Show #League Items - Talisman
-    Class Amulets
-    BaseType Talisman
-    SetTextColor 180 105 180 # Talisman Text Color
-    PlayAlertSound 4 200 # Talisman Alert Sound
-
-#=========================================
 # Section: Essences
 #=========================================
 
@@ -464,6 +454,13 @@ Show #Valuables - 6L
 Show #Valuables - 5L
     LinkedSockets = 5
     SetBorderColor 255 0 250 # Money Maker Border
+
+#TODO: Separate Talismans by value
+Show #League Items - Talisman League
+    Class Amulets
+    BaseType Talisman
+    SetTextColor 180 105 180 # Talisman Text Color
+    PlayAlertSound 4 200 # Talisman Alert Sound
 
 #=========================================
 # Section: Orb Recipes
