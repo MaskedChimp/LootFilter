@@ -8,14 +8,6 @@
 # Section: Exceptions
 #=========================================
 
-Show #Exceptions - Feathers
-    BaseType "Albino Rhoa Feather"
-    SetBackgroundColor 25 210 0 # Easter Egg Background
-    SetBorderColor 6 100 0 # Easter Egg Border
-    SetTextColor 255 255 255 235 # Easter Egg Text
-    PlayAlertSound 1 300 # Easter Egg Alert Sound
-    SetFontSize 45
-
 Show #Exceptions - ~Microtransactions
     Class Microtransactions
 
@@ -392,7 +384,7 @@ Show #Essences - Remnant of Corruption
 #=========================================
 
 Show #Currency - Ultra Rare
-    BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb" "Blessing of Chayula"
+    BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb" "Blessing of Chayula" "Albino Rhoa Feather"
     PlayAlertSound 5 300 # Ultra Rare Currency Alert Sound
     SetBackgroundColor 240 0 0 # Ultra Rare Currency Background
     SetTextColor 0 0 0 # Ultra Rare Currency Text
