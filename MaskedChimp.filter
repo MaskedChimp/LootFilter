@@ -5,16 +5,6 @@
 ### Github page: https://github.com/MaskedChimp/LootFilter
 
 #=========================================
-# Section: Exceptions
-#=========================================
-
-Show #Exceptions - ~Microtransactions
-    Class Microtransactions
-
-Show #Exceptions - ~Microtransactions - Hideout
-    Class Hideout
-
-#=========================================
 # Section: Expensive Uniques
 #=========================================
 
