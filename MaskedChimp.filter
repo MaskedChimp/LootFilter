@@ -456,7 +456,7 @@ Show #Valuables - 5L
     SetBorderColor 255 0 250 # Money Maker Border
 
 #TODO: Separate Talismans by value
-Show #League Items - Talisman League
+Show #Valuables - Talismans
     Class Amulets
     BaseType Talisman
     SetTextColor 180 105 180 # Talisman Text Color
