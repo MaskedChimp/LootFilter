@@ -248,7 +248,7 @@ Show #Maps - Fragments - Shaper Set
     SetBackgroundColor 130 130 130 206
 
 Show #Maps - Endgame Maps - T11~T15 - Rare
-    Class Map
+    Class Maps
     Rarity = Rare
     DropLevel >= 78
     SetBorderColor 255 0 0
@@ -258,7 +258,7 @@ Show #Maps - Endgame Maps - T11~T15 - Rare
     SetFontSize 40
 
 Show #Maps - Endgame Maps - T11~T15 - Magic
-    Class Map
+    Class Maps
     Rarity = Magic
     DropLevel >= 78
     SetBorderColor 255 0 0
@@ -268,7 +268,7 @@ Show #Maps - Endgame Maps - T11~T15 - Magic
     SetFontSize 40
 
 Show #Maps - Endgame Maps - T11~T15 - Normal
-    Class Map
+    Class Maps
     Rarity = Normal
     DropLevel >= 78
     SetBorderColor 255 0 0
@@ -278,7 +278,7 @@ Show #Maps - Endgame Maps - T11~T15 - Normal
     SetFontSize 40
 
 Show #Maps - Endgame Maps - T6~T10 - Rare
-    Class Map
+    Class Maps
     Rarity = Rare
     DropLevel >= 73
     SetBorderColor 255 255 0
@@ -287,7 +287,7 @@ Show #Maps - Endgame Maps - T6~T10 - Rare
     PlayAlertSound 2 200
 
 Show #Maps - Endgame Maps - T6~T10 - Magic
-    Class Map
+    Class Maps
     Rarity = Magic
     DropLevel >= 73
     SetBorderColor 255 255 0
@@ -296,7 +296,7 @@ Show #Maps - Endgame Maps - T6~T10 - Magic
     PlayAlertSound 2 200
 
 Show #Maps - Endgame Maps - T6~T10 - Normal
-    Class Map
+    Class Maps
     Rarity = Normal
     DropLevel >= 73
     SetBorderColor 255 255 0
