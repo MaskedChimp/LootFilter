@@ -4,11 +4,6 @@
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MaskedChimp/LootFilter
 
-#TODO: Divine Vessel
-#TODO: New Currency
-#TODO: Test PlayAlertSoundPositional
-#TODO: New Sound Alerts
-
 #=========================================
 # Section: Expensive Uniques
 #=========================================
@@ -590,6 +585,163 @@ Show #Craft - ilvl 84+
     SetBorderColor 255 255 0
     SetFontSize 25
     SetBackgroundColor 0 0 0 150
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Stone Axe
+    BaseType "Stone Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 9
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Jade Chopper
+    BaseType "Jade Chopper"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 13
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Woodsplitter
+    BaseType "Woodsplitter"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 18
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Poleaxe
+    BaseType "Poleaxe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 23
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Double Axe
+    BaseType "Double Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 9
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Gilded Axe
+    BaseType "Gilded Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 33
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Shadow Axe
+    BaseType "Shadow Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 36
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Dagger Axe
+    BaseType "Dagger Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 37
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Jasper Chopper
+    BaseType "Jasper Chopper"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 41
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Timber Axe
+    BaseType "Timber Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 45
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Headsman Axe
+    BaseType "Headsman Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 49
+    SetFontSize 25
+
+#Noble Axe has less DPS than Labrys, so we'll keep it for longer
+Show #Craft - Gear Progression (72-) - Axes - 2H - Labrys
+    BaseType "Labrys"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 55
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Noble Axe
+    BaseType "Noble Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 55
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Abyssal Axe
+    BaseType "Abyssal Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 58
+    SetFontSize 25
+
+#Talon Axe has less DPS than Karui Chopper, so we'll keep it for longer
+Show #Craft - Gear Progression (72-) - Axes - 2H - Karui Chopper
+    BaseType "Karui Chopper"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 60
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Talon Axe
+    BaseType "Talon Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 60
+    SetFontSize 25
+
+#Ezomyte Axe has less DPS than Sundering Axe, so we'll keep it for longer
+Show #Craft - Gear Progression (72-) - Axes - 2H - Sundering Axe
+    BaseType "Sundering Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 64
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Ezomyte Axe
+    BaseType "Ezomyte Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 64
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Vaal Axe
+    BaseType "Vaal Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Despot Axe
+    BaseType "Despot Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Void Axe
+    BaseType "Void Axe"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
+Show #Craft - Gear Progression (72-) - Axes - 2H - Fleshripper
+    BaseType "Fleshripper"
+    Class "Two Hand Axe"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
 
 #=========================================
 # Section: Life Flasks
