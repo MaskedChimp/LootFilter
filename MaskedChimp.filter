@@ -538,7 +538,7 @@ Show #Recipes - Currency - Chromatic - 2H2W
 Show #Recipes - Currency - Glassblower
     Class Flask
     Quality >= 10
-    SetBorderColor 255 128 255 # Glassblower Recipe Border
+    SetBorderColor 255 128 255
 
 Show #Recipes - Currency - Chisel
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
@@ -570,7 +570,7 @@ Show #Gems - No-Quality
 
 Show #Craft - Atlas Type Bases
     BaseType "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring"
-    SetBorderColor 255 255 0 # ilvl 84+ Border
+    SetBorderColor 255 255 0
     SetFontSize 25
     SetBackgroundColor 0 0 0 150
 
@@ -579,7 +579,7 @@ Show #Craft - ilvl 84+
     Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw Sceptres Quivers Shields
     Rarity = Normal
     ItemLevel >= 84
-    SetBorderColor 255 255 0 # ilvl 84+ Border
+    SetBorderColor 255 255 0
     SetFontSize 25
     SetBackgroundColor 0 0 0 150
 
@@ -1036,7 +1036,7 @@ Show #Low Level - Normal Items
 Show #Low Level - 4L
     LinkedSockets = 4
     ItemLevel <= 40
-    SetBorderColor 185 120 185 # 4L Border
+    SetBorderColor 185 120 185
 
 #=========================================
 # Section: Useless
