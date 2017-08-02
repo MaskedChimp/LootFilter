@@ -171,6 +171,14 @@ Show #Jewels - Uniques
 # Section: Maps
 #=========================================
 
+Show #Maps - Divine Vessel
+    BaseType "Divine Vessel"
+    PlayAlertSound 7 300
+    SetBorderColor 255 255 255
+    SetTextColor 255 255 255
+    SetBackgroundColor 130 130 130
+    SetFontSize 40
+
 Show #Maps - Ancient Reliquary Key
     Class "Misc Map Items"
     BaseType "Ancient Reliquary Key"
