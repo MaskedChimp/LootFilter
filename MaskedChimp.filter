@@ -124,6 +124,13 @@ Show #Expensive Uniques - Taste of Hate
 # Section: Bound Items
 #=========================================
 
+Show #Bound - Pantheon Souls
+    Class "Pantheon Soul"
+    SetBorderColor 74 230 58
+    SetTextColor 74 230 58
+    SetBackgroundColor 0 0 0
+    PlayAlertSound 3 300
+
 Show #Bound - Labyrinth Items & Trinkets
     Class "Labyrinth Item" "Labyrinth Trinket"
     SetBorderColor 74 230 58
