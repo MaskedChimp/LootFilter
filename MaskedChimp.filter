@@ -1,8 +1,32 @@
-### Filter Version: v3.1
-### Game Version: 2.6.x
+### Filter Version: v4.0
+### Game Version: 3.0.x
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MaskedChimp/LootFilter
+
+#=========================================
+# Section: Variables
+#=========================================
+
+SetVar $Weapons "Axes" "Bows" "Claws" "Daggers" "Maces" "Staves" "Swords" "Wands" 
+SetVar $Armours "Body Armour" "Boots" "Gloves" "Helmets" "Shields" "Quivers"
+SetVar $Accessories "Amulets" "Belts" "Rings"
+SetVar $Equipment $Weapons $Armours $Accessories
+SetVar $AtlasBases "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring"
+SetVar $DropOnlyGems "Portal" "Enlighten" "Empower" "Enhance" "Vaal Breach"
+
+SetVar $AtziriSet "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Noon"
+SetVar $UberAtziriSet "Mortal Grief" "Mortal Rage" "Mortal Hope" "Mortal Ignorance"
+SetVar $PaleCourtSet "Volkuur's Key" "Eber's Key" "Yriel's Key" "Inya's Key"
+SetVar $ShaperSet "Fragment of the Hydra" "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera"
+SetVar $AllSets $AtziriSet $UberAtziriSet $PaleCourtSet $ShaperSet
+SetVar $ExpensiveFrags "Mortal Hope" "Mortal Ignorance" "Fragment of the Chimera" "Inya's Key" "Fragment of the Hydra"
+
+SetVar $Breachstones "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone"
+
+SetVar $BestAxes2H "Vaal Axe" "Fleshripper"
+
+SetVar $BestBases $AtlasBases $BestAxes2H "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Astral Plate" "Glorious Plate" "Titan Greaves" "Titan Gauntlets" "Spiked Gloves" "Royal Burgonet" "Eternal Burgonet" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield"
 
 #=========================================
 # Section: Expensive Uniques
@@ -16,7 +40,7 @@ Show #Expensive Uniques - Heretic's Veil
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Dying Sun
@@ -27,7 +51,7 @@ Show #Expensive Uniques - Dying Sun
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Cospri's Will
@@ -37,7 +61,7 @@ Show #Expensive Uniques - Cospri's Will
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques -  Shavronne's Wrappings
@@ -47,7 +71,7 @@ Show #Expensive Uniques -  Shavronne's Wrappings
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Bino's Kitchen Knife
@@ -57,7 +81,7 @@ Show #Expensive Uniques - Bino's Kitchen Knife
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Vessel of Vinktar
@@ -67,7 +91,7 @@ Show #Expensive Uniques - Vessel of Vinktar
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Void Battery
@@ -77,7 +101,7 @@ Show #Expensive Uniques - Void Battery
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Rat's Nest
@@ -87,7 +111,7 @@ Show #Expensive Uniques - Rat's Nest
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Voltaxic Rift
@@ -97,7 +121,7 @@ Show #Expensive Uniques - Voltaxic Rift
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Crown of the Pale King
@@ -107,7 +131,7 @@ Show #Expensive Uniques - Crown of the Pale King
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 Show #Expensive Uniques - Taste of Hate
@@ -117,7 +141,7 @@ Show #Expensive Uniques - Taste of Hate
     SetBackgroundColor 175 96 37
     SetBorderColor 186 118 38
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
 #=========================================
@@ -129,20 +153,20 @@ Show #Bound - Pantheon Souls
     SetBorderColor 74 230 58
     SetTextColor 74 230 58
     SetBackgroundColor 0 0 0
-    PlayAlertSound 3 300
+    PlayAlertSound 3 300 # Bound Item
 
 Show #Bound - Labyrinth Items & Trinkets
     Class "Labyrinth Item" "Labyrinth Trinket"
     SetBorderColor 74 230 58
     SetTextColor 74 230 58
     SetBackgroundColor 0 0 0
-    PlayAlertSound 3 300
+    PlayAlertSound 3 300 # Bound Item
 
 Show #Bound - Shaper's Orb
     BaseType "Shaper's Orb"
     SetBorderColor 74 230 58
     SetBackgroundColor 0 0 0
-    PlayAlertSound 3 300
+    PlayAlertSound 3 300 # Bound Item
 
 Show #Bound - ~Quests
     Class Quest
@@ -173,9 +197,11 @@ Show #Jewels - Uniques
 # Section: Maps
 #=========================================
 
+#TODO: Fix Sounds
+
 Show #Maps - Divine Vessel
     BaseType "Divine Vessel"
-    PlayAlertSound 7 300
+    PlayAlertSound 7 300 # Divine Vessel
     SetBorderColor 255 255 255
     SetTextColor 255 255 255
     SetBackgroundColor 130 130 130
@@ -184,7 +210,7 @@ Show #Maps - Divine Vessel
 Show #Maps - Ancient Reliquary Key
     Class "Misc Map Items"
     BaseType "Ancient Reliquary Key"
-    PlayAlertSound 7 300
+    PlayAlertSound 7 300 # Ancient Reliquary Key
     SetBorderColor 255 255 255
     SetTextColor 255 255 255
     SetBackgroundColor 130 130 130
@@ -192,7 +218,7 @@ Show #Maps - Ancient Reliquary Key
 
 Show #Maps - Leaguestones (Obsolete)
     BaseType "Leaguestone"
-    PlayAlertSound 7 300
+    PlayAlertSound 7 300 # Leaguestones
     SetBorderColor 255 255 255
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
@@ -207,7 +233,7 @@ Show #Maps - Offering to the Goddess
 Show #Maps - Breachstones - Expensive
     Class "Misc Map Items"
     BaseType "Chayula's Breachstone"
-    PlayAlertSound 7 300
+    PlayAlertSound 7 300 # Breachstones: Expensive
     SetBorderColor 255 255 255
     SetTextColor 255 255 255
     SetBackgroundColor 130 130 130
@@ -215,16 +241,16 @@ Show #Maps - Breachstones - Expensive
 
 Show #Maps - Breachstones - All
     Class "Misc Map Items"
-    BaseType "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone"
-    PlayAlertSound 7 300
+    BaseType $Breachstones
+    PlayAlertSound 7 300 # Breachstones: All
     SetBorderColor 255 255 255
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
 
 Show #Maps - Fragments - Expensive Fragments
     Class "Map Fragments"
-    BaseType "Mortal Hope" "Mortal Ignorance" "Fragment of the Chimera" "Inya's Key" "Fragment of the Hydra"
-    PlayAlertSound 7 300
+    BaseType $ExpensiveFrags
+    PlayAlertSound 7 300 # Fragments: Expensive
     SetBorderColor 255 255 255
     SetTextColor 255 255 255
     SetBackgroundColor 130 130 130
@@ -232,32 +258,32 @@ Show #Maps - Fragments - Expensive Fragments
 
 Show #Maps - Fragments - Atziri Set
     Class "Map Fragments"
-    BaseType "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Noon"
-    PlayAlertSound 7 300
+    BaseType $AtziriSet
+    PlayAlertSound 7 300 # Fragments
     SetBorderColor 255 255 255
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
 
 Show #Maps - Fragments - Uber Atziri Set
     Class "Map Fragments"
-    BaseType "Mortal Grief" "Mortal Rage" "Mortal Hope" "Mortal Ignorance"
-    PlayAlertSound 7 300
+    BaseType $UberAtziriSet
+    PlayAlertSound 7 300 # Fragments
     SetBorderColor 255 255 255
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
 
 Show #Maps - Fragments - Pale Court Set
     Class "Map Fragments"
-    BaseType "Volkuur's Key" "Eber's Key" "Yriel's Key" "Inya's Key"
-    PlayAlertSound 7 300
+    BaseType $PaleCourtSet
+    PlayAlertSound 7 300 # Fragments
     SetBorderColor 255 255 255
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
 
 Show #Maps - Fragments - Shaper Set
     Class "Map Fragments"
-    BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
-    PlayAlertSound 7 300
+    BaseType $ShaperSet
+    PlayAlertSound 7 300 # Fragments
     SetBorderColor 255 255 255
     SetTextColor 0 0 0
     SetBackgroundColor 130 130 130 206
@@ -269,7 +295,7 @@ Show #Maps - Endgame Maps - T11~T15 - Rare
     SetBorderColor 255 0 0
     SetTextColor 255 255 0
     SetBackgroundColor 255 255 255 200
-    PlayAlertSound 2 300
+    PlayAlertSound 2 300 # Endgame Maps: T11~T15
     SetFontSize 40
 
 Show #Maps - Endgame Maps - T11~T15 - Magic
@@ -279,7 +305,7 @@ Show #Maps - Endgame Maps - T11~T15 - Magic
     SetBorderColor 255 0 0
     SetTextColor 37 105 212
     SetBackgroundColor 255 255 255 200
-    PlayAlertSound 2 300
+    PlayAlertSound 2 300 # Endgame Maps: T11~T15
     SetFontSize 40
 
 Show #Maps - Endgame Maps - T11~T15 - Normal
@@ -289,7 +315,7 @@ Show #Maps - Endgame Maps - T11~T15 - Normal
     SetBorderColor 255 0 0
     SetTextColor 0 0 0
     SetBackgroundColor 255 255 255 200
-    PlayAlertSound 2 300
+    PlayAlertSound 2 300 # Endgame Maps: T11~T15
     SetFontSize 40
 
 Show #Maps - Endgame Maps - T6~T10 - Rare
@@ -299,7 +325,7 @@ Show #Maps - Endgame Maps - T6~T10 - Rare
     SetBorderColor 255 255 0
     SetTextColor 255 255 0
     SetBackgroundColor 255 255 255 200
-    PlayAlertSound 2 200
+    PlayAlertSound 2 200 # Endgame Maps: T6~T10
 
 Show #Maps - Endgame Maps - T6~T10 - Magic
     Class Maps
@@ -308,7 +334,7 @@ Show #Maps - Endgame Maps - T6~T10 - Magic
     SetBorderColor 255 255 0
     SetTextColor 37 105 212
     SetBackgroundColor 255 255 255 200
-    PlayAlertSound 2 200
+    PlayAlertSound 2 200 # Endgame Maps: T6~T10
 
 Show #Maps - Endgame Maps - T6~T10 - Normal
     Class Maps
@@ -317,7 +343,7 @@ Show #Maps - Endgame Maps - T6~T10 - Normal
     SetBorderColor 255 255 0
     SetTextColor 0 0 0
     SetBackgroundColor 255 255 255 200
-    PlayAlertSound 2 200
+    PlayAlertSound 2 200 # Endgame Maps: T6~T10
 
 Show #Maps - Endgame Maps - T5-
     Class Maps
@@ -340,7 +366,7 @@ Show #Divination Cards - Super Rare
     SetBorderColor 0 0 0
     SetTextColor 0 0 0
     SetBackgroundColor 0 255 255
-    PlayAlertSound 6 300
+    PlayAlertSound 6 300 # Divination Cards: Super Rare
     SetFontSize 45
 
 Show #Divination Cards - Rare
@@ -349,7 +375,7 @@ Show #Divination Cards - Rare
     SetBorderColor 0 0 0
     SetTextColor 0 0 0
     SetBackgroundColor 0 255 255 200
-    PlayAlertSound 6 200
+    PlayAlertSound 6 200 # Divination Cards: Rare
 
 Show #Divination Cards - Others
     Class "Divination Card"
@@ -362,7 +388,7 @@ Show #Divination Cards - Others
 
 Show #Essences - Corruption Tier
     BaseType "Essence of Delirium" "Essence of Hysteria" "Essence of Horror" "Essence of Insanity"
-    PlayAlertSound 4 75
+    PlayAlertSound 4 75 # Essences: Corruption Tier
     SetBackgroundColor 180 40 180
     SetBorderColor 90 20 90
     SetTextColor 0 0 0
@@ -370,7 +396,7 @@ Show #Essences - Corruption Tier
 
 Show #Essences - Level 6/7
     BaseType "Shrieking Essence of" "Deafening Essence of"
-    PlayAlertSound 4 25
+    PlayAlertSound 4 25 # Essences: Lv. 6/7
     SetBorderColor 180 40 180
     SetTextColor 180 40 180
 
@@ -380,7 +406,7 @@ Show #Essences - Level 5-
 
 Show #Essences - Remnant of Corruption
     BaseType "Remnant of Corruption"
-    PlayAlertSound 4 25
+    PlayAlertSound 4 25 # Essences: Remnant of Corruption
     SetBorderColor 180 40 180
     SetTextColor 180 40 180
 
@@ -390,7 +416,8 @@ Show #Essences - Remnant of Corruption
 
 Show #Currency - Ultra Rare
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb" "Blessing of Chayula" "Albino Rhoa Feather" "Mirror Shard"
-    PlayAlertSound 5 300
+    Class Currency
+    PlayAlertSound 5 300 # Currency: Ultra Rare
     SetBackgroundColor 240 0 0
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
@@ -398,8 +425,8 @@ Show #Currency - Ultra Rare
 
 Show #Currency - Super Rare
     BaseType "Divine Orb" "Blessing of Esh" "Blessing of Uul-Netol" "Master Cartographer's Sextant" "Exalted Shard" "Orb of Horizons" "Orb of Binding" "Engineer's Orb" "Ancient Orb" "Orb of Annulment" 
-    PlayAlertSound 3 120
     Class Currency
+    PlayAlertSound 3 120 # Currency: Super Rare
     SetTextColor 160 0 0
     SetBorderColor 170 158 130
     SetBackgroundColor 0 0 0
@@ -407,8 +434,8 @@ Show #Currency - Super Rare
 
 Show #Currency - Rare
     BaseType "Orb of Alchemy" "Regal Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Chance" "Vaal Orb" "Orb of Regret" "Jeweller's Orb" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Unshaping Orb" "Cartographer's Seal" "Blessed Orb" "Splinter of Chayula" "Splinter of Xoph" "Splinter of Uul-Netol" "Splinter of Esh" "Splinter of Tul" "Blessing of Tul" "Blessing of Xoph" "Binding Shard" "Engineer's Shard" "Ancient Shard" "Annulment Shard" "Horizon Shard" "Silver Coin"
-    PlayAlertSound 3 120
     Class Currency
+    PlayAlertSound 3 120 # Currency: Rare
     SetTextColor 160 0 0
     SetBorderColor 170 158 130
 
@@ -449,7 +476,7 @@ Show #Valuables - Harbinger Pieces
     SetBackgroundColor 88 124 244
     SetBorderColor 0 0 0
     SetTextColor 0 0 0
-    PlayAlertSound 8 300
+    PlayAlertSound 8 300 # Harbinger Pieces
     SetFontSize 40
 
 Show #Valuables - Rods
@@ -457,7 +484,7 @@ Show #Valuables - Rods
     SetBackgroundColor 25 210 0
     SetBorderColor 6 100 0
     SetTextColor 255 255 255 235
-    PlayAlertSound 1 300
+    PlayAlertSound 1 300 # Rods
     SetFontSize 45
 
 Show #Valuables - 6L
@@ -465,7 +492,7 @@ Show #Valuables - 6L
     SetBorderColor 255 0 250
     SetBackgroundColor 255 0 250 190
     SetTextColor 240 240 240
-    PlayAlertSound 9 300
+    PlayAlertSound 9 300 # 6L
 
 Show #Valuables - 5L
     LinkedSockets = 5
@@ -476,7 +503,7 @@ Show #Valuables - Talismans
     Class Amulets
     BaseType Talisman
     SetTextColor 180 105 180
-    PlayAlertSound 4 200
+    PlayAlertSound 4 200 # Talismans
 
 #=========================================
 # Section: Orb Recipes
@@ -487,7 +514,7 @@ Show #Recipes - Currency - Jeweller
     SetBorderColor 0 255 0
 
 Show #Recipes - Currency - Regal - Best Base Types
-    BaseType "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Astral Plate" "Glorious Plate" "Titan Greaves" "Titan Gauntlets" "Spiked Gloves" "Royal Burgonet" "Eternal Burgonet" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield" "Fossilised Spirit Shield"
+    BaseType $BestBases
     Rarity Rare
     ItemLevel >= 75
     SetFontSize 37
@@ -495,14 +522,14 @@ Show #Recipes - Currency - Regal - Best Base Types
     SetBorderColor 255 255 255
 
 Show #Recipes - Currency - Regal - Normal Base Types
-    Class Rings Belts Amulets
+    Class $Accessories
     Rarity Rare
     ItemLevel >= 75
     SetBackgroundColor 0 85 130
     SetBorderColor 0 128 192 200
 
 Show #Recipes - Currency - Regal - Low Base Types
-    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers Sceptres
+    Class $Equipment
     Rarity Rare
     ItemLevel >= 75
     SetFontSize 25
@@ -510,7 +537,7 @@ Show #Recipes - Currency - Regal - Low Base Types
     SetBorderColor 0 128 192 200
 
 Show #Recipes - Currency - Chaos - Best Base Types
-    BaseType "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Astral Plate" "Glorious Plate" "Titan Greaves" "Titan Gauntlets" "Spiked Gloves" "Royal Burgonet" "Eternal Burgonet" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield" "Fossilised Spirit Shield"
+    BaseType $BestBases
     Rarity Rare
     ItemLevel >= 60
     SetFontSize 37
@@ -518,14 +545,14 @@ Show #Recipes - Currency - Chaos - Best Base Types
     SetBorderColor 255 255 255
 
 Show #Recipes - Currency - Chaos - Normal Base Types
-    Class Rings Belts Amulets
+    Class $Accessories
     Rarity Rare
     ItemLevel >= 60
     SetBackgroundColor 85 85 40
     SetBorderColor 128 128 64
 
 Show #Recipes - Currency - Chaos - Low Base Types
-    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers Sceptres
+    Class $Equipment
     Rarity Rare
     ItemLevel >= 60
     SetFontSize 25
@@ -576,8 +603,9 @@ Show #Recipes - Currency - Chisel
 # Section: Gems
 #=========================================
 
+#TODO: Change Drop-Only Customization
 Show #Gems - Drop-Only
-    BaseType Portal Enlighten Empower Enhance "Vaal Breach"
+    BaseType $DropOnlyGems
     Class Gems
     SetBackgroundColor 0 0 90 250
     SetBorderColor 27 162 155
@@ -596,14 +624,14 @@ Show #Gems - No-Quality
 #=========================================
 
 Show #Craft - Atlas Type Bases
-    BaseType "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring"
+    BaseType $AtlasBases
     SetBorderColor 255 255 0
     SetFontSize 25
     SetBackgroundColor 0 0 0 150
 
 #TODO: Add only best bases
 Show #Craft - ilvl 84+
-    Class Body Helmet Glove Boot Belt Ring Amulet "One Hand" "Two Hand" Wand Staves Bow Dagger Claw Sceptres Quivers Shields
+    Class $Equipment
     Rarity = Normal
     ItemLevel >= 84
     SetBorderColor 255 255 0
@@ -1194,7 +1222,7 @@ Hide #Chance League Uniques - Warbands - The Pariah
 #=========================================
 
 Show #General - Rares ilvl 59 and lower
-    Class Helmets "Body Armours" Gloves Boots Shields Bows Claws Daggers Staves "One Hand" "Two Hand" Wands Amulets Rings Belts Quivers
+    Class $Equipment
     Rarity = Rare
     ItemLevel <= 59
 
@@ -1227,7 +1255,7 @@ Show #Low Level - 4L
 #=========================================
 
 Hide #Useless - Magic Items
-    Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands
+    Class $Equipment
     ItemLevel < 83
     Rarity = Magic
     Sockets <= 5
@@ -1245,7 +1273,7 @@ Hide #Useless - Magic Items - Flasks
     SetTextColor 136 136 255 200
 
 Hide #Useless - Normal Items
-    Class Amulets Belts Armours Boots Bows Claws Daggers Gloves Helmets "One Hand" "Two Hand" Quivers Rings Sceptres Shields Staves Wands Flasks
+    Class $Equipment
     ItemLevel < 83
     Rarity = Normal
     Sockets <= 5
