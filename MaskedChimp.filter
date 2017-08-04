@@ -444,6 +444,14 @@ Show #Currency - ~Safety Net
 # Section: Valuables
 #=========================================
 
+Show #Valuables - Harbinger Pieces
+    Class Piece
+    SetBackgroundColor 88 124 244
+    SetBorderColor 0 0 0
+    SetTextColor 0 0 0
+    PlayAlertSound 8 300
+    SetFontSize 40
+
 Show #Valuables - Rods
     Class Rods
     SetBackgroundColor 25 210 0
