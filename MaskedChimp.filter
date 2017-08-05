@@ -8,7 +8,7 @@
 # Section: Variables
 #=========================================
 
-SetVar $Weapons "Axes" "Bows" "Claws" "Daggers" "Maces" "Staves" "Swords" "Wands" 
+SetVar $Weapons "Axes" "Bows" "Claws" "Daggers" "Maces" "Staves" "Swords" "Wands" "Sceptres"
 SetVar $Armours "Body Armour" "Boots" "Gloves" "Helmets" "Shields" "Quivers"
 SetVar $Accessories "Amulets" "Belts" "Rings"
 SetVar $Equipment $Weapons $Armours $Accessories
