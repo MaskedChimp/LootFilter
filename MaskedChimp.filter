@@ -25,8 +25,9 @@ SetVar $ExpensiveFrags "Mortal Hope" "Mortal Ignorance" "Fragment of the Chimera
 SetVar $Breachstones "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone"
 
 SetVar $BestAxes2H "Vaal Axe" "Fleshripper"
+SetVar $BestHelmetsAR "Eternal Burgonet" "Royal Burgonet"
 
-SetVar $BestBases $AtlasBases $BestAxes2H "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Astral Plate" "Glorious Plate" "Titan Greaves" "Titan Gauntlets" "Spiked Gloves" "Royal Burgonet" "Eternal Burgonet" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield"
+SetVar $BestBases $AtlasBases $BestAxes2H $BestHelmetsAR "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Astral Plate" "Glorious Plate" "Titan Greaves" "Titan Gauntlets" "Spiked Gloves" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield"
 
 #=========================================
 # Section: Expensive Uniques
@@ -634,77 +635,154 @@ Show #Craft - ilvl 84+
     SetFontSize 25
     SetBackgroundColor 0 0 0 150
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Stone Axe
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Iron Hat
+    BaseType "Iron Hat"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 7
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Cone Helmet
+    BaseType "Cone Helmet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 18
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Barbute Helmet
+    BaseType "Barbute Helmet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 26
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Close Helmet
+    BaseType "Close Helmet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 35
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Gladiator Helmet
+    BaseType "Gladiator Helmet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 40
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Reaver Helmet
+    BaseType "Reaver Helmet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 48
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Siege Helmet
+    BaseType "Siege Helmet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 55
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Samite Helmet
+    BaseType "Samite Helmet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 60
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Ezomyte Helmet
+    BaseType "Ezomyte Burgonet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 65
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Royal Burgonet
+    BaseType "Royal Burgonet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 72
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Eternal Burgonet
+    BaseType "Eternal Burgonet"
+    Class "Helmets"
+    Rarity = Normal
+    ItemLevel < 72
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Stone Axe
     BaseType "Stone Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 9
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Jade Chopper
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Jade Chopper
     BaseType "Jade Chopper"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 13
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Woodsplitter
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Woodsplitter
     BaseType "Woodsplitter"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 18
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Poleaxe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Poleaxe
     BaseType "Poleaxe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 23
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Double Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Double Axe
     BaseType "Double Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 9
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Gilded Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Gilded Axe
     BaseType "Gilded Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 33
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Shadow Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Shadow Axe
     BaseType "Shadow Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 36
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Dagger Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Dagger Axe
     BaseType "Dagger Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 37
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Jasper Chopper
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Jasper Chopper
     BaseType "Jasper Chopper"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 41
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Timber Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Timber Axe
     BaseType "Timber Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 45
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Headsman Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Headsman Axe
     BaseType "Headsman Axe"
     Class "Two Hand Axe"
     Rarity = Normal
@@ -712,21 +790,21 @@ Hide #Craft - Gear Progression (72-) - Axes - 2H - Headsman Axe
     SetFontSize 25
 
 #Noble Axe has less DPS than Labrys, so we'll keep it for longer
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Labrys
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Labrys
     BaseType "Labrys"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 55
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Noble Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Noble Axe
     BaseType "Noble Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 55
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Abyssal Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Abyssal Axe
     BaseType "Abyssal Axe"
     Class "Two Hand Axe"
     Rarity = Normal
@@ -734,14 +812,14 @@ Hide #Craft - Gear Progression (72-) - Axes - 2H - Abyssal Axe
     SetFontSize 25
 
 #Talon Axe has less DPS than Karui Chopper, so we'll keep it for longer
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Karui Chopper
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Karui Chopper
     BaseType "Karui Chopper"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 60
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Talon Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Talon Axe
     BaseType "Talon Axe"
     Class "Two Hand Axe"
     Rarity = Normal
@@ -749,42 +827,42 @@ Hide #Craft - Gear Progression (72-) - Axes - 2H - Talon Axe
     SetFontSize 25
 
 #Ezomyte Axe has less DPS than Sundering Axe, so we'll keep it for longer
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Sundering Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Sundering Axe
     BaseType "Sundering Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 64
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Ezomyte Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Ezomyte Axe
     BaseType "Ezomyte Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 64
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Vaal Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Vaal Axe
     BaseType "Vaal Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Despot Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Despot Axe
     BaseType "Despot Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Void Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Void Axe
     BaseType "Void Axe"
     Class "Two Hand Axe"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Axes - 2H - Fleshripper
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Fleshripper
     BaseType "Fleshripper"
     Class "Two Hand Axe"
     Rarity = Normal
