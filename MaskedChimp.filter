@@ -755,6 +755,132 @@ Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Gloriou
     ItemLevel < 73
     SetFontSize 25
 
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Iron Greaves
+    Class Boots
+    BaseType "Iron Greaves"
+    Rarity = Normal
+    ItemLevel < 9
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Steel Greaves
+    Class Boots
+    BaseType "Steel Greaves"
+    Rarity = Normal
+    ItemLevel < 23
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Plated Greaves
+    Class Boots
+    BaseType "Plated Greaves"
+    Rarity = Normal
+    ItemLevel < 33
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Reinforced Greaves
+    Class Boots
+    BaseType "Reinforced Greaves"
+    Rarity = Normal
+    ItemLevel < 37
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Antique Greaves
+    Class Boots
+    BaseType "Antique Greaves"
+    Rarity = Normal
+    ItemLevel < 46
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Ancient Greaves
+    Class Boots
+    BaseType "Ancient Greaves"
+    Rarity = Normal
+    ItemLevel < 54
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Goliath Greaves
+    Class Boots
+    BaseType "Goliath Greaves"
+    Rarity = Normal
+    ItemLevel < 62
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Vaal Greaves
+    Class Boots
+    BaseType "Vaal Greaves"
+    Rarity = Normal
+    ItemLevel < 68
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Titan Greaves
+    Class Boots
+    BaseType "Titan Greaves"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Iron Gauntlets
+    Class Boots
+    BaseType "Iron Gauntlets"
+    Rarity = Normal
+    ItemLevel < 11
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Plated Gauntlets
+    Class Boots
+    BaseType "Plated Gauntlets"
+    Rarity = Normal
+    ItemLevel < 23
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Bronze Gauntlets
+    Class Boots
+    BaseType "Bronze Gauntlets"
+    Rarity = Normal
+    ItemLevel < 35
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Steel Gauntlets
+    Class Boots
+    BaseType "Steel Gauntlets"
+    Rarity = Normal
+    ItemLevel < 39
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Antique Gauntlets
+    Class Boots
+    BaseType "Antique Gauntlets"
+    Rarity = Normal
+    ItemLevel < 47
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Ancient Gauntlets
+    Class Boots
+    BaseType "Ancient Gauntlets"
+    Rarity = Normal
+    ItemLevel < 53
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Goliath Gauntlets
+    Class Boots
+    BaseType "Goliath Gauntlets"
+    Rarity = Normal
+    ItemLevel < 63
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Vaal Gauntlets
+    Class Boots
+    BaseType "Vaal Gauntlets"
+    Rarity = Normal
+    ItemLevel < 69
+    SetFontSize 25
+
+Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Titan Gauntlets
+    Class Boots
+    BaseType "Titan Gauntlets"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
 Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Iron Hat
     Class Helmets
     BaseType "Iron Hat"
@@ -917,7 +1043,7 @@ Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Labrys
     ItemLevel < 55
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Noble Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Noble Axe*
     Class "Two Hand Axe"
     BaseType "Noble Axe"
     Rarity = Normal
@@ -939,7 +1065,7 @@ Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Karui Chopper
     ItemLevel < 60
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Talon Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Talon Axe*
     Class "Two Hand Axe"
     BaseType "Talon Axe"
     Rarity = Normal
@@ -954,7 +1080,7 @@ Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Sundering Axe
     ItemLevel < 64
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Ezomyte Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Ezomyte Axe*
     Class "Two Hand Axe"
     BaseType "Ezomyte Axe"
     Rarity = Normal
@@ -968,14 +1094,14 @@ Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Vaal Axe
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Despot Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Despot Axe*
     Class "Two Hand Axe"
     BaseType "Despot Axe"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Void Axe
+Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Void Axe*
     Class "Two Hand Axe"
     BaseType "Void Axe"
     Rarity = Normal
