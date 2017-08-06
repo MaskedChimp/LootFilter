@@ -416,18 +416,18 @@ Show #Essences - Remnant of Corruption
 # Section: Currency
 #=========================================
 
-Show #Currency - Ultra Rare
-    BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb" "Blessing of Chayula" "Albino Rhoa Feather" "Mirror Shard"
+Show  #Currency - Ultra Rare
     Class Currency
-    SetBackgroundColor 240 0 0
-    SetTextColor 0 0 0
-    SetBorderColor 0 0 0
+    BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb" "Blessing of Chayula" "Albino Rhoa Feather" "Mirror Shard"
     SetFontSize 45
+    SetTextColor 0 0 0
+    SetBackgroundColor 240 0 0
+    SetBorderColor 0 0 0
     PlayAlertSound 5 300 # Currency: Ultra Rare
 
 Show  #Currency - Super Rare
     Class Currency
-    BaseType "Divine Orb" "Blessing of Esh" "Blessing of Uul-Netol" "Master Cartographer's Sextant" "Exalted Shard" "Orb of Horizons" "Orb of Binding" "Engineer's Orb" "Ancient Orb" "Orb of Annulment" "Harbinger's Orb"
+    BaseType "Divine Orb" "Blessing of Esh" "Blessing of Uul-Netol" "Master Cartographer's Sextant" "Exalted Shard" "Ancient Orb" "Orb of Annulment" "Harbinger's Orb"
     SetFontSize 40
     SetTextColor 160 0 0
     SetBackgroundColor 0 0 0
@@ -436,14 +436,14 @@ Show  #Currency - Super Rare
 
 Show  #Currency - Rare
     Class Currency
-    BaseType "Orb of Alchemy" "Regal Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Chance" "Vaal Orb" "Orb of Regret" "Jeweller's Orb" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Unshaping Orb" "Cartographer's Seal" "Blessed Orb" "Splinter of Chayula" "Splinter of Xoph" "Splinter of Uul-Netol" "Splinter of Esh" "Splinter of Tul" "Blessing of Tul" "Blessing of Xoph" "Ancient Shard" "Annulment Shard" "Horizon Shard" "Silver Coin" "Harbinger's Shard"
+    BaseType "Orb of Alchemy" "Regal Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Chance" "Vaal Orb" "Orb of Regret" "Jeweller's Orb" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Unshaping Orb" "Cartographer's Seal" "Blessed Orb" "Splinter of Chayula" "Splinter of Xoph" "Splinter of Uul-Netol" "Splinter of Esh" "Splinter of Tul" "Blessing of Tul" "Blessing of Xoph" "Ancient Shard" "Annulment Shard" "Silver Coin" "Harbinger's Shard" "Orb of Binding" "Engineer's Orb" "Orb of Horizons"
     SetTextColor 160 0 0
     SetBorderColor 170 158 130
     PlayAlertSound 3 120 # Currency: Rare
 
 Show  #Currency - Common
     Class Currency
-    BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Glassblower's Bauble" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Stacked Deck" "Perandus Coin" "Chaos Shard" "Regal Shard" "Alchemy Shard" "Alteration Shard" "Transmutation Shard" "Binding Shard" "Engineer's Shard"
+    BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Glassblower's Bauble" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Stacked Deck" "Perandus Coin" "Chaos Shard" "Regal Shard" "Alchemy Shard" "Alteration Shard" "Transmutation Shard" "Binding Shard" "Engineer's Shard" "Horizon Shard"
     SetBorderColor 170 158 130
 
 Show #Currency - Scrolls
