@@ -27,8 +27,10 @@ SetVar $Breachstones "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachs
 SetVar $BestAxes2H "Vaal Axe" "Fleshripper"
 SetVar $BestHelmetsAR "Eternal Burgonet" "Royal Burgonet"
 SetVar $BestBodiesAR "Astral Plate" "Glorious Plate"
+SetVar $BestBootsAR "Titan Greaves"
+SetVar $BestGlovesAR "Titan Gauntlets" "Spiked Gloves"
 
-SetVar $BestBases $AtlasBases $BestAxes2H $BestHelmetsAR $BestBodiesAR "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Titan Greaves" "Titan Gauntlets" "Spiked Gloves" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield"
+SetVar $BestBases $AtlasBases $BestAxes2H $BestHelmetsAR $BestBodiesAR $BestBootsAR $BestGlovesAR "Zodiac Leather" "Slink Boots" "Slink Gloves" "Gripped Gloves" "Lion Pelt" "Vaal Regalia" "Sorcerer Boots" "Sorcerer Gloves" "Fingerless Silk Gloves" "Hubris Circlet" "Full Dragonscale" "Triumphant Lamellar" "Saint's Hauberk" "Saintly Chainmail" "Sadist Garb" "Carnal Armour" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Murder Boots" "Dragonscale Gauntlets" "Crusader Gloves" "Murder Mitts" "Pig-Faced Bascinet" "Nightmare Bascinet" "Prophet Crown" "Praetor Crown" "Bone Helmet" "Vaal Mask" "Deicide Mask" "Colossal Tower Shield" "Imperial Buckler" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Archon Kite Shield" "Supreme Spiked Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield"
 
 #=========================================
 # Section: Expensive Uniques
