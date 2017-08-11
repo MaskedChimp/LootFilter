@@ -8,7 +8,7 @@
 # Section: Variables
 #=========================================
 
-# Classes
+# Item Classes
 SetVar $Weapons "Axes" "Bows" "Claws" "Daggers" "Maces" "Staves" "Swords" "Wands" "Sceptres"
 SetVar $Armours "Body Armour" "Boots" "Gloves" "Helmets" "Shields" "Quivers"
 SetVar $Accessories "Amulets" "Belts" "Rings"
@@ -28,6 +28,9 @@ SetVar $ExpensiveFrags "Mortal Hope" "Mortal Ignorance" "Fragment of the Chimera
 
 # Best Weapons
 SetVar $BestAxes2H "Vaal Axe" "Fleshripper"
+SetVar $BestMaces1H "Auric Mace" "Nightmare Mace" "Behemoth Mace"
+SetVar $BestMaces2H "Meatgrinder" "Coronal Maul"
+SetVar $BestSceptres "Void Sceptre" "Sambar Sceptre"
 
 # Best Helmets
 SetVar $BestHelmetsAR "Eternal Burgonet" "Royal Burgonet"
@@ -36,6 +39,8 @@ SetVar $BestHelmetsES "Hubris Circlet"
 SetVar $BestHelmetsAR_EV "Pig-Faced Bascinet" "Nightmare Bascinet"
 SetVar $BestHelmetsAR_ES "Prophet Crown" "Praetor Crown"
 SetVar $BestHelmetsES_EV "Vaal Mask" "Deicide Mask"
+SetVar $BestDaggers "Sai" "Platinum Kris" "Demon Dagger"
+SetVar $BestWands "Tornado Wand" "Prophecy Wand" "Profane Wand"
 
 # Best Body Armours
 SetVar $BestBodiesAR "Astral Plate" "Glorious Plate"
@@ -69,7 +74,7 @@ SetVar $BestShieldsAR_EV "Cardinal Round Shield"
 SetVar $BestShieldsAR_ES "Champion Kite Shield" "Archon Kite Shield"
 SetVar $BestShieldsES_EV "Supreme Spiked Shield" "Mirrored Spiked Shield"
 
-SetVar $BestBases $AtlasBases $BestHelmetsAR $BestBodiesAR $BestBootsAR $BestGlovesAR $BestHelmetsEV $BestBodiesEV $BestBootsEV $BestGlovesEV $BestHelmetsES $BestBodiesES $BestBootsES $BestGlovesES $BestHelmetsAR_EV $BestBodiesAR_EV $BestBootsAR_EV $BestGlovesAR_EV $BestHelmetsAR_ES $BestBodiesAR_ES $BestBootsAR_ES $BestGlovesAR_ES $BestHelmetsES_EV $BestBodiesES_EV $BestBootsES_EV $BestGlovesES_EV $BestAxes2H $BestShieldsAR $BestShieldsEV $BestShieldsES $BestShieldsAR_EV $BestShieldsAR_ES $BestShieldsES_EV "Platinum Kris" "Profane Wand" "Prophecy Wand" "Harmonic Spirit Shield"
+SetVar $BestBases $AtlasBases $BestHelmetsAR $BestBodiesAR $BestBootsAR $BestGlovesAR $BestHelmetsEV $BestBodiesEV $BestBootsEV $BestGlovesEV $BestHelmetsES $BestBodiesES $BestBootsES $BestGlovesES $BestHelmetsAR_EV $BestBodiesAR_EV $BestBootsAR_EV $BestGlovesAR_EV $BestHelmetsAR_ES $BestBodiesAR_ES $BestBootsAR_ES $BestGlovesAR_ES $BestHelmetsES_EV $BestBodiesES_EV $BestBootsES_EV $BestGlovesES_EV $BestAxes2H $BestShieldsAR $BestShieldsEV $BestShieldsES $BestShieldsAR_EV $BestShieldsAR_ES $BestShieldsES_EV $BestMaces1H $BestMaces2H $BestSceptres $BestWands $BestDaggers
 
 #=========================================
 # Section: Expensive Uniques
