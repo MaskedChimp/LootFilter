@@ -682,6 +682,294 @@ Show  #Craft - ilvl 84+
     SetBackgroundColor 0 0 0 150
     SetBorderColor 255 255 0
 
+Hide #Craft - Normal Best Bases - Armours - Armour - Helmets
+    BaseType $BestHelmetsAR
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour - Body Armours
+    BaseType $BestBodiesAR
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour - Gloves
+    BaseType $BestGlovesAR
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour - Boots
+    BaseType $BestBootsAR
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour - Shields
+    BaseType $BestShieldsAR
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Evasion - Helmets
+    BaseType $BestHelmetsEV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Evasion - Body Armours
+    BaseType $BestBodiesEV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Evasion - Gloves
+    BaseType $BestGlovesEV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Evasion - Boots
+    BaseType $BestBootsEV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Evasion - Shields
+    BaseType $BestShieldsEV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield - Helmets
+    BaseType $BestHelmetsES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield - Body Armours
+    BaseType $BestBodiesES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield - Gloves
+    BaseType $BestGlovesES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield - Boots
+    BaseType $BestBootsES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield - Shields
+    BaseType $BestShieldsES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Helmets
+    BaseType $BestHelmetsAR_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Body Armours
+    BaseType $BestBodiesAR_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Gloves
+    BaseType $BestGlovesAR_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Boots
+    BaseType $BestBootsAR_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Shields
+    BaseType $BestShieldsAR_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Helmets
+    BaseType $BestHelmetsAR_ES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Body Armours
+    BaseType $BestBodiesAR_ES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Gloves
+    BaseType $BestGlovesAR_ES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Boots
+    BaseType $BestBootsAR_ES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Shields
+    BaseType $BestShieldsAR_ES
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Helmets
+    BaseType $BestHelmetsES_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Body Armours
+    BaseType $BestBodiesES_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Gloves
+    BaseType $BestGlovesES_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Boots
+    BaseType $BestBootsES_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Shields
+    BaseType $BestShieldsES_EV
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Axes - 2H
+    BaseType $BestAxes2H
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+Hide #Craft - Normal Best Bases - Weapons - Daggers
+    BaseType $BestDaggers
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+
+Hide #Craft - Normal Best Bases - Weapons - Maces - 1H
+    BaseType $BestMaces1H
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Maces - 2H
+    BaseType $BestMaces2H
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Sceptres
+    BaseType $BestSceptres
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Wands
+    BaseType $BestWands
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
 Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Plate Vest
     Class "Body Armours"
     BaseType "Plate Vest"
