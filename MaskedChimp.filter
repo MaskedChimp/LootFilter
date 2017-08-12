@@ -682,14 +682,14 @@ Show  #Craft - Atlas Type Bases
     SetFontSize 35
     PlayAlertSound 16 120 # Atlas Type Bases
 
-#TODO: Add only best bases
 Show  #Craft - ilvl 84+
-    Class $Equipment
+    BaseType $BestBases
     Rarity = Normal
     ItemLevel >= 84
-    SetFontSize 25
-    SetBackgroundColor 0 0 0 150
+    SetTextColor 255 255 255
     SetBorderColor 255 255 0
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour - Helmets
     BaseType $BestHelmetsAR
