@@ -27,10 +27,19 @@ SetVar $AllSets $AtziriSet $UberAtziriSet $PaleCourtSet $ShaperSet
 SetVar $ExpensiveFrags "Mortal Hope" "Mortal Ignorance" "Fragment of the Chimera" "Inya's Key" "Fragment of the Hydra"
 
 # Best Weapons
+SetVar $BestAxes1H "Royal Axe" "Runic Hatchet"
 SetVar $BestAxes2H "Vaal Axe" "Fleshripper"
 SetVar $BestMaces1H "Auric Mace" "Nightmare Mace" "Behemoth Mace"
 SetVar $BestMaces2H "Meatgrinder" "Coronal Maul"
+SetVar $BestSwords1H "Legion Sword" "Tiger Hook"
+SetVar $BestSwords2H "Vaal Greatsword" "Exquisite Blade"
+SetVar $BestSwordsThrusting "Jewelled Foil" "Dragoon Sword" "Harpy Rapier"
 SetVar $BestSceptres "Void Sceptre" "Sambar Sceptre"
+SetVar $BestDaggers "Sai" "Platinum Kris" "Demon Dagger"
+SetVar $BestWands "Tornado Wand" "Prophecy Wand" "Profane Wand"
+SetVar $BestBows "Maraketh Bow" "Imperial Bow" "Harbinger Bow" "Citadel Bow"
+SetVar $BestClaws "Imperial Claw" "Vaal Claw" "Gemini Claw"
+SetVar $BestStaves "Eclipse Staff" "Imperial Staff"
 
 # Best Helmets
 SetVar $BestHelmetsAR "Eternal Burgonet" "Royal Burgonet"
@@ -39,8 +48,6 @@ SetVar $BestHelmetsES "Hubris Circlet"
 SetVar $BestHelmetsAR_EV "Pig-Faced Bascinet" "Nightmare Bascinet"
 SetVar $BestHelmetsAR_ES "Prophet Crown" "Praetor Crown"
 SetVar $BestHelmetsES_EV "Vaal Mask" "Deicide Mask"
-SetVar $BestDaggers "Sai" "Platinum Kris" "Demon Dagger"
-SetVar $BestWands "Tornado Wand" "Prophecy Wand" "Profane Wand"
 
 # Best Body Armours
 SetVar $BestBodiesAR "Astral Plate" "Glorious Plate"
@@ -74,7 +81,7 @@ SetVar $BestShieldsAR_EV "Cardinal Round Shield"
 SetVar $BestShieldsAR_ES "Champion Kite Shield" "Archon Kite Shield"
 SetVar $BestShieldsES_EV "Supreme Spiked Shield" "Mirrored Spiked Shield"
 
-SetVar $BestBases $AtlasBases $BestHelmetsAR $BestBodiesAR $BestBootsAR $BestGlovesAR $BestHelmetsEV $BestBodiesEV $BestBootsEV $BestGlovesEV $BestHelmetsES $BestBodiesES $BestBootsES $BestGlovesES $BestHelmetsAR_EV $BestBodiesAR_EV $BestBootsAR_EV $BestGlovesAR_EV $BestHelmetsAR_ES $BestBodiesAR_ES $BestBootsAR_ES $BestGlovesAR_ES $BestHelmetsES_EV $BestBodiesES_EV $BestBootsES_EV $BestGlovesES_EV $BestAxes2H $BestShieldsAR $BestShieldsEV $BestShieldsES $BestShieldsAR_EV $BestShieldsAR_ES $BestShieldsES_EV $BestMaces1H $BestMaces2H $BestSceptres $BestWands $BestDaggers
+SetVar $BestBases $AtlasBases $BestHelmetsAR $BestBodiesAR $BestBootsAR $BestGlovesAR $BestHelmetsEV $BestBodiesEV $BestBootsEV $BestGlovesEV $BestHelmetsES $BestBodiesES $BestBootsES $BestGlovesES $BestHelmetsAR_EV $BestBodiesAR_EV $BestBootsAR_EV $BestGlovesAR_EV $BestHelmetsAR_ES $BestBodiesAR_ES $BestBootsAR_ES $BestGlovesAR_ES $BestHelmetsES_EV $BestBodiesES_EV $BestBootsES_EV $BestGlovesES_EV $BestAxes1H $BestAxes2H $BestShieldsAR $BestShieldsEV $BestShieldsES $BestShieldsAR_EV $BestShieldsAR_ES $BestShieldsES_EV $BestMaces1H $BestMaces2H $BestSceptres $BestWands $BestDaggers $BestSwords2H $BestSwords1H $BestSwordsThrusting $BestClaws $BestStaves $BestBows
 
 #=========================================
 # Section: Expensive Uniques
@@ -924,6 +931,14 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Shields
     SetBackgroundColor 0 0 0
     SetFontSize 35
 
+Hide #Craft - Normal Best Bases - Weapons - Axes - 1H
+    BaseType $BestAxes1H
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
 Hide #Craft - Normal Best Bases - Weapons - Axes - 2H
     BaseType $BestAxes2H
     Rarity = Normal
@@ -931,6 +946,55 @@ Hide #Craft - Normal Best Bases - Weapons - Axes - 2H
     SetBorderColor 255 255 255
     SetBackgroundColor 0 0 0
     SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Staves
+    BaseType $BestStaves
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Swords - 1H
+    BaseType $BestSwords1H
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Swords - 2H
+    BaseType $BestSwords2H
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Swords - Thrusting
+    BaseType $BestSwordsThrusting
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Claws
+    BaseType $BestClaws
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
+Hide #Craft - Normal Best Bases - Weapons - Bows
+    BaseType $BestBows
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 0 0 0
+    SetFontSize 35
+
 Hide #Craft - Normal Best Bases - Weapons - Daggers
     BaseType $BestDaggers
     Rarity = Normal
