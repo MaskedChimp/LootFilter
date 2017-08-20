@@ -92,9 +92,9 @@ Show #Expensive Uniques - Heretic's Veil
     BaseType "Deicide Mask"
     DropLevel = 67
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -103,9 +103,9 @@ Show #Expensive Uniques - Dying Sun
     BaseType "Ruby Flask"
     DropLevel = 68
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -113,9 +113,9 @@ Show #Expensive Uniques - Cospri's Will
     Class "Body Armours"
     BaseType "Assassin's Garb"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -123,9 +123,9 @@ Show #Expensive Uniques -  Shavronne's Wrappings
     Class "Body Armours"
     BaseType "Occultist's Vestment"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -133,9 +133,9 @@ Show #Expensive Uniques - Bino's Kitchen Knife
     Class "Daggers"
     BaseType "Slaughter Knife"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -143,9 +143,9 @@ Show #Expensive Uniques - Vessel of Vinktar
     Class Flasks
     BaseType "Topaz Flask"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -153,9 +153,9 @@ Show #Expensive Uniques - Void Battery
     Class Wands
     BaseType "Prophecy Wand"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -163,9 +163,9 @@ Show #Expensive Uniques - Rat's Nest
     Class Helmets
     BaseType "Ursine Pelt"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -173,9 +173,9 @@ Show #Expensive Uniques - Voltaxic Rift
     Class Bows
     BaseType "Spine Bow"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -183,9 +183,9 @@ Show #Expensive Uniques - Crown of the Pale King
     Class Helmets
     BaseType "Regicide Mask"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -193,9 +193,9 @@ Show #Expensive Uniques - Taste of Hate
     Class Flasks
     BaseType "Sapphire Flask"
     Rarity = Unique
-    SetBackgroundColor 175 96 37
-    SetBorderColor 186 118 38
-    SetTextColor 0 0 0
+    SetBackgroundColor 175 96 37 # Expensive Uniques
+    SetBorderColor 186 118 38 # Expensive Uniques
+    SetTextColor 0 0 0 # Expensive Uniques
     PlayAlertSound 8 300 # Expensive Uniques
     SetFontSize 45
 
@@ -205,23 +205,23 @@ Show #Expensive Uniques - Taste of Hate
 
 Show #Bound - Pantheon Souls
     Class "Pantheon Soul"
-    SetBorderColor 74 230 58
-    SetTextColor 74 230 58
-    SetBackgroundColor 0 0 0
-    PlayAlertSound 3 300 # Bound Item
+    SetBorderColor 74 230 58 # Pantheon Souls
+    SetTextColor 74 230 58 # Pantheon Souls
+    SetBackgroundColor 0 0 0 # Pantheon Souls
+    PlayAlertSound 3 300 # Bound Items
 
 Show #Bound - Labyrinth Items & Trinkets
     Class "Labyrinth Item" "Labyrinth Trinket"
-    SetBorderColor 74 230 58
-    SetTextColor 74 230 58
-    SetBackgroundColor 0 0 0
-    PlayAlertSound 3 300 # Bound Item
+    SetBorderColor 74 230 58 # Labyrinth Items & Trinkets
+    SetTextColor 74 230 58 # Labyrinth Items & Trinkets
+    SetBackgroundColor 0 0 0 # Labyrinth Items & Trinkets
+    PlayAlertSound 3 300 # Bound Items
 
 Show #Bound - Shaper's Orb
     BaseType "Shaper's Orb"
-    SetBorderColor 74 230 58
-    SetBackgroundColor 0 0 0
-    PlayAlertSound 3 300 # Bound Item
+    SetBorderColor 74 230 58 # Shaper's Orb
+    SetBackgroundColor 0 0 0 # Shaper's Orb
+    PlayAlertSound 3 300 # Bound Items
 
 Show #Bound - ~Quests
     Class Quest
@@ -233,20 +233,20 @@ Show #Bound - ~Quests
 Show #Jewels - Magic
     Class Jewel
     Rarity = Magic
-    SetBackgroundColor 0 45 90
-    SetBorderColor 0 65 135
+    SetBackgroundColor 0 45 90 # Jewels
+    SetBorderColor 0 65 135 # Jewels
 
 Show #Jewels - Rare
     Class Jewel
     Rarity = Rare
-    SetBackgroundColor 0 45 90
-    SetBorderColor 0 65 135
+    SetBackgroundColor 0 45 90 # Jewels
+    SetBorderColor 0 65 135 # Jewels
 
 Show #Jewels - Uniques
     Class Jewel
     Rarity = Unique
-    SetBackgroundColor 0 45 90
-    SetBorderColor 0 65 135
+    SetBackgroundColor 0 45 90 # Jewels
+    SetBorderColor 0 65 135 # Jewels
 
 #=========================================
 # Section: Maps
@@ -257,99 +257,99 @@ Show #Jewels - Uniques
 Show #Maps - Divine Vessel
     BaseType "Divine Vessel"
     PlayAlertSound 7 300 # Divine Vessel
-    SetBorderColor 255 255 255
-    SetTextColor 255 255 255
-    SetBackgroundColor 130 130 130
+    SetBorderColor 255 255 255 # Divine Vessel
+    SetTextColor 255 255 255 # Divine Vessel
+    SetBackgroundColor 130 130 130 # Divine Vessel
     SetFontSize 40
 
 Show #Maps - Ancient Reliquary Key
     Class "Misc Map Items"
     BaseType "Ancient Reliquary Key"
     PlayAlertSound 7 300 # Ancient Reliquary Key
-    SetBorderColor 255 255 255
-    SetTextColor 255 255 255
-    SetBackgroundColor 130 130 130
+    SetBorderColor 255 255 255 # Ancient Reliquary Key
+    SetTextColor 255 255 255 # Ancient Reliquary Key
+    SetBackgroundColor 130 130 130 # Ancient Reliquary Key
     SetFontSize 45
 
 Show #Maps - Leaguestones (Obsolete)
     BaseType "Leaguestone"
     PlayAlertSound 7 300 # Leaguestones
-    SetBorderColor 255 255 255
-    SetTextColor 0 0 0
-    SetBackgroundColor 130 130 130 206
+    SetBorderColor 255 255 255 # Leaguestones
+    SetTextColor 0 0 0 # Leaguestones
+    SetBackgroundColor 130 130 130 206 # Leaguestones
 
 Show #Maps - Offering to the Goddess
     Class "Labyrinth Map Item"
     BaseType "Offering to the Goddess"
-    SetBorderColor 255 255 255
-    SetTextColor 0 0 0
-    SetBackgroundColor 130 130 130 206
+    SetBorderColor 255 255 255 # Offering to the Goddess
+    SetTextColor 0 0 0 # Offering to the Goddess
+    SetBackgroundColor 130 130 130 206 # Offering to the Goddess
 
 Show #Maps - Breachstones - Expensive
     Class "Misc Map Items"
     BaseType "Chayula's Breachstone"
     PlayAlertSound 7 300 # Breachstones: Expensive
-    SetBorderColor 255 255 255
-    SetTextColor 255 255 255
-    SetBackgroundColor 130 130 130
+    SetBorderColor 255 255 255 # Breachstones: Expensive
+    SetTextColor 255 255 255 # Breachstones: Expensive
+    SetBackgroundColor 130 130 130 # Breachstones: Expensive
     SetFontSize 45
 
 Show #Maps - Breachstones - All
     Class "Misc Map Items"
     BaseType $Breachstones
     PlayAlertSound 7 300 # Breachstones: All
-    SetBorderColor 255 255 255
-    SetTextColor 0 0 0
-    SetBackgroundColor 130 130 130 206
+    SetBorderColor 255 255 255 # Breachstones: All
+    SetTextColor 0 0 0 # Breachstones: All
+    SetBackgroundColor 130 130 130 206 # Breachstones: All
 
 Show #Maps - Fragments - Expensive Fragments
     Class "Map Fragments"
     BaseType $ExpensiveFrags
     PlayAlertSound 7 300 # Fragments: Expensive
-    SetBorderColor 255 255 255
-    SetTextColor 255 255 255
-    SetBackgroundColor 130 130 130
+    SetBorderColor 255 255 255 # Fragments: Expensive
+    SetTextColor 255 255 255 # Fragments: Expensive
+    SetBackgroundColor 130 130 130 # Fragments: Expensive
     SetFontSize 40
 
 Show #Maps - Fragments - Atziri Set
     Class "Map Fragments"
     BaseType $AtziriSet
     PlayAlertSound 7 300 # Fragments
-    SetBorderColor 255 255 255
-    SetTextColor 0 0 0
-    SetBackgroundColor 130 130 130 206
+    SetBorderColor 255 255 255 # Fragments
+    SetTextColor 0 0 0 # Fragments
+    SetBackgroundColor 130 130 130 206 # Fragments
 
 Show #Maps - Fragments - Uber Atziri Set
     Class "Map Fragments"
     BaseType $UberAtziriSet
     PlayAlertSound 7 300 # Fragments
-    SetBorderColor 255 255 255
-    SetTextColor 0 0 0
-    SetBackgroundColor 130 130 130 206
+    SetBorderColor 255 255 255 # Fragments
+    SetTextColor 0 0 0 # Fragments
+    SetBackgroundColor 130 130 130 206 # Fragments
 
 Show #Maps - Fragments - Pale Court Set
     Class "Map Fragments"
     BaseType $PaleCourtSet
     PlayAlertSound 7 300 # Fragments
-    SetBorderColor 255 255 255
-    SetTextColor 0 0 0
-    SetBackgroundColor 130 130 130 206
+    SetBorderColor 255 255 255 # Fragments
+    SetTextColor 0 0 0 # Fragments
+    SetBackgroundColor 130 130 130 206 # Fragments
 
 Show #Maps - Fragments - Shaper Set
     Class "Map Fragments"
     BaseType $ShaperSet
     PlayAlertSound 7 300 # Fragments
-    SetBorderColor 255 255 255
-    SetTextColor 0 0 0
-    SetBackgroundColor 130 130 130 206
+    SetBorderColor 255 255 255 # Fragments
+    SetTextColor 0 0 0 # Fragments
+    SetBackgroundColor 130 130 130 206 # Fragments
 
 Show #Maps - Endgame Maps - T11~T15 - Rare
     Class Maps
     Rarity = Rare
     DropLevel >= 78
-    SetBorderColor 255 0 0
-    SetTextColor 255 255 0
-    SetBackgroundColor 255 255 255 200
+    SetBorderColor 255 0 0 # Endgame Maps: T11~T15
+    SetTextColor 255 255 0 # Endgame Maps: T11~T15
+    SetBackgroundColor 255 255 255 200 # Endgame Maps: T11~T15
     PlayAlertSound 2 300 # Endgame Maps: T11~T15
     SetFontSize 40
 
@@ -357,9 +357,9 @@ Show #Maps - Endgame Maps - T11~T15 - Magic
     Class Maps
     Rarity = Magic
     DropLevel >= 78
-    SetBorderColor 255 0 0
-    SetTextColor 37 105 212
-    SetBackgroundColor 255 255 255 200
+    SetBorderColor 255 0 0 # Endgame Maps: T11~T15
+    SetTextColor 37 105 212 # Endgame Maps: T11~T15
+    SetBackgroundColor 255 255 255 200 # Endgame Maps: T11~T15
     PlayAlertSound 2 300 # Endgame Maps: T11~T15
     SetFontSize 40
 
@@ -367,9 +367,9 @@ Show #Maps - Endgame Maps - T11~T15 - Normal
     Class Maps
     Rarity = Normal
     DropLevel >= 78
-    SetBorderColor 255 0 0
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 255 255 200
+    SetBorderColor 255 0 0 # Endgame Maps: T11~T15
+    SetTextColor 0 0 0 # Endgame Maps: T11~T15
+    SetBackgroundColor 255 255 255 200 # Endgame Maps: T11~T15
     PlayAlertSound 2 300 # Endgame Maps: T11~T15
     SetFontSize 40
 
@@ -377,38 +377,38 @@ Show #Maps - Endgame Maps - T6~T10 - Rare
     Class Maps
     Rarity = Rare
     DropLevel >= 73
-    SetBorderColor 255 255 0
-    SetTextColor 255 255 0
-    SetBackgroundColor 255 255 255 200
+    SetBorderColor 255 255 0 # Endgame Maps: T6~T10
+    SetTextColor 255 255 0 # Endgame Maps: T6~T10
+    SetBackgroundColor 255 255 255 200 # Endgame Maps: T6~T10
     PlayAlertSound 2 200 # Endgame Maps: T6~T10
 
 Show #Maps - Endgame Maps - T6~T10 - Magic
     Class Maps
     Rarity = Magic
     DropLevel >= 73
-    SetBorderColor 255 255 0
-    SetTextColor 37 105 212
-    SetBackgroundColor 255 255 255 200
+    SetBorderColor 255 255 0 # Endgame Maps: T6~T10
+    SetTextColor 37 105 212 # Endgame Maps: T6~T10
+    SetBackgroundColor 255 255 255 200 # Endgame Maps: T6~T10
     PlayAlertSound 2 200 # Endgame Maps: T6~T10
 
 Show #Maps - Endgame Maps - T6~T10 - Normal
     Class Maps
     Rarity = Normal
     DropLevel >= 73
-    SetBorderColor 255 255 0
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 255 255 200
+    SetBorderColor 255 255 0 # Endgame Maps: T6~T10
+    SetTextColor 0 0 0 # Endgame Maps: T6~T10
+    SetBackgroundColor 255 255 255 200 # Endgame Maps: T6~T10
     PlayAlertSound 2 200 # Endgame Maps: T6~T10
 
 Show #Maps - Endgame Maps - T5-
     Class Maps
-    SetBorderColor 255 255 255
+    SetBorderColor 255 255 255  # Endgame Maps: T5-
 
 Show #Maps - ~Safety Net
     Class Maps
-    SetTextColor 230 255 0
-    SetBorderColor 230 255 0
-    SetBackgroundColor 255 0 102
+    SetTextColor 230 255 0 # Safety Net
+    SetBorderColor 230 255 0 # Safety Net
+    SetBackgroundColor 255 0 102 # Safety Net
     SetFontSize 45
 
 #=========================================
@@ -418,24 +418,24 @@ Show #Maps - ~Safety Net
 Show #Divination Cards - Super Rare
     BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Dragon's Heart" "The Ethereal" "The Last One Standing" "The Offering" "Hunter's Reward" "Pride Before the Fall" "Mawr Blaidd" "The Immortal"
     Class "Divination Card"
-    SetBorderColor 0 0 0
-    SetTextColor 0 0 0
-    SetBackgroundColor 0 255 255
+    SetBorderColor 0 0 0 # Divination Cards: Super Rare
+    SetTextColor 0 0 0 # Divination Cards: Super Rare
+    SetBackgroundColor 0 255 255 # Divination Cards: Super Rare
     PlayAlertSound 6 300 # Divination Cards: Super Rare
     SetFontSize 45
 
 Show #Divination Cards - Rare
     BaseType "Abandoned Wealth" "The Queen" "The Vast" "The Celestial Justicar" "Wealth and Power" "Bowyer's Dream" "The Polymath" "The King's Heart" "The Enlightened" "The Brittle Emperor" "The Saint's Treasure" "The Hunger" "Last Hope" "The Dapper Prodigy" "The Thaumaturgist" "The Artist" "Heterochromia"
     Class "Divination Card"
-    SetBorderColor 0 0 0
-    SetTextColor 0 0 0
-    SetBackgroundColor 0 255 255 200
+    SetBorderColor 0 0 0 # Divination Cards: Rare
+    SetTextColor 0 0 0 # Divination Cards: Rare
+    SetBackgroundColor 0 255 255 200 # Divination Cards: Rare
     PlayAlertSound 6 200 # Divination Cards: Rare
 
 Show #Divination Cards - Others
     Class "Divination Card"
-    SetBorderColor 0 255 255
-    SetTextColor 0 255 255
+    SetBorderColor 0 255 255 # Divination Cards: Others
+    SetTextColor 0 255 255 # Divination Cards: Others
 
 #=========================================
 # Section: Essences
@@ -444,26 +444,26 @@ Show #Divination Cards - Others
 Show #Essences - Corruption Tier
     BaseType "Essence of Delirium" "Essence of Hysteria" "Essence of Horror" "Essence of Insanity"
     PlayAlertSound 4 75 # Essences: Corruption Tier
-    SetBackgroundColor 180 40 180
-    SetBorderColor 90 20 90
-    SetTextColor 0 0 0
+    SetBackgroundColor 180 40 180 # Essences: Corruption Tier
+    SetBorderColor 90 20 90 # Essences: Corruption Tier
+    SetTextColor 0 0 0 # Essences: Corruption Tier
     SetFontSize 40
 
 Show #Essences - Level 6/7
     BaseType "Shrieking Essence of" "Deafening Essence of"
     PlayAlertSound 4 25 # Essences: Lv. 6/7
-    SetBorderColor 180 40 180
-    SetTextColor 180 40 180
+    SetBorderColor 180 40 180 # Essences: Lv. 6/7
+    SetTextColor 180 40 180 # Essences: Lv. 6/7
 
 Show #Essences - Level 5-
     BaseType "Essence of"
-    SetBorderColor 180 40 180
+    SetBorderColor 180 40 180 # Essences: Lv. 5-
 
 Show #Essences - Remnant of Corruption
     BaseType "Remnant of Corruption"
     PlayAlertSound 4 25 # Essences: Remnant of Corruption
-    SetBorderColor 180 40 180
-    SetTextColor 180 40 180
+    SetBorderColor 180 40 180 # Essences: Remnant of Corruption
+    SetTextColor 180 40 180 # Essences: Remnant of Corruption
 
 #=========================================
 # Section: Currency
@@ -473,31 +473,31 @@ Show  #Currency - Ultra Rare
     Class Currency
     BaseType "Mirror of Kalandra" "Exalted Orb" "Eternal Orb" "Blessing of Chayula" "Albino Rhoa Feather" "Mirror Shard"
     SetFontSize 45
-    SetTextColor 0 0 0
-    SetBackgroundColor 240 0 0
-    SetBorderColor 0 0 0
+    SetTextColor 0 0 0 # Currency: Ultra Rare
+    SetBackgroundColor 240 0 0 # Currency: Ultra Rare
+    SetBorderColor 0 0 0 # Currency: Ultra Rare
     PlayAlertSound 5 300 # Currency: Ultra Rare
 
 Show  #Currency - Super Rare
     Class Currency
     BaseType "Divine Orb" "Blessing of Esh" "Blessing of Uul-Netol" "Master Cartographer's Sextant" "Exalted Shard" "Ancient Orb" "Orb of Annulment" "Harbinger's Orb"
     SetFontSize 40
-    SetTextColor 160 0 0
-    SetBackgroundColor 0 0 0
-    SetBorderColor 170 158 130
+    SetTextColor 160 0 0 # Currency: Super Rare
+    SetBackgroundColor 0 0 0 # Currency: Super Rare
+    SetBorderColor 170 158 130 # Currency: Super Rare
     PlayAlertSound 3 120 # Currency: Super Rare
 
 Show  #Currency - Rare
     Class Currency
     BaseType "Orb of Alchemy" "Regal Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Chance" "Vaal Orb" "Orb of Regret" "Jeweller's Orb" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Unshaping Orb" "Cartographer's Seal" "Blessed Orb" "Splinter of Chayula" "Splinter of Xoph" "Splinter of Uul-Netol" "Splinter of Esh" "Splinter of Tul" "Blessing of Tul" "Blessing of Xoph" "Ancient Shard" "Annulment Shard" "Silver Coin" "Harbinger's Shard" "Orb of Binding" "Engineer's Orb" "Orb of Horizons"
-    SetTextColor 160 0 0
-    SetBorderColor 170 158 130
+    SetTextColor 160 0 0 # Currency: Rare
+    SetBorderColor 170 158 130 # Currency: Rare
     PlayAlertSound 3 120 # Currency: Rare
 
 Show  #Currency - Common
     Class Currency
     BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Glassblower's Bauble" "Blacksmith's Whetstone" "Armourer's Scrap" "Chromatic Orb" "Stacked Deck" "Perandus Coin" "Chaos Shard" "Regal Shard" "Alchemy Shard" "Alteration Shard" "Transmutation Shard" "Binding Shard" "Engineer's Shard" "Horizon Shard"
-    SetBorderColor 170 158 130
+    SetBorderColor 170 158 130 # Currency: Common
 
 Show #Currency - Scrolls
     BaseType "Scroll of Wisdom" "Portal Scroll"
@@ -506,16 +506,16 @@ Show #Currency - Scrolls
 Hide #Currency - Scroll Fragments
     BaseType "Scroll Fragment"
     Class Currency
-    SetBackgroundColor 0 0 0 100
-    SetTextColor 170 158 130 200
+    SetBackgroundColor 0 0 0 100 # Currency: Scroll Fragments
+    SetTextColor 170 158 130 200 # Currency: Scroll Fragments
 
 #TODO: Prophecies Filter
 
 Show #Currency - ~Safety Net
     Class Currency
-    SetTextColor 230 255 0
-    SetBorderColor 230 255 0
-    SetBackgroundColor 255 0 102
+    SetTextColor 230 255 0 # Safety Net
+    SetBorderColor 230 255 0 # Safety Net
+    SetBackgroundColor 255 0 102 # Safety Net
     SetFontSize 45
 
 #=========================================
@@ -524,36 +524,36 @@ Show #Currency - ~Safety Net
 
 Show #Valuables - Harbinger Pieces
     Class Piece
-    SetBackgroundColor 88 124 244
-    SetBorderColor 0 0 0
-    SetTextColor 0 0 0
+    SetBackgroundColor 88 124 244 # Harbinger Pieces
+    SetBorderColor 0 0 0 # Harbinger Pieces
+    SetTextColor 0 0 0 # Harbinger Pieces
     PlayAlertSound 8 300 # Harbinger Pieces
     SetFontSize 40
 
 Show #Valuables - Rods
     Class Rods
-    SetBackgroundColor 25 210 0
-    SetBorderColor 6 100 0
-    SetTextColor 255 255 255 235
+    SetBackgroundColor 25 210 0 # Rods
+    SetBorderColor 6 100 0 # Rods
+    SetTextColor 255 255 255 235 # Rods
     PlayAlertSound 1 300 # Rods
     SetFontSize 45
 
 Show #Valuables - 6L
     LinkedSockets = 6
-    SetBorderColor 255 0 250
-    SetBackgroundColor 255 0 250 190
-    SetTextColor 240 240 240
+    SetBorderColor 255 0 250 # 6L
+    SetBackgroundColor 255 0 250 190 # 6L
+    SetTextColor 240 240 240 # 6L
     PlayAlertSound 9 300 # 6L
 
 Show #Valuables - 5L
     LinkedSockets = 5
-    SetBorderColor 255 0 250
+    SetBorderColor 255 0 250  # 5L
 
 #TODO: Separate Talismans by value
 Show #Valuables - Talismans
     Class Amulets
     BaseType Talisman
-    SetTextColor 180 105 180
+    SetTextColor 180 105 180 # Talismans
     PlayAlertSound 4 200 # Talismans
 
 #=========================================
@@ -562,93 +562,93 @@ Show #Valuables - Talismans
 
 Show #Recipes - Currency - Jeweller
     Sockets = 6
-    SetBorderColor 0 255 0
+    SetBorderColor 0 255 0 # Jeweller's Orb Recipe
 
 Show #Recipes - Currency - Regal - Best Base Types
     BaseType $BestBases
     Rarity Rare
     ItemLevel >= 75
+    SetBackgroundColor 0 85 130 # Regal Recipe (Best Bases)
+    SetBorderColor 255 255 255 # Regal Recipe (Best Bases)
     SetFontSize 37
-    SetBackgroundColor 0 85 130
-    SetBorderColor 255 255 255
 
 Show #Recipes - Currency - Regal - Normal Base Types
     Class $Accessories
     Rarity Rare
     ItemLevel >= 75
-    SetBackgroundColor 0 85 130
-    SetBorderColor 0 128 192 200
+    SetBackgroundColor 0 85 130 # Regal Recipe (Normal Bases)
+    SetBorderColor 0 128 192 200 # Regal Recipe (Normal Bases)
 
 Show #Recipes - Currency - Regal - Low Base Types
     Class $Equipment
     Rarity Rare
     ItemLevel >= 75
+    SetBackgroundColor 0 85 130 # Regal Recipe (Low Bases)
+    SetBorderColor 0 128 192 200 # Regal Recipe (Low Bases)
     SetFontSize 25
-    SetBackgroundColor 0 85 130
-    SetBorderColor 0 128 192 200
 
 Show #Recipes - Currency - Chaos - Best Base Types
     BaseType $BestBases
     Rarity Rare
     ItemLevel >= 60
+    SetBackgroundColor 85 85 40 # Chaos Recipe (Best Bases)
+    SetBorderColor 255 255 255 # Chaos Recipe (Best Bases)
     SetFontSize 37
-    SetBackgroundColor 85 85 40
-    SetBorderColor 255 255 255
 
 Show #Recipes - Currency - Chaos - Normal Base Types
     Class $Accessories
     Rarity Rare
     ItemLevel >= 60
-    SetBackgroundColor 85 85 40
-    SetBorderColor 128 128 64
+    SetBackgroundColor 85 85 40 # Chaos Recipe (Normal Bases)
+    SetBorderColor 128 128 64 # Chaos Recipe (Normal Bases)
 
 Show #Recipes - Currency - Chaos - Low Base Types
     Class $Equipment
     Rarity Rare
     ItemLevel >= 60
     SetFontSize 25
-    SetBackgroundColor 85 85 40
-    SetBorderColor 128 128 64
+    SetBackgroundColor 85 85 40 # Chaos Recipe (Low Bases)
+    SetBorderColor 128 128 64 # Chaos Recipe (Low Bases)
 
 Show #Recipes - Currency - Chromatic - 3H1W
     Height = 3
     Width = 1
     SocketGroup RGB
-    SetBorderColor 240 0 0
+    SetBorderColor 240 0 0 # Chromatic Orb Recipe
 
 Show #Recipes - Currency - Chromatic - 3H2W
     Height = 3
     Width = 2
     SocketGroup RGB
-    SetBorderColor 240 0 0
+    SetBorderColor 240 0 0 # Chromatic Orb Recipe
 
 Show #Recipes - Currency - Chromatic - 4H1W
     Height = 4
     Width = 1
     SocketGroup RGB
-    SetBorderColor 240 0 0
+    SetBorderColor 240 0 0 # Chromatic Orb Recipe
 
 Show #Recipes - Currency - Chromatic - 4H2W
     Height = 4
     Width = 2
     SocketGroup RGB
-    SetBorderColor 240 0 0
+    SetBorderColor 240 0 0 # Chromatic Orb Recipe
 
 Show #Recipes - Currency - Chromatic - 2H2W
     Height = 2
     Width = 2
     SocketGroup RGB
-    SetBorderColor 240 0 0
+    SetBorderColor 240 0 0 # Chromatic Orb Recipe
 
 Show #Recipes - Currency - Glassblower
     Class Flask
     Quality >= 10
-    SetBorderColor 255 128 255
+    SetBorderColor 255 128 255 # Glassblower's Bauble Recipe
 
 Show #Recipes - Currency - Chisel
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
     Rarity = Normal
-    SetBorderColor 84 41 33
+    SetBorderColor 84 41 33 # Chisel Recipe
 
 #=========================================
 # Section: Gems
@@ -658,13 +658,13 @@ Show #Recipes - Currency - Chisel
 Show #Gems - Drop-Only
     BaseType $DropOnlyGems
     Class Gems
-    SetBackgroundColor 0 0 90 250
-    SetBorderColor 27 162 155
+    SetBackgroundColor 0 0 90 250 # Drop-Only Gems
+    SetBorderColor 27 162 155 # Drop-Only Gems
 
 Show #Gems - Quality
     Class Gems
     Quality > 1
-    SetBorderColor 27 162 155
+    SetBorderColor 27 162 155 # Quality Gems
 
 Show #Gems - No-Quality
     Class Gems
@@ -676,364 +676,363 @@ Show #Gems - No-Quality
 
 Show  #Craft - Atlas Type Bases
     BaseType $AtlasBases
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 53 51 8
+    SetTextColor 255 255 255 # Atlas Type Bases Craft
+    SetBorderColor 255 255 255 # Atlas Type Bases Craft
+    SetBackgroundColor 53 51 8 # Atlas Type Bases Craft
     SetFontSize 35
-    PlayAlertSound 16 120 # Atlas Type Bases
+    PlayAlertSound 16 120 # Atlas Type Bases Craft
 
-Show  #Craft - ilvl 84+
+Show  #Craft - Best Bases ilvl 84+
     BaseType $BestBases
     Rarity = Normal
     ItemLevel >= 84
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 0
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Best Bases ilvl 84+ Craft
+    SetBorderColor 255 255 0 # Best Bases ilvl 84+ Craft
+    SetBackgroundColor 0 0 0 # Best Bases ilvl 84+ Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour - Helmets
     BaseType $BestHelmetsAR
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour - Body Armours
     BaseType $BestBodiesAR
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour - Gloves
     BaseType $BestGlovesAR
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour - Boots
     BaseType $BestBootsAR
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour - Shields
     BaseType $BestShieldsAR
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Evasion - Helmets
     BaseType $BestHelmetsEV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Evasion - Body Armours
     BaseType $BestBodiesEV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Evasion - Gloves
     BaseType $BestGlovesEV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Evasion - Boots
     BaseType $BestBootsEV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Evasion - Shields
     BaseType $BestShieldsEV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield - Helmets
     BaseType $BestHelmetsES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield - Body Armours
     BaseType $BestBodiesES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield - Gloves
     BaseType $BestGlovesES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield - Boots
     BaseType $BestBootsES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield - Shields
     BaseType $BestShieldsES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Helmets
     BaseType $BestHelmetsAR_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Body Armours
     BaseType $BestBodiesAR_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Gloves
     BaseType $BestGlovesAR_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Boots
     BaseType $BestBootsAR_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Shields
     BaseType $BestShieldsAR_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Helmets
     BaseType $BestHelmetsAR_ES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Body Armours
     BaseType $BestBodiesAR_ES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Gloves
     BaseType $BestGlovesAR_ES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Boots
     BaseType $BestBootsAR_ES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Shields
     BaseType $BestShieldsAR_ES
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Helmets
     BaseType $BestHelmetsES_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Body Armours
     BaseType $BestBodiesES_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Gloves
     BaseType $BestGlovesES_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Boots
     BaseType $BestBootsES_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Shields
     BaseType $BestShieldsES_EV
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Axes - 1H
     BaseType $BestAxes1H
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Axes - 2H
     BaseType $BestAxes2H
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Staves
     BaseType $BestStaves
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Swords - 1H
     BaseType $BestSwords1H
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Swords - 2H
     BaseType $BestSwords2H
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Swords - Thrusting
     BaseType $BestSwordsThrusting
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Claws
     BaseType $BestClaws
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Bows
     BaseType $BestBows
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Daggers
     BaseType $BestDaggers
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
-
 
 Hide #Craft - Normal Best Bases - Weapons - Maces - 1H
     BaseType $BestMaces1H
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Maces - 2H
     BaseType $BestMaces2H
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Sceptres
     BaseType $BestSceptres
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Normal Best Bases - Weapons - Wands
     BaseType $BestWands
     Rarity = Normal
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 0 0 0
+    SetTextColor 255 255 255 # Normal Best Bases Craft
+    SetBorderColor 255 255 255 # Normal Best Bases Craft
+    SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
 Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Plate Vest
@@ -1554,7 +1553,7 @@ Show #Flasks - Life
     Rarity <= Normal
     Class Flasks
     ItemLevel <= 30
-    
+
 Show #Flasks - Life
     BaseType "Colossal Life Flask"
     Rarity <= Normal
@@ -1630,7 +1629,7 @@ Show #Flasks - Mana
     Rarity <= Normal
     Class Flasks
     ItemLevel <= 30
-    
+
 Show #Flasks - Mana
     BaseType "Colossal Mana Flask"
     Rarity <= Normal
@@ -1713,72 +1712,72 @@ Show #Flasks - Hybrid
 
 Show #Flasks - Utility - Amethyst Flask
     BaseType "Amethyst Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Aquamarine Flask
     BaseType "Aquamarine Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Basalt Flask
     BaseType "Basalt Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Bismuth Flask
     BaseType "Bismuth Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Granite Flask
     BaseType "Granite Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Jade Flask
     BaseType "Jade Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Quartz Flask
     BaseType "Quartz Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Quicksilver Flask
     BaseType "Quicksilver Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Ruby Flask
     BaseType "Ruby Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Sapphire Flask
     BaseType "Sapphire Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Silver Flask
     BaseType "Silver Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Stibnite Flask
     BaseType "Stibnite Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Sulphur Flask
     BaseType "Sulphur Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 Show #Flasks - Utility - Topaz Flask
     BaseType "Topaz Flask"
-    Class Flasks    
+    Class Flasks
     Rarity = Normal
 
 #=========================================
@@ -1789,119 +1788,119 @@ Hide #Chance Uniques - Weapons - Staves - Hegemony's Era
     BaseType "Judgement Staff"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Chests - Armour - Kaom's Heart
     BaseType "Glorious Plate"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Chests - Armour/Evasion - Belly of the Beast
     BaseType "Full Wyrmscale"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Chests - Evasion/Energy Shield - Carcass Jack
     BaseType "Varnished Coat"
     ItemLevel 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Rings - Ming's Heart
     BaseType "Amethyst Ring"
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Helmets - Armour/Evasion - The Bringer of Rain
     BaseType "Nightmare Bascinet"
     ItemLevel >= 28
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Chests - Evasion - Cospri's Will
     BaseType "Assassin's Garb"
     ItemLevel >= 28
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Weapons - Two-Hand Maces - Marohi Erqi
     BaseType "Karui Maul"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Chests - Armour/Evasion - Daresso's Defiance
     BaseType "Full Dragonscale"
     ItemLevel >= 50
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Gloves - Armour - Empire's Grasp
     BaseType "Goliath Gauntlets"
     ItemLevel >= 28
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Weapons - Staves - Sire of Shards
     BaseType "Serpentine Staff"
     Rarity = Normal
     ItemLevel >= 50
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Chests - Energy Shield - Shavronne's Wrappings
     BaseType "Occultist's Vestment"
     Rarity = Normal
     ItemLevel >= 50
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Weapons - Bows - Voltaxic Rift
     BaseType "Spine Bow"
     Rarity = Normal
     ItemLevel >= 50
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques -  Weapons - Bows - Windripper
     BaseType "Imperial Bow"
     Rarity = Normal
     ItemLevel >= 50
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Accessories - Quivers - Drillneck
     BaseType "Penetrating Arrow Quiver"
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Accessories - Rings - Gifts from Above
     BaseType "Diamond Ring"
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Accessories - Rings - Andvarius & Ventor's Gamble
     BaseType "Gold Ring"
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide #Chance Uniques - Accessories - Amulets - Astramentis
     BaseType "Onyx Amulet"
     Rarity = Normal
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide # Chance Uniques - Weapons - Wands - Void Battery
     Rarity = Normal
     BaseType "Prophecy Wand"
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide # Chance Uniques - Weapons - Daggers - Bino's Kitchen Knife
     Rarity = Normal
     BaseType "Slaughter Knife"
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 Hide # Chance Uniques - Weapons - Daggers - Divinarius
     Rarity = Normal
     BaseType "Imperial Skean"
-    SetBorderColor 175 96 37
+    SetBorderColor 175 96 37 # Chance Uniques
 
 #=========================================
 # Section: Chance League Uniques
@@ -1910,32 +1909,32 @@ Hide # Chance Uniques - Weapons - Daggers - Divinarius
 Hide #Chance League Uniques - Anarchy/Onslaught - Shavronne's Revelation
     BaseType "Moonstone Ring"
     Rarity = Normal
-    SetBorderColor 255 100 0
+    SetBorderColor 255 100 0 # Chance League Uniques
 
 Hide #Chance League Uniques - Anarchy/Onslaught - Voll's Devotion
     BaseType "Agate Amulet"
     Rarity = Normal
-    SetBorderColor 255 100 0
+    SetBorderColor 255 100 0 # Chance League Uniques
 
 Hide #Chance League Uniques - Anarchy - Daresso's Salute
     BaseType "Citrine Amulet"
     Rarity = Normal
-    SetBorderColor 255 100 0
+    SetBorderColor 255 100 0 # Chance League Uniques
 
 Hide #Chance League Uniques - Onslaught - Victario's Acuity
     BaseType "Turquoise Amulet"
     Rarity = Normal
-    SetBorderColor 255 100 0
+    SetBorderColor 255 100 0 # Chance League Uniques
 
 Hide #Chance League Uniques - Bloodlines - Valako's Sign
     BaseType "Topaz Ring"
     Rarity = Normal
-    SetBorderColor 255 100 0
+    SetBorderColor 255 100 0 # Chance League Uniques
 
 Hide #Chance League Uniques - Warbands - The Pariah
     BaseType "Unset Ring"
     Rarity = Normal
-    SetBorderColor 255 100 0
+    SetBorderColor 255 100 0 # Chance League Uniques
 
 #=========================================
 # Section: General
@@ -1968,7 +1967,7 @@ Show #Low Level - Normal Items
 Show #Low Level - 4L
     LinkedSockets = 4
     ItemLevel <= 40
-    SetBorderColor 185 120 185
+    SetBorderColor 185 120 185 # 4L
 
 #=========================================
 # Section: Useless
@@ -1980,8 +1979,8 @@ Hide #Useless - Magic Items
     Rarity = Magic
     Sockets <= 5
     LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100
-    SetTextColor 136 136 255 200
+    SetBackgroundColor 0 0 0 100 # Useless Magic Items
+    SetTextColor 136 136 255 200 # Useless Magic Items
 
 Hide #Useless - Magic Items - Flasks
     Class Flasks
@@ -1989,8 +1988,8 @@ Hide #Useless - Magic Items - Flasks
     Rarity = Magic
     Sockets <= 5
     LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100
-    SetTextColor 136 136 255 200
+    SetBackgroundColor 0 0 0 100 # Useless Magic Items
+    SetTextColor 136 136 255 200 # Useless Magic Items
 
 Hide #Useless - Normal Items
     Class $Equipment
@@ -1998,8 +1997,8 @@ Hide #Useless - Normal Items
     Rarity = Normal
     Sockets <= 5
     LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100
-    SetTextColor 200 200 200 200
+    SetBackgroundColor 0 0 0 100 # Useless Normal Items
+    SetTextColor 200 200 200 200 # Useless Normal Items
 
 Hide #Useless - Normal Items - Flasks
     Class Flasks
@@ -2007,8 +2006,8 @@ Hide #Useless - Normal Items - Flasks
     Rarity = Normal
     Sockets <= 5
     LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100
-    SetTextColor 136 136 255 200
+    SetBackgroundColor 0 0 0 100 # Useless Normal Items
+    SetTextColor 136 136 255 200 # Useless Normal Items
 
 #TODO: Fix Safety Net
 #Show #~Safety Net
