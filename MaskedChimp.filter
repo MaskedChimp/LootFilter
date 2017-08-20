@@ -674,7 +674,7 @@ Show #Gems - No-Quality
 # Section: Craft
 #=========================================
 
-Show  #Craft - Atlas Type Bases
+Show #Craft [CUSTOMIZE ME] - Atlas Type Bases
     BaseType $AtlasBases
     SetTextColor 255 255 255 # Atlas Type Bases Craft
     SetBorderColor 255 255 255 # Atlas Type Bases Craft
@@ -682,7 +682,7 @@ Show  #Craft - Atlas Type Bases
     SetFontSize 35
     PlayAlertSound 16 120 # Atlas Type Bases Craft
 
-Show  #Craft - Best Bases ilvl 84+
+Show #Craft [CUSTOMIZE ME] - Best Bases ilvl 84+
     BaseType $BestBases
     Rarity = Normal
     ItemLevel >= 84
@@ -691,7 +691,7 @@ Show  #Craft - Best Bases ilvl 84+
     SetBackgroundColor 0 0 0 # Best Bases ilvl 84+ Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour - Helmets
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour - Helmets
     BaseType $BestHelmetsAR
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -699,7 +699,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour - Helmets
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour - Body Armours
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour - Body Armours
     BaseType $BestBodiesAR
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -707,7 +707,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour - Body Armours
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour - Gloves
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour - Gloves
     BaseType $BestGlovesAR
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -715,7 +715,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour - Gloves
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour - Boots
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour - Boots
     BaseType $BestBootsAR
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -723,7 +723,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour - Boots
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour - Shields
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour - Shields
     BaseType $BestShieldsAR
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -731,7 +731,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour - Shields
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Evasion - Helmets
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Evasion - Helmets
     BaseType $BestHelmetsEV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -739,7 +739,7 @@ Hide #Craft - Normal Best Bases - Armours - Evasion - Helmets
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Evasion - Body Armours
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Evasion - Body Armours
     BaseType $BestBodiesEV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -747,7 +747,7 @@ Hide #Craft - Normal Best Bases - Armours - Evasion - Body Armours
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Evasion - Gloves
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Evasion - Gloves
     BaseType $BestGlovesEV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -755,7 +755,7 @@ Hide #Craft - Normal Best Bases - Armours - Evasion - Gloves
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Evasion - Boots
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Evasion - Boots
     BaseType $BestBootsEV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -763,7 +763,7 @@ Hide #Craft - Normal Best Bases - Armours - Evasion - Boots
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Evasion - Shields
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Evasion - Shields
     BaseType $BestShieldsEV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -771,7 +771,7 @@ Hide #Craft - Normal Best Bases - Armours - Evasion - Shields
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield - Helmets
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield - Helmets
     BaseType $BestHelmetsES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -779,7 +779,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield - Helmets
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield - Body Armours
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield - Body Armours
     BaseType $BestBodiesES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -787,7 +787,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield - Body Armours
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield - Gloves
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield - Gloves
     BaseType $BestGlovesES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -795,7 +795,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield - Gloves
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield - Boots
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield - Boots
     BaseType $BestBootsES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -803,7 +803,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield - Boots
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield - Shields
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield - Shields
     BaseType $BestShieldsES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -811,7 +811,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield - Shields
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Helmets
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Evasion - Helmets
     BaseType $BestHelmetsAR_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -819,7 +819,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Helmets
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Body Armours
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Evasion - Body Armours
     BaseType $BestBodiesAR_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -827,7 +827,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Body Armours
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Gloves
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Evasion - Gloves
     BaseType $BestGlovesAR_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -835,7 +835,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Gloves
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Boots
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Evasion - Boots
     BaseType $BestBootsAR_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -843,7 +843,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Boots
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Shields
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Evasion - Shields
     BaseType $BestShieldsAR_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -851,7 +851,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Evasion - Shields
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Helmets
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Energy Shield - Helmets
     BaseType $BestHelmetsAR_ES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -859,7 +859,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Helmets
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Body Armours
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Energy Shield - Body Armours
     BaseType $BestBodiesAR_ES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -867,7 +867,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Body Armours
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Gloves
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Energy Shield - Gloves
     BaseType $BestGlovesAR_ES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -875,7 +875,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Gloves
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Boots
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Energy Shield - Boots
     BaseType $BestBootsAR_ES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -883,7 +883,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Boots
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Shields
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour/Energy Shield - Shields
     BaseType $BestShieldsAR_ES
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -891,7 +891,7 @@ Hide #Craft - Normal Best Bases - Armours - Armour/Energy Shield - Shields
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Helmets
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield/Evasion - Helmets
     BaseType $BestHelmetsES_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -899,7 +899,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Helmets
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Body Armours
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield/Evasion - Body Armours
     BaseType $BestBodiesES_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -907,7 +907,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Body Armours
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Gloves
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield/Evasion - Gloves
     BaseType $BestGlovesES_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -915,7 +915,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Gloves
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Boots
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield/Evasion - Boots
     BaseType $BestBootsES_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -923,7 +923,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Boots
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Shields
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Energy Shield/Evasion - Shields
     BaseType $BestShieldsES_EV
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -931,7 +931,7 @@ Hide #Craft - Normal Best Bases - Armours - Energy Shield/Evasion - Shields
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Axes - 1H
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Axes - 1H
     BaseType $BestAxes1H
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -939,7 +939,7 @@ Hide #Craft - Normal Best Bases - Weapons - Axes - 1H
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Axes - 2H
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Axes - 2H
     BaseType $BestAxes2H
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -947,7 +947,7 @@ Hide #Craft - Normal Best Bases - Weapons - Axes - 2H
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Staves
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Staves
     BaseType $BestStaves
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -955,7 +955,7 @@ Hide #Craft - Normal Best Bases - Weapons - Staves
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Swords - 1H
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Swords - 1H
     BaseType $BestSwords1H
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -963,7 +963,7 @@ Hide #Craft - Normal Best Bases - Weapons - Swords - 1H
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Swords - 2H
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Swords - 2H
     BaseType $BestSwords2H
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -971,7 +971,7 @@ Hide #Craft - Normal Best Bases - Weapons - Swords - 2H
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Swords - Thrusting
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Swords - Thrusting
     BaseType $BestSwordsThrusting
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -979,7 +979,7 @@ Hide #Craft - Normal Best Bases - Weapons - Swords - Thrusting
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Claws
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Claws
     BaseType $BestClaws
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -987,7 +987,7 @@ Hide #Craft - Normal Best Bases - Weapons - Claws
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Bows
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Bows
     BaseType $BestBows
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -995,7 +995,7 @@ Hide #Craft - Normal Best Bases - Weapons - Bows
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Daggers
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Daggers
     BaseType $BestDaggers
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -1003,7 +1003,7 @@ Hide #Craft - Normal Best Bases - Weapons - Daggers
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Maces - 1H
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Maces - 1H
     BaseType $BestMaces1H
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -1011,7 +1011,7 @@ Hide #Craft - Normal Best Bases - Weapons - Maces - 1H
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Maces - 2H
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Maces - 2H
     BaseType $BestMaces2H
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -1019,7 +1019,7 @@ Hide #Craft - Normal Best Bases - Weapons - Maces - 2H
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Sceptres
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Sceptres
     BaseType $BestSceptres
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -1027,7 +1027,7 @@ Hide #Craft - Normal Best Bases - Weapons - Sceptres
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Normal Best Bases - Weapons - Wands
+Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Weapons - Wands
     BaseType $BestWands
     Rarity = Normal
     SetTextColor 255 255 255 # Normal Best Bases Craft
@@ -1035,399 +1035,399 @@ Hide #Craft - Normal Best Bases - Weapons - Wands
     SetBackgroundColor 0 0 0 # Normal Best Bases Craft
     SetFontSize 35
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Plate Vest
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Plate Vest
     Class "Body Armours"
     BaseType "Plate Vest"
     Rarity = Normal
     ItemLevel < 6
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Chestplate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Chestplate
     Class "Body Armours"
     BaseType Chestplate
     Rarity = Normal
     ItemLevel < 17
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Copper Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Copper Plate
     Class "Body Armours"
     BaseType "Copper Plate"
     Rarity = Normal
     ItemLevel < 21
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - War Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - War Plate
     Class "Body Armours"
     BaseType "War Plate"
     Rarity = Normal
     ItemLevel < 28
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Full Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Full Plate
     Class "Body Armours"
     BaseType "Full Plate"
     Rarity = Normal
     ItemLevel < 32
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Arena Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Arena Plate
     Class "Body Armours"
     BaseType "Arena Plate"
     Rarity = Normal
     ItemLevel < 35
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Lordly Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Lordly Plate
     Class "Body Armours"
     BaseType "Lordly Plate"
     Rarity = Normal
     ItemLevel < 37
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Bronze Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Bronze Plate
     Class "Body Armours"
     BaseType "Bronze Plate"
     Rarity = Normal
     ItemLevel < 41
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Battle Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Battle Plate
     Class "Body Armours"
     BaseType "Battle Plate"
     Rarity = Normal
     ItemLevel < 45
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Sun Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Sun Plate
     Class "Body Armours"
     BaseType "Sun Plate"
     Rarity = Normal
     ItemLevel < 49
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Colosseum Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Colosseum Plate
     Class "Body Armours"
     BaseType "Colosseum Plate"
     Rarity = Normal
     ItemLevel < 53
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Majestic Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Majestic Plate
     Class "Body Armours"
     BaseType "Majestic Plate"
     Rarity = Normal
     ItemLevel < 56
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Golden Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Golden Plate
     Class "Body Armours"
     BaseType "Golden Plate"
     Rarity = Normal
     ItemLevel < 59
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Crusader Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Crusader Plate
     Class "Body Armours"
     BaseType "Crusader Plate"
     Rarity = Normal
     ItemLevel < 62
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Astral Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Astral Plate
     Class "Body Armours"
     BaseType "Astral Plate"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Gladiator Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Gladiator Plate
     Class "Body Armours"
     BaseType "Gladiator Plate"
     Rarity = Normal
     ItemLevel < 68
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Body Armours - Glorious Plate
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Body Armours - Glorious Plate
     Class "Body Armours"
     BaseType "Glorious Plate"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Iron Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Iron Greaves
     Class Boots
     BaseType "Iron Greaves"
     Rarity = Normal
     ItemLevel < 9
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Steel Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Steel Greaves
     Class Boots
     BaseType "Steel Greaves"
     Rarity = Normal
     ItemLevel < 23
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Plated Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Plated Greaves
     Class Boots
     BaseType "Plated Greaves"
     Rarity = Normal
     ItemLevel < 33
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Reinforced Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Reinforced Greaves
     Class Boots
     BaseType "Reinforced Greaves"
     Rarity = Normal
     ItemLevel < 37
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Antique Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Antique Greaves
     Class Boots
     BaseType "Antique Greaves"
     Rarity = Normal
     ItemLevel < 46
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Ancient Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Ancient Greaves
     Class Boots
     BaseType "Ancient Greaves"
     Rarity = Normal
     ItemLevel < 54
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Goliath Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Goliath Greaves
     Class Boots
     BaseType "Goliath Greaves"
     Rarity = Normal
     ItemLevel < 62
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Vaal Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Vaal Greaves
     Class Boots
     BaseType "Vaal Greaves"
     Rarity = Normal
     ItemLevel < 68
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Boots - Titan Greaves
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Boots - Titan Greaves
     Class Boots
     BaseType "Titan Greaves"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Iron Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Iron Gauntlets
     Class Boots
     BaseType "Iron Gauntlets"
     Rarity = Normal
     ItemLevel < 11
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Plated Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Plated Gauntlets
     Class Boots
     BaseType "Plated Gauntlets"
     Rarity = Normal
     ItemLevel < 23
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Bronze Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Bronze Gauntlets
     Class Boots
     BaseType "Bronze Gauntlets"
     Rarity = Normal
     ItemLevel < 35
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Steel Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Steel Gauntlets
     Class Boots
     BaseType "Steel Gauntlets"
     Rarity = Normal
     ItemLevel < 39
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Antique Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Antique Gauntlets
     Class Boots
     BaseType "Antique Gauntlets"
     Rarity = Normal
     ItemLevel < 47
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Ancient Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Ancient Gauntlets
     Class Boots
     BaseType "Ancient Gauntlets"
     Rarity = Normal
     ItemLevel < 53
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Goliath Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Goliath Gauntlets
     Class Boots
     BaseType "Goliath Gauntlets"
     Rarity = Normal
     ItemLevel < 63
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Vaal Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Vaal Gauntlets
     Class Boots
     BaseType "Vaal Gauntlets"
     Rarity = Normal
     ItemLevel < 69
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Gloves - Titan Gauntlets
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Gloves - Titan Gauntlets
     Class Boots
     BaseType "Titan Gauntlets"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Iron Hat
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Iron Hat
     Class Helmets
     BaseType "Iron Hat"
     Rarity = Normal
     ItemLevel < 7
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Cone Helmet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Cone Helmet
     Class Helmets
     BaseType "Cone Helmet"
     Rarity = Normal
     ItemLevel < 18
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Barbute Helmet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Barbute Helmet
     Class Helmets
     BaseType "Barbute Helmet"
     Rarity = Normal
     ItemLevel < 26
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Close Helmet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Close Helmet
     Class Helmets
     BaseType "Close Helmet"
     Rarity = Normal
     ItemLevel < 35
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Gladiator Helmet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Gladiator Helmet
     Class Helmets
     BaseType "Gladiator Helmet"
     Rarity = Normal
     ItemLevel < 40
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Reaver Helmet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Reaver Helmet
     Class Helmets
     BaseType "Reaver Helmet"
     Rarity = Normal
     ItemLevel < 48
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Siege Helmet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Siege Helmet
     Class Helmets
     BaseType "Siege Helmet"
     Rarity = Normal
     ItemLevel < 55
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Samite Helmet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Samite Helmet
     Class Helmets
     BaseType "Samite Helmet"
     Rarity = Normal
     ItemLevel < 60
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Ezomyte Helmet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Ezomyte Helmet
     Class Helmets
     BaseType "Ezomyte Burgonet"
     Rarity = Normal
     ItemLevel < 65
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Royal Burgonet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Royal Burgonet
     Class Helmets
     BaseType "Royal Burgonet"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Armours - Armour - Helmets - Eternal Burgonet
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Armours - Armour - Helmets - Eternal Burgonet
     Class Helmets
     BaseType "Eternal Burgonet"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Stone Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Stone Axe
     Class "Two Hand Axe"
     BaseType "Stone Axe"
     Rarity = Normal
     ItemLevel < 9
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Jade Chopper
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Jade Chopper
     Class "Two Hand Axe"
     BaseType "Jade Chopper"
     Rarity = Normal
     ItemLevel < 13
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Woodsplitter
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Woodsplitter
     Class "Two Hand Axe"
     BaseType Woodsplitter
     Rarity = Normal
     ItemLevel < 18
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Poleaxe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Poleaxe
     Class "Two Hand Axe"
     BaseType Poleaxe
     Rarity = Normal
     ItemLevel < 23
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Double Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Double Axe
     Class "Two Hand Axe"
     BaseType "Double Axe"
     Rarity = Normal
     ItemLevel < 9
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Gilded Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Gilded Axe
     Class "Two Hand Axe"
     BaseType "Gilded Axe"
     Rarity = Normal
     ItemLevel < 33
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Shadow Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Shadow Axe
     Class "Two Hand Axe"
     BaseType "Shadow Axe"
     Rarity = Normal
     ItemLevel < 36
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Dagger Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Dagger Axe
     Class "Two Hand Axe"
     BaseType "Dagger Axe"
     Rarity = Normal
     ItemLevel < 37
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Jasper Chopper
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Jasper Chopper
     Class "Two Hand Axe"
     BaseType "Jasper Chopper"
     Rarity = Normal
     ItemLevel < 41
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Timber Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Timber Axe
     Class "Two Hand Axe"
     BaseType "Timber Axe"
     Rarity = Normal
     ItemLevel < 45
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Headsman Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Headsman Axe
     Class "Two Hand Axe"
     BaseType "Headsman Axe"
     Rarity = Normal
@@ -1435,21 +1435,21 @@ Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Headsman Axe
     SetFontSize 25
 
 #Noble Axe has less DPS than Labrys, so we'll keep it for longer
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Labrys
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Labrys
     Class "Two Hand Axe"
     BaseType Labrys
     Rarity = Normal
     ItemLevel < 55
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Noble Axe*
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Noble Axe*
     Class "Two Hand Axe"
     BaseType "Noble Axe"
     Rarity = Normal
     ItemLevel < 55
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Abyssal Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Abyssal Axe
     Class "Two Hand Axe"
     BaseType "Abyssal Axe"
     Rarity = Normal
@@ -1457,14 +1457,14 @@ Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Abyssal Axe
     SetFontSize 25
 
 #Talon Axe has less DPS than Karui Chopper, so we'll keep it for longer
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Karui Chopper
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Karui Chopper
     Class "Two Hand Axe"
     BaseType "Karui Chopper"
     Rarity = Normal
     ItemLevel < 60
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Talon Axe*
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Talon Axe*
     Class "Two Hand Axe"
     BaseType "Talon Axe"
     Rarity = Normal
@@ -1472,42 +1472,42 @@ Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Talon Axe*
     SetFontSize 25
 
 #Ezomyte Axe has less DPS than Sundering Axe, so we'll keep it for longer
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Sundering Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Sundering Axe
     Class "Two Hand Axe"
     BaseType "Sundering Axe"
     Rarity = Normal
     ItemLevel < 64
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Ezomyte Axe*
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Ezomyte Axe*
     Class "Two Hand Axe"
     BaseType "Ezomyte Axe"
     Rarity = Normal
     ItemLevel < 64
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Vaal Axe
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Vaal Axe
     Class "Two Hand Axe"
     BaseType "Vaal Axe"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Despot Axe*
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Despot Axe*
     Class "Two Hand Axe"
     BaseType "Despot Axe"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Void Axe*
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Void Axe*
     Class "Two Hand Axe"
     BaseType "Void Axe"
     Rarity = Normal
     ItemLevel < 73
     SetFontSize 25
 
-Hide #Craft - Gear Progression (72-) - Weapons - Axes - 2H - Fleshripper
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Fleshripper
     Class "Two Hand Axe"
     BaseType Fleshripper
     Rarity = Normal
@@ -1784,120 +1784,120 @@ Show #Flasks - Utility - Topaz Flask
 # Section: Chance Uniques
 #=========================================
 
-Hide #Chance Uniques - Weapons - Staves - Hegemony's Era
+Hide # Chance Uniques [CUSTOMIZE ME] - Weapons - Staves - Hegemony's Era
     BaseType "Judgement Staff"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Chests - Armour - Kaom's Heart
+Hide # Chance Uniques [CUSTOMIZE ME] - Chests - Armour - Kaom's Heart
     BaseType "Glorious Plate"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Chests - Armour/Evasion - Belly of the Beast
+Hide # Chance Uniques [CUSTOMIZE ME] - Chests - Armour/Evasion - Belly of the Beast
     BaseType "Full Wyrmscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Chests - Evasion/Energy Shield - Carcass Jack
+Hide # Chance Uniques [CUSTOMIZE ME] - Chests - Evasion/Energy Shield - Carcass Jack
     BaseType "Varnished Coat"
     ItemLevel 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Rings - Ming's Heart
+Hide # Chance Uniques [CUSTOMIZE ME] - Rings - Ming's Heart
     BaseType "Amethyst Ring"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Helmets - Armour/Evasion - The Bringer of Rain
+Hide # Chance Uniques [CUSTOMIZE ME] - Helmets - Armour/Evasion - The Bringer of Rain
     BaseType "Nightmare Bascinet"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Chests - Evasion - Cospri's Will
+Hide # Chance Uniques [CUSTOMIZE ME] - Chests - Evasion - Cospri's Will
     BaseType "Assassin's Garb"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Weapons - Two-Hand Maces - Marohi Erqi
+Hide # Chance Uniques [CUSTOMIZE ME] - Weapons - Two-Hand Maces - Marohi Erqi
     BaseType "Karui Maul"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Chests - Armour/Evasion - Daresso's Defiance
+Hide # Chance Uniques [CUSTOMIZE ME] - Chests - Armour/Evasion - Daresso's Defiance
     BaseType "Full Dragonscale"
     ItemLevel >= 50
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Gloves - Armour - Empire's Grasp
+Hide # Chance Uniques [CUSTOMIZE ME] - Gloves - Armour - Empire's Grasp
     BaseType "Goliath Gauntlets"
     ItemLevel >= 28
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Weapons - Staves - Sire of Shards
+Hide # Chance Uniques [CUSTOMIZE ME] - Weapons - Staves - Sire of Shards
     BaseType "Serpentine Staff"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Chests - Energy Shield - Shavronne's Wrappings
+Hide # Chance Uniques [CUSTOMIZE ME] - Chests - Energy Shield - Shavronne's Wrappings
     BaseType "Occultist's Vestment"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Weapons - Bows - Voltaxic Rift
+Hide # Chance Uniques [CUSTOMIZE ME] - Weapons - Bows - Voltaxic Rift
     BaseType "Spine Bow"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques -  Weapons - Bows - Windripper
+Hide # Chance Uniques [CUSTOMIZE ME] -  Weapons - Bows - Windripper
     BaseType "Imperial Bow"
     Rarity = Normal
     ItemLevel >= 50
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Accessories - Quivers - Drillneck
+Hide # Chance Uniques [CUSTOMIZE ME] - Accessories - Quivers - Drillneck
     BaseType "Penetrating Arrow Quiver"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Accessories - Rings - Gifts from Above
+Hide # Chance Uniques [CUSTOMIZE ME] - Accessories - Rings - Gifts from Above
     BaseType "Diamond Ring"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Accessories - Rings - Andvarius & Ventor's Gamble
+Hide # Chance Uniques [CUSTOMIZE ME] - Accessories - Rings - Andvarius & Ventor's Gamble
     BaseType "Gold Ring"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide #Chance Uniques - Accessories - Amulets - Astramentis
+Hide # Chance Uniques [CUSTOMIZE ME] - Accessories - Amulets - Astramentis
     BaseType "Onyx Amulet"
     Rarity = Normal
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide # Chance Uniques - Weapons - Wands - Void Battery
+Hide # Chance Uniques [CUSTOMIZE ME] - Weapons - Wands - Void Battery
     Rarity = Normal
     BaseType "Prophecy Wand"
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide # Chance Uniques - Weapons - Daggers - Bino's Kitchen Knife
+Hide # Chance Uniques [CUSTOMIZE ME] - Weapons - Daggers - Bino's Kitchen Knife
     Rarity = Normal
     BaseType "Slaughter Knife"
     SetBorderColor 175 96 37 # Chance Uniques
 
-Hide # Chance Uniques - Weapons - Daggers - Divinarius
+Hide # Chance Uniques [CUSTOMIZE ME] - Weapons - Daggers - Divinarius
     Rarity = Normal
     BaseType "Imperial Skean"
     SetBorderColor 175 96 37 # Chance Uniques
@@ -1906,32 +1906,32 @@ Hide # Chance Uniques - Weapons - Daggers - Divinarius
 # Section: Chance League Uniques
 #=========================================
 
-Hide #Chance League Uniques - Anarchy/Onslaught - Shavronne's Revelation
+Hide # Chance League Uniques [CUSTOMIZE ME] - Anarchy/Onslaught - Shavronne's Revelation
     BaseType "Moonstone Ring"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Uniques
 
-Hide #Chance League Uniques - Anarchy/Onslaught - Voll's Devotion
+Hide # Chance League Uniques [CUSTOMIZE ME] - Anarchy/Onslaught - Voll's Devotion
     BaseType "Agate Amulet"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Uniques
 
-Hide #Chance League Uniques - Anarchy - Daresso's Salute
+Hide # Chance League Uniques [CUSTOMIZE ME] - Anarchy - Daresso's Salute
     BaseType "Citrine Amulet"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Uniques
 
-Hide #Chance League Uniques - Onslaught - Victario's Acuity
+Hide # Chance League Uniques [CUSTOMIZE ME] - Onslaught - Victario's Acuity
     BaseType "Turquoise Amulet"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Uniques
 
-Hide #Chance League Uniques - Bloodlines - Valako's Sign
+Hide # Chance League Uniques [CUSTOMIZE ME] - Bloodlines - Valako's Sign
     BaseType "Topaz Ring"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Uniques
 
-Hide #Chance League Uniques - Warbands - The Pariah
+Hide # Chance League Uniques [CUSTOMIZE ME] - Warbands - The Pariah
     BaseType "Unset Ring"
     Rarity = Normal
     SetBorderColor 255 100 0 # Chance League Uniques
