@@ -2023,8 +2023,8 @@ Hide
     Rarity <= Magic
     Sockets <= 5
     LinkedSockets <= 3
-    SetBackgroundColor 0 0 0 100 # Useless Magic Items
-    SetTextColor 136 136 255 200 # Useless Magic Items
+    SetBackgroundColor 0 0 0 100 # Useless Items
+    SetTextColor 136 136 255 200 # Useless Items
 
 #=========================================
 # Section: Safety Net
