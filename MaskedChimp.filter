@@ -682,9 +682,36 @@ Show #Craft [CUSTOMIZE ME] - Atlas Type Bases
     SetFontSize 35
     PlayAlertSound 16 120 # Atlas Type Bases Craft
 
-Show #Craft [CUSTOMIZE ME] - Best Bases ilvl 84+
+Show #Craft [CUSTOMIZE ME] - Best Bases ilvl 84+ - Normal
     BaseType $BestBases
     Rarity = Normal
+    ItemLevel >= 84
+    SetTextColor 255 255 255 # Best Bases ilvl 84+ Craft
+    SetBorderColor 255 255 0 # Best Bases ilvl 84+ Craft
+    SetBackgroundColor 0 0 0 # Best Bases ilvl 84+ Craft
+    SetFontSize 35
+
+Show #Craft [CUSTOMIZE ME] - Best Bases ilvl 84+ - Magic
+    BaseType $BestBases
+    Rarity = Magic
+    ItemLevel >= 84
+    SetTextColor 255 255 255 # Best Bases ilvl 84+ Craft
+    SetBorderColor 255 255 0 # Best Bases ilvl 84+ Craft
+    SetBackgroundColor 0 0 0 # Best Bases ilvl 84+ Craft
+    SetFontSize 35
+
+  Show #Craft [CUSTOMIZE ME] - Accessories ilvl 84+ - Normal
+      Class $Accessories
+      Rarity = Normal
+      ItemLevel >= 84
+      SetTextColor 255 255 255 # Best Bases ilvl 84+ Craft
+      SetBorderColor 255 255 0 # Best Bases ilvl 84+ Craft
+      SetBackgroundColor 0 0 0 # Best Bases ilvl 84+ Craft
+      SetFontSize 35
+
+Show #Craft [CUSTOMIZE ME] - Accessories ilvl 84+ - Magic
+    Class $Accessories
+    Rarity = Magic
     ItemLevel >= 84
     SetTextColor 255 255 255 # Best Bases ilvl 84+ Craft
     SetBorderColor 255 255 0 # Best Bases ilvl 84+ Craft
