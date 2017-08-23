@@ -718,6 +718,24 @@ Show #Craft [CUSTOMIZE ME] - Accessories ilvl 84+ - Magic
     SetBackgroundColor 0 0 0 # Best Bases ilvl 84+ Craft
     SetFontSize 35
 
+Show #Craft [CUSTOMIZE ME] - Accessories ilvl 84+ - Normal Quivers
+    Class Quivers
+    Rarity = Normal
+    ItemLevel >= 84
+    SetTextColor 255 255 255 # Best Bases ilvl 84+ Craft
+    SetBorderColor 255 255 0 # Best Bases ilvl 84+ Craft
+    SetBackgroundColor 0 0 0 # Best Bases ilvl 84+ Craft
+    SetFontSize 35
+
+Show #Craft [CUSTOMIZE ME] - Accessories ilvl 84+ - Magic Quivers
+    Class Quivers
+    Rarity = Magic
+    ItemLevel >= 84
+    SetTextColor 255 255 255 # Best Bases ilvl 84+ Craft
+    SetBorderColor 255 255 0 # Best Bases ilvl 84+ Craft
+    SetBackgroundColor 0 0 0 # Best Bases ilvl 84+ Craft
+    SetFontSize 35
+
 Hide #Craft [CUSTOMIZE ME] - Normal Best Bases - Armours - Armour - Helmets
     BaseType $BestHelmetsAR
     Rarity = Normal
