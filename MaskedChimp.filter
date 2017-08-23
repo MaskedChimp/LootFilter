@@ -2018,41 +2018,13 @@ Show #Low Level - 4L
 # Section: Useless
 #=========================================
 
-Hide #Useless - Magic Items
-    Class $Equipment
-    ItemLevel < 83
-    Rarity = Magic
+Hide
+    Class $Equipment Flasks
+    Rarity <= Magic
     Sockets <= 5
-    LinkedSockets <= 4
+    LinkedSockets <= 3
     SetBackgroundColor 0 0 0 100 # Useless Magic Items
     SetTextColor 136 136 255 200 # Useless Magic Items
-
-Hide #Useless - Magic Items - Flasks
-    Class Flasks
-    ItemLevel < 90
-    Rarity = Magic
-    Sockets <= 5
-    LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100 # Useless Magic Items
-    SetTextColor 136 136 255 200 # Useless Magic Items
-
-Hide #Useless - Normal Items
-    Class $Equipment
-    ItemLevel < 83
-    Rarity = Normal
-    Sockets <= 5
-    LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100 # Useless Normal Items
-    SetTextColor 200 200 200 200 # Useless Normal Items
-
-Hide #Useless - Normal Items - Flasks
-    Class Flasks
-    ItemLevel < 90
-    Rarity = Normal
-    Sockets <= 5
-    LinkedSockets <= 4
-    SetBackgroundColor 0 0 0 100 # Useless Normal Items
-    SetTextColor 136 136 255 200 # Useless Normal Items
 
 #=========================================
 # Section: Safety Net
