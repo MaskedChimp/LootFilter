@@ -2054,7 +2054,10 @@ Hide #Useless - Normal Items - Flasks
     SetBackgroundColor 0 0 0 100 # Useless Normal Items
     SetTextColor 136 136 255 200 # Useless Normal Items
 
-#TODO: Fix Safety Net
+#=========================================
+# Section: Safety Net
+#=========================================
+
 Show #~Safety Net
     SetTextColor 230 255 0
     SetBorderColor 230 255 0
