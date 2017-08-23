@@ -2037,11 +2037,11 @@ Hide #Useless - Normal Items - Flasks
     SetTextColor 136 136 255 200 # Useless Normal Items
 
 #TODO: Fix Safety Net
-#Show #~Safety Net
-#    SetTextColor 230 255 0
-#    SetBorderColor 230 255 0
-#    SetBackgroundColor 255 0 102
-#    SetFontSize 45
+Show #~Safety Net
+    SetTextColor 230 255 0
+    SetBorderColor 230 255 0
+    SetBackgroundColor 255 0 102
+    SetFontSize 45
 
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
