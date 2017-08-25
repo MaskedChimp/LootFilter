@@ -2018,11 +2018,11 @@ Show #Low Level - 4L
 # Section: Useless
 #=========================================
 
-Hide
+Hide # Useless Items
     Class $Equipment Flasks
     Rarity <= Magic
     Sockets <= 5
-    LinkedSockets <= 3
+    LinkedSockets <= 4
     SetBackgroundColor 0 0 0 100 # Useless Items
     SetTextColor 136 136 255 200 # Useless Items
 
