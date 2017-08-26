@@ -573,7 +573,7 @@ Show #Recipes - Currency - Regal - Best Base Types
     SetFontSize 37
 
 Show #Recipes - Currency - Regal - Normal Base Types
-    Class $Accessories
+    Class $Accessories Quivers
     Rarity Rare
     ItemLevel >= 75
     SetBackgroundColor 0 85 130 # Regal Recipe (Normal Bases)
@@ -596,7 +596,7 @@ Show #Recipes - Currency - Chaos - Best Base Types
     SetFontSize 37
 
 Show #Recipes - Currency - Chaos - Normal Base Types
-    Class $Accessories
+    Class $Accessories Quivers
     Rarity Rare
     ItemLevel >= 60
     SetBackgroundColor 85 85 40 # Chaos Recipe (Normal Bases)
