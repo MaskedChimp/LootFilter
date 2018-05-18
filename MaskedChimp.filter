@@ -17,6 +17,7 @@ SetVar $Equipment $Weapons $Armours $Accessories
 SetVar $AtlasBases "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring" "Two-Toned Boots" "Gripped Gloves" "Spiked Gloves" "Fingerless Silk Gloves" "Bone Helmet"
 SetVar $DropOnlyGems "Portal" "Enlighten" "Empower" "Enhance" "Vaal Breach"
 SetVar $Breachstones "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone"
+SetVar $Nets "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net" "Thaumaturgical Net" "Necromancy Net"
 
 # Map Fragment Sets
 SetVar $AtziriSet "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Noon"
@@ -486,7 +487,7 @@ Show  #Currency - Super Rare
 
 Show  #Currency - Rare
     Class Currency
-    BaseType "Orb of Alchemy" "Regal Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Chance" "Vaal Orb" "Orb of Regret" "Jeweller's Orb" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Unshaping Orb" "Cartographer's Seal" "Blessed Orb" "Splinter of Chayula" "Splinter of Xoph" "Splinter of Uul-Netol" "Splinter of Esh" "Splinter of Tul" "Blessing of Tul" "Blessing of Xoph" "Ancient Shard" "Annulment Shard" "Silver Coin" "Harbinger's Shard" "Orb of Binding" "Engineer's Orb" "Orb of Horizons" "Exalted Shard" "Orb of Annulment"
+    BaseType "Orb of Alchemy" "Regal Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Chance" "Vaal Orb" "Orb of Regret" "Jeweller's Orb" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Sextant" "Unshaping Orb" "Cartographer's Seal" "Blessed Orb" "Splinter of Chayula" "Splinter of Xoph" "Splinter of Uul-Netol" "Splinter of Esh" "Splinter of Tul" "Blessing of Tul" "Blessing of Xoph" "Ancient Shard" "Annulment Shard" "Silver Coin" "Harbinger's Shard" "Orb of Binding" "Engineer's Orb" "Orb of Horizons" "Exalted Shard" "Orb of Annulment" "Bestiary Orb" $Nets
     SetTextColor 160 0 0 # Currency: Rare
     SetBorderColor 170 158 130 # Currency: Rare
     PlayAlertSound 3 120 # Currency: Rare
