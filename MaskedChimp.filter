@@ -1,5 +1,5 @@
-### Filter Version: v4.2
-### Game Version: 3.0.x
+### Filter Version: v4.3
+### Game Version: 3.2.x
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MaskedChimp/LootFilter
@@ -279,14 +279,12 @@ Show #Maps - Leaguestones (Obsolete)
     SetBackgroundColor 130 130 130 206 # Leaguestones
 
 Show #Maps - Offering to the Goddess
-    Class "Labyrinth Map Item"
     BaseType "Offering to the Goddess"
     SetBorderColor 255 255 255 # Offering to the Goddess
     SetTextColor 0 0 0 # Offering to the Goddess
     SetBackgroundColor 130 130 130 206 # Offering to the Goddess
 
 Show #Maps - Breachstones - Expensive
-    Class "Misc Map Items"
     BaseType "Chayula's Breachstone"
     PlayAlertSound 7 300 # Breachstones: Expensive
     SetBorderColor 255 255 255 # Breachstones: Expensive
@@ -295,7 +293,6 @@ Show #Maps - Breachstones - Expensive
     SetFontSize 45
 
 Show #Maps - Breachstones - All
-    Class "Misc Map Items"
     BaseType $Breachstones
     PlayAlertSound 7 300 # Breachstones: All
     SetBorderColor 255 255 255 # Breachstones: All
