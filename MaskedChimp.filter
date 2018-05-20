@@ -1557,6 +1557,174 @@ Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Axes - 2H - Fles
     ItemLevel < 73
     SetFontSize 25
 
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Driftwood Sceptre
+    Class "Sceptres"
+    BaseType "Driftwood Sceptre"
+    Rarity = Normal
+    ItemLevel < 5
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Darkwood Sceptre
+    Class "Sceptres"
+    BaseType "Darkwood Sceptre"
+    Rarity = Normal
+    ItemLevel < 10
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Bronze Sceptre
+    Class "Sceptres"
+    BaseType "Bronze Sceptre"
+    Rarity = Normal
+    ItemLevel < 32
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Iron Sceptre
+    Class "Sceptres"
+    BaseType "Iron Sceptre"
+    Rarity = Normal
+    ItemLevel < 24
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Ochre Sceptre
+    Class "Sceptres"
+    BaseType "Ochre Sceptre"
+    Rarity = Normal
+    ItemLevel < 28
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Ritual Sceptre
+    Class "Sceptres"
+    BaseType "Ritual Sceptre"
+    Rarity = Normal
+    ItemLevel < 32
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Shadow Sceptre
+    Class "Sceptres"
+    BaseType "Shadow Sceptre"
+    Rarity = Normal
+    ItemLevel < 41
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Grinning Fetish
+    Class "Sceptres"
+    BaseType "Grinning Fetish"
+    Rarity = Normal
+    ItemLevel < 36
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Horned Sceptre
+    Class "Sceptres"
+    BaseType "Horned Sceptre"
+    Rarity = Normal
+    ItemLevel < 55
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Sekhem
+    Class "Sceptres"
+    BaseType "Sekhem"
+    Rarity = Normal
+    ItemLevel < 41
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Crystal Sceptre
+    Class "Sceptres"
+    BaseType "Crystal Sceptre"
+    Rarity = Normal
+    ItemLevel < 53
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Lead Sceptre
+    Class "Sceptres"
+    BaseType "Lead Sceptre"
+    Rarity = Normal
+    ItemLevel < 47
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Blood Sceptre
+    Class "Sceptres"
+    BaseType "Blood Sceptre"
+    Rarity = Normal
+    ItemLevel < 50
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Royal Sceptre
+    Class "Sceptres"
+    BaseType "Royal Sceptre"
+    Rarity = Normal
+    ItemLevel < 53
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Abyssal Sceptre
+    Class "Sceptres"
+    BaseType "Abyssal Sceptre"
+    Rarity = Normal
+    ItemLevel < 60
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Stag Sceptre
+    Class "Sceptres"
+    BaseType "Stag Sceptre"
+    Rarity = Normal
+    ItemLevel < 70
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Karui Sceptre
+    Class "Sceptres"
+    BaseType "Karui Sceptre"
+    Rarity = Normal
+    ItemLevel < 58
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Tyrant's Sekhem
+    Class "Sceptres"
+    BaseType "Tyrant's Sekhem"
+    Rarity = Normal
+    ItemLevel < 62
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Opal Sceptre
+    Class "Sceptres"
+    BaseType "Opal Sceptre"
+    Rarity = Normal
+    ItemLevel < 68
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Platinum Sceptre
+    Class "Sceptres"
+    BaseType "Platinum Sceptre"
+    Rarity = Normal
+    ItemLevel < 66
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Vaal Sceptre*
+    Class "Sceptres"
+    BaseType "Vaal Sceptre"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Carnal Sceptre*
+    Class "Sceptres"
+    BaseType "Carnal Sceptre"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Void Sceptre*
+    Class "Sceptres"
+    BaseType "Void Sceptre"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
+Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sceptres - Sambar Sceptre*
+    Class "Sceptres"
+    BaseType "Sambar Sceptre"
+    Rarity = Normal
+    ItemLevel < 73
+    SetFontSize 25
+
 #=========================================
 # Section: Life Flasks
 #=========================================
