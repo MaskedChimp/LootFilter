@@ -1,5 +1,5 @@
-### Filter Version: v4.3
-### Game Version: 3.2.x
+### Filter Version: v5.0
+### Game Version: 3.3.x
 ### Author: MaskedChimp
 ### Forum (BR): https://br.pathofexile.com/forum/view-thread/190
 ### Github page: https://github.com/MaskedChimp/LootFilter
@@ -204,6 +204,13 @@ Show #Expensive Uniques - Taste of Hate
 #=========================================
 # Section: Bound Items
 #=========================================
+
+Show #Bound - Incursion Items
+    Class "Incursion Item"
+    SetBorderColor 74 230 58 # Incursion Items
+    SetTextColor 74 230 58 # Incursion Items
+    SetBackgroundColor 0 0 0 # Incursion Items
+    PlayAlertSound 3 300 # Bound Items
 
 Show #Bound - Pantheon Souls
     Class "Pantheon Soul"
