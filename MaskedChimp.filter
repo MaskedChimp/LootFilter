@@ -677,7 +677,7 @@ Show #Gems - Drop-Only
 
 Show #Gems - Quality
     Class Gems
-    Quality > 1
+    Quality >= 1
     SetBorderColor 27 162 155 # Quality Gems
 
 Show #Gems - Lv.19+
