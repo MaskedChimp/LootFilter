@@ -668,12 +668,12 @@ Show #Recipes - Currency - Chisel
 # Section: Gems
 #=========================================
 
-#TODO: Change Drop-Only Customization
 Show #Gems - Drop-Only
     BaseType $DropOnlyGems
     Class Gems
-    SetBackgroundColor 0 0 90 250 # Drop-Only Gems
+    SetBackgroundColor 0 0 0 # Drop-Only Gems
     SetBorderColor 27 162 155 # Drop-Only Gems
+    SetFontSize 35
 
 Show #Gems - Quality
     Class Gems
