@@ -15,7 +15,7 @@ SetVar $Accessories "Amulets" "Belts" "Rings"
 SetVar $Equipment $Weapons $Armours $Accessories
 
 SetVar $AtlasBases "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Crystal Belt" "Opal Ring" "Steel Ring" "Two-Toned Boots" "Gripped Gloves" "Spiked Gloves" "Fingerless Silk Gloves" "Bone Helmet"
-SetVar $DropOnlyGems "Portal" "Enlighten" "Empower" "Enhance" "Vaal Breach"
+SetVar $DropOnlyGems "Portal" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Added Chaos Damage" "Detonate Mines"
 SetVar $Breachstones "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone"
 SetVar $Nets "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net" "Thaumaturgical Net" "Necromancy Net"
 SetVar $IncursionVials "Vial of Dominance" "Vial of Summoning" "Vial of Awakening" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of the Ghost" "Vial of Transcendence" "Vial of Sacrifice"
