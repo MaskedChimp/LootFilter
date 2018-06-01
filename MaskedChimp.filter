@@ -1735,6 +1735,38 @@ Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sce
     SetFontSize 25
 
 #=========================================
+# Section: Warbands Items
+#=========================================
+
+Show #Warband Items - Brinerot Gloves
+    Class Gloves
+    HasExplicitMod Binerot
+    Rarity = Magic
+    Corrupted False
+    Identified True
+
+Show #Warband Items - Mutewind Boots
+    Class Boots
+    HasExplicitMod Mutewind
+    Rarity = Magic
+    Corrupted False
+    Identified True
+
+Show #Warband Items - Redblade Helmets
+    Class Helmets
+    HasExplicitMod Redblade
+    Rarity = Magic
+    Corrupted False
+    Identified True
+
+Show #Warband Items - Renegade Weapons
+    Class $Weapons
+    HasExplicitMod "Betrayer's" "Deceiver's" "Turncoat's"
+    Rarity = Magic
+    Corrupted False
+    Identified True
+
+#=========================================
 # Section: Life Flasks
 #=========================================
 
