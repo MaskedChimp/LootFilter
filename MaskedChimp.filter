@@ -680,6 +680,11 @@ Show #Gems - Quality
     Quality > 1
     SetBorderColor 27 162 155 # Quality Gems
 
+Show #Gems - Lv.19+
+    Class Gems
+    GemLevel >= 19
+    SetBorderColor 27 162 155 # Quality Gems
+
 Show #Gems - No-Quality
     Class Gems
     SetFontSize 25
