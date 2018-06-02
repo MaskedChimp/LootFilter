@@ -1752,7 +1752,7 @@ Hide #Craft [CUSTOMIZE ME] - Gear Progression (72-) - Weapons - Maces - 1H - Sce
 
 Show #Warband Items - Brinerot Gloves
     Class Gloves
-    HasExplicitMod Binerot
+    HasExplicitMod Brinerot
     Rarity = Magic
     Corrupted False
     Identified True
