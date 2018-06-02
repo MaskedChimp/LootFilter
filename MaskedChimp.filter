@@ -675,10 +675,17 @@ Show #Gems - Drop-Only
     SetBorderColor 27 162 155 # Drop-Only Gems
     SetFontSize 35
 
-Show #Gems - Quality
+Show #Gems - Quality 17+
+    Class Gems
+    Quality >= 17
+    SetBorderColor 27 162 155 # Quality 17+ Gems
+    SetBackgroundColor 0 0 0 # Quality 17+ Gems
+    SetFontSize 35
+
+Show #Gems - Quality 1~16
     Class Gems
     Quality >= 1
-    SetBorderColor 27 162 155 # Quality Gems
+    SetBorderColor 27 162 155 # Quality 1~16 Gems
 
 Show #Gems - Lv.19+
     Class Gems
