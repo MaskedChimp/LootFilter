@@ -212,6 +212,7 @@ Show #Bound - Incursion Items
     SetTextColor 74 230 58 # Incursion Items
     SetBackgroundColor 0 0 0 # Incursion Items
     PlayAlertSound 3 300 # Bound Items
+    SetFontSize 40
 
 Show #Bound - Pantheon Souls
     Class "Pantheon Soul"
