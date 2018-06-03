@@ -19,6 +19,7 @@ SetVar $DropOnlyGems "Portal" "Enlighten" "Empower" "Enhance" "Vaal Breach" "Add
 SetVar $Breachstones "Chayula's Breachstone" "Xoph's Breachstone" "Esh's Breachstone" "Tul's Breachstone" "Uul-Netol's Breachstone"
 SetVar $Nets "Simple Rope Net" "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net" "Thaumaturgical Net" "Necromancy Net"
 SetVar $IncursionVials "Vial of Dominance" "Vial of Summoning" "Vial of Awakening" "Vial of the Ritual" "Vial of Fate" "Vial of Consequence" "Vial of the Ghost" "Vial of Transcendence" "Vial of Sacrifice"
+SetVar $IncursionMods "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Xopec's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi"
 
 # Map Fragment Sets
 SetVar $AtziriSet "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Noon"
@@ -699,6 +700,12 @@ Show #Gems - No-Quality
 #=========================================
 # Section: Craft
 #=========================================
+
+Show  #Craft [CUSTOMIZE ME] - Incursion Mods
+    HasExplicitMod $IncursionMods
+    Rarity = Magic
+    SetBackgroundColor 0 0 0 250 # Incursion Mods
+    SetBorderColor 136 136 255 # Incursion Mods
 
 Show #Craft [CUSTOMIZE ME] - Atlas Type Bases
     BaseType $AtlasBases
